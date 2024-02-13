@@ -8,7 +8,7 @@
   --brightSkyBlue: #27caea;
   --darkJungleGreen: #212326;
   --boulder: #797979;
-  --white:#ffff
+  --white: #ffff;
 }
 
 /** ========Button Colors ======== */
@@ -74,12 +74,16 @@
   margin-left: 2rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  transition: all 140ms ease-in;
+  transition: all 180ms ease-in;
 }
 
 .navbar__right-list__item:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background-color: var(--cornFlower);
+}
+.navbar__right-list__item:hover .navbar__right-list__item-link {
+  color: var(--white);
 }
 
 .navbar__left-logo {
@@ -104,7 +108,7 @@
 /* ^====================== */
 /*^ Mobile Menu Section */
 /* ^======================*/
-.mobile-menu-btn{
+.mobile-menu-btn {
   display: none;
   padding: 0.5rem 1rem;
   border: none;
@@ -113,9 +117,45 @@
   background-color: var(--white);
   border: 2.5px solid var(--darkJungleGreen);
 }
-.mobile-menu-btn svg{
+.mobile-menu-btn svg {
   width: 2rem;
   height: 2rem;
   color: var(--darkJungleGreen);
   cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: var(--brightSkyBlue);
+  width: 30rem;
+  text-align: center;
+  height: 30rem;
+  margin: 0 auto;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: all 140ms ease-in;
+}
+
+.mobile-menu-list__item {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.mobile-menu-list__item-link {
+  transition: all 140ms ease-in;
+}
+
+.mobile-menu-list__item-link:hover {
+  color: var(--white);
+  background-color: var(--cornFlower);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.mobile-menu-list__item-link {
+  font-size: 1.2rem;
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--darkJungleGreen);
 }
