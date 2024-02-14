@@ -14,6 +14,21 @@
 
 /* *  ------------------------1255px------------------------ */
 @media screen and (max-width: 1255px) {
+    /*! ====Landing Section==== */
+    .landing-shape2{
+        top: 20rem;
+    }
+    .landing-shape3{
+        right: 25rem;
+        top: 28rem;
+    }
+    .landing-shape1{
+        top: 22rem;
+    }
+    .landing-shape4{
+        top: 20rem;
+    }
+    
 }
 
 /* *  ------------------------1230px------------------------ */
@@ -61,6 +76,16 @@
 
 /* *  ------------------------900px------------------------ */
 @media screen and (max-width: 900px) {
+    /*! ====Landing Section==== */
+    .landing-shape2{
+        right: 4rem;
+    }
+    .landing-shape4{
+        left: 4rem;
+    }
+    .landing-title{
+        font-size: 3.5rem;
+    }
 }
 
 /* *  ------------------------925px------------------------ */
@@ -80,6 +105,25 @@
 
 /* *  ------------------------740px------------------------ */
 @media screen and (max-width: 740px) {
+    /*! ====Landing Section==== */
+    .landing-shape2{
+        top: 30rem;
+    }
+    .landing-shape4{
+        top: 24rem;
+        left: 2rem;
+    }
+    .landing-shape3{
+        top: 30rem;
+    }
+    .landing-text{
+        width: 34rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .landing-title{
+        font-size: 3rem;
+    }
 }
 
 /* *  ------------------------688px------------------------ */
@@ -88,6 +132,24 @@
 
 /* *  ------------------------660px------------------------ */
 @media screen and (max-width: 660px) {
+    /*! ====Landing Section==== */
+    .landing-shape4{
+        top: 22rem;
+        left: 8rem;
+
+    }
+    .landing-shape1{
+        left: 24rem;
+    }
+    .landing-title{
+        font-size: 2.5rem;
+    }
+    .landing__wrapper img{
+        width: 6rem;
+    }
+    .landing-shape2{
+        right: 10rem;
+    }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -110,6 +172,17 @@
 @media screen and (max-width: 560px) {
 }
 
+/* *  ------------------------545px------------------------ */
+@media screen and (max-width: 545px) {
+    /*! ====Landing Section==== */
+    .landing-title{
+        font-size: 2rem;
+    }
+    .landing-text{
+        width: 24rem;
+    }
+}
+
 /* *  ------------------------540px------------------------ */
 @media screen and (max-width: 540px) {
 }
@@ -128,6 +201,25 @@
     .mobile-menu{
         width: 20rem;
     }
+    /*! ====Landing Section==== */
+    .landing-shape3{
+        left: 2.5rem;
+    }
+    .landing-shape2{
+        right: 4rem;
+    }
+    .landing-shape1{
+        left: 18rem;
+    }
+    .landing-title{
+        font-size: 1.5rem;
+    }
+    .landing-text{
+        width: 22rem;
+    }
+    .landing-shape4{
+        left: 2rem;
+    }
 }
 
 /* *  ------------------------450px------------------------ */
@@ -140,6 +232,20 @@
 
 /* *  ------------------------400px------------------------ */
 @media screen and (max-width: 400px) {
+    /*! ====Landing Section==== */
+    .landing-shape1{
+        left: 14rem;
+    }
+    .landing__wrapper img{
+        width: 4.5rem;
+    }
+    .landing-text{
+        width: 18rem;
+        font-size: 0.8rem;
+    }
+    .landing-title{
+        font-size: 1rem;
+    }
 }
 
 /* *  ------------------------380px------------------------ */
@@ -166,6 +272,16 @@
     /*! ====Navbar Menu==== */
     .mobile-menu-btn{
         padding: 0.2rem 0.5rem;
+    }
+    /*! ====Landing Section==== */
+    .landing-shape1{
+        left: 10rem;
+    }
+    .landing__wrapper img{
+        width: 4rem;
+    }
+    .landing-text{
+        width: 14rem;
     }
 }
 
