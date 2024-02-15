@@ -6,29 +6,55 @@
 
 /* *  ------------------------1280px------------------------ */
 @media screen and (max-width: 1280px) {
-    /*! ====Navbar Menu==== */
-    .navbar__right-list{
-        margin-right: 0.5rem;
-    }
+  /*! ====Navbar Menu==== */
+  .navbar__right-list {
+    margin-right: 0.5rem;
+  }
 }
 
 /* *  ------------------------1255px------------------------ */
 @media screen and (max-width: 1255px) {
-    /*! ====Landing Section==== */
-    .landing-shape2{
-        top: 20rem;
+  /*! ====Landing Section==== */
+  .landing-shape2 {
+    top: 20rem;
+  }
+  .landing-shape3 {
+    right: 25rem;
+    top: 28rem;
+  }
+  .landing-shape1 {
+    top: 22rem;
+  }
+  .landing-shape4 {
+    top: 20rem;
+  }
+  /*! ====Statistics Section==== */
+  .statistics__right {
+    margin-right: 2rem;
+  }
+  /* .statistics__left{
+        flex-direction: column;
+        justify-content: center;
     }
-    .landing-shape3{
-        right: 25rem;
-        top: 28rem;
-    }
-    .landing-shape1{
-        top: 22rem;
-    }
-    .landing-shape4{
-        top: 20rem;
-    }
-    
+    .statistics__left-box{
+        margin-bottom: 2rem;
+        justify-content: space-between;
+        text-align: center;
+    } */
+
+  .statistics__wrapper {
+    flex-direction: column;
+  }
+  .statistics__left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .statistics__right {
+    width: 100%;
+  }
+  .statistics__right__wrapper {
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------1230px------------------------ */
@@ -41,17 +67,17 @@
 }
 /* *  ------------------------1085px------------------------ */
 @media screen and (max-width: 1085px) {
-    /*! ====Navbar Menu==== */
-    .navbar__right-list{
-        display: none;
-    }
-    .mobile-menu-btn{
-        display: block;
-        margin-right: 2rem;
-    }
-    .navbar__left{
-        margin: 0 auto;
-    }
+  /*! ====Navbar Menu==== */
+  .navbar__right-list {
+    display: none;
+  }
+  .mobile-menu-btn {
+    display: block;
+    margin-right: 2rem;
+  }
+  .navbar__left {
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------1140px------------------------ */
@@ -76,16 +102,16 @@
 
 /* *  ------------------------900px------------------------ */
 @media screen and (max-width: 900px) {
-    /*! ====Landing Section==== */
-    .landing-shape2{
-        right: 4rem;
-    }
-    .landing-shape4{
-        left: 4rem;
-    }
-    .landing-title{
-        font-size: 3.5rem;
-    }
+  /*! ====Landing Section==== */
+  .landing-shape2 {
+    right: 4rem;
+  }
+  .landing-shape4 {
+    left: 4rem;
+  }
+  .landing-title {
+    font-size: 3.5rem;
+  }
 }
 
 /* *  ------------------------925px------------------------ */
@@ -105,25 +131,25 @@
 
 /* *  ------------------------740px------------------------ */
 @media screen and (max-width: 740px) {
-    /*! ====Landing Section==== */
-    .landing-shape2{
-        top: 30rem;
-    }
-    .landing-shape4{
-        top: 24rem;
-        left: 2rem;
-    }
-    .landing-shape3{
-        top: 30rem;
-    }
-    .landing-text{
-        width: 34rem;
-        margin: 0 auto;
-        margin-top: 2rem;
-    }
-    .landing-title{
-        font-size: 3rem;
-    }
+  /*! ====Landing Section==== */
+  .landing-shape2 {
+    top: 30rem;
+  }
+  .landing-shape4 {
+    top: 24rem;
+    left: 2rem;
+  }
+  .landing-shape3 {
+    top: 30rem;
+  }
+  .landing-text {
+    width: 34rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .landing-title {
+    font-size: 3rem;
+  }
 }
 
 /* *  ------------------------688px------------------------ */
@@ -132,24 +158,30 @@
 
 /* *  ------------------------660px------------------------ */
 @media screen and (max-width: 660px) {
-    /*! ====Landing Section==== */
-    .landing-shape4{
-        top: 22rem;
-        left: 8rem;
-
-    }
-    .landing-shape1{
-        left: 24rem;
-    }
-    .landing-title{
-        font-size: 2.5rem;
-    }
-    .landing__wrapper img{
-        width: 6rem;
-    }
-    .landing-shape2{
-        right: 10rem;
-    }
+  /*! ====Landing Section==== */
+  .landing-shape4 {
+    top: 22rem;
+    left: 8rem;
+  }
+  .landing-shape1 {
+    left: 24rem;
+  }
+  .landing-title {
+    font-size: 2.5rem;
+  }
+  .landing__wrapper img {
+    width: 6rem;
+  }
+  .landing-shape2 {
+    right: 10rem;
+  }
+  /*! ====Statistics Section==== */
+  .statistics__left-box {
+    text-align: center;
+  }
+  .statistics__left-box {
+    justify-content: space-between;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -162,10 +194,22 @@
 
 /* *  ------------------------610px------------------------ */
 @media screen and (max-width: 610px) {
+  /*! ====Landing Section==== */
+  .landing-text {
+    width: 28rem;
+  }
 }
 
 /* *  ------------------------572px------------------------ */
 @media screen and (max-width: 572px) {
+}
+
+/* *  ------------------------564px------------------------ */
+@media screen and (max-width: 564px) {
+  /*! ====Statistics Section==== */
+  .statistics__right__wrapper {
+    width: 26rem;
+  }
 }
 
 /* *  ------------------------560px------------------------ */
@@ -174,13 +218,13 @@
 
 /* *  ------------------------545px------------------------ */
 @media screen and (max-width: 545px) {
-    /*! ====Landing Section==== */
-    .landing-title{
-        font-size: 2rem;
-    }
-    .landing-text{
-        width: 24rem;
-    }
+  /*! ====Landing Section==== */
+  .landing-title {
+    font-size: 2rem;
+  }
+  .landing-text {
+    width: 24rem;
+  }
 }
 
 /* *  ------------------------540px------------------------ */
@@ -197,33 +241,43 @@
 
 /* *  ------------------------500px------------------------ */
 @media screen and (max-width: 500px) {
-    /*! ====Navbar Menu==== */
-    .mobile-menu{
-        width: 20rem;
-    }
-    /*! ====Landing Section==== */
-    .landing-shape3{
-        left: 2.5rem;
-    }
-    .landing-shape2{
-        right: 4rem;
-    }
-    .landing-shape1{
-        left: 18rem;
-    }
-    .landing-title{
-        font-size: 1.5rem;
-    }
-    .landing-text{
-        width: 22rem;
-    }
-    .landing-shape4{
-        left: 2rem;
-    }
+  /*! ====Navbar Menu==== */
+  .mobile-menu {
+    width: 20rem;
+  }
+  /*! ====Landing Section==== */
+  .landing-shape3 {
+    left: 2.5rem;
+  }
+  .landing-shape2 {
+    right: 4rem;
+  }
+  .landing-shape1 {
+    left: 18rem;
+  }
+  .landing-title {
+    font-size: 1.5rem;
+  }
+  .landing-text {
+    width: 22rem;
+  }
+  .landing-shape4 {
+    left: 2rem;
+  }
 }
 
 /* *  ------------------------450px------------------------ */
 @media screen and (max-width: 450px) {
+  /*! ====Statistics Section==== */
+  .statistics__right__wrapper {
+    flex-direction: column;
+  }
+  .statistics__right__wrapper {
+    width: 22rem;
+  }
+  .statistics__right--left-bottom {
+    padding-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------435px------------------------ */
@@ -232,57 +286,90 @@
 
 /* *  ------------------------400px------------------------ */
 @media screen and (max-width: 400px) {
-    /*! ====Landing Section==== */
-    .landing-shape1{
-        left: 14rem;
-    }
-    .landing__wrapper img{
-        width: 4.5rem;
-    }
-    .landing-text{
-        width: 18rem;
-        font-size: 0.8rem;
-    }
-    .landing-title{
-        font-size: 1rem;
-    }
+  /*! ====Landing Section==== */
+  .landing-shape1 {
+    left: 14rem;
+  }
+  .landing__wrapper img {
+    width: 4.5rem;
+  }
+  .landing-text {
+    width: 18rem;
+    font-size: 0.8rem;
+  }
+  .landing-title {
+    font-size: 1rem;
+  }
 }
 
 /* *  ------------------------380px------------------------ */
 @media screen and (max-width: 380px) {
+  /*! ====Statistics Section==== */
+  .statistics__right__wrapper {
+    width: 18rem;
+  }
+  .statistics__left-box__left {
+    font-size: 2rem;
+  }
+  /* .statistics__left-box__right{
+        font-size: 1rem;
+        margin-left: 2rem;
+    } */
+  .statistics__left-box {
+    margin-right: 0.5rem;
+  }
 }
 
 /* *  ------------------------365px------------------------ */
 @media screen and (max-width: 365px) {
 }
+
 /* *  ------------------------357px------------------------ */
 @media screen and (max-width: 357px) {
 }
 
+/* *  ------------------------350px------------------------ */
+@media screen and (max-width: 350px) {
+  /*! ====Statistics Section==== */
+  .statistics__left-box {
+    flex-direction: column;
+  }
+  .statistics__right__wrapper {
+    width: 14rem;
+  }
+  .statistics__left-box {
+    width: 16rem;
+  }
+}
+
 /* *  ------------------------336px------------------------ */
 @media screen and (max-width: 336px) {
-    /*! ====Navbar Menu==== */
-    .mobile-menu{
-        width: 14rem;
-    }
+  /*! ====Navbar Menu==== */
+  .mobile-menu {
+    width: 14rem;
+  }
+  /*! ====Landing Section==== */
+  .landing-shape1 {
+    left: 12rem;
+  }
 }
 
 /* *  ------------------------305px------------------------ */
 @media screen and (max-width: 305px) {
-    /*! ====Navbar Menu==== */
-    .mobile-menu-btn{
-        padding: 0.2rem 0.5rem;
-    }
-    /*! ====Landing Section==== */
-    .landing-shape1{
-        left: 10rem;
-    }
-    .landing__wrapper img{
-        width: 4rem;
-    }
-    .landing-text{
-        width: 14rem;
-    }
+  /*! ====Navbar Menu==== */
+  .mobile-menu-btn {
+    padding: 0.2rem 0.5rem;
+  }
+  /*! ====Landing Section==== */
+  .landing-shape1 {
+    left: 10rem;
+  }
+  .landing__wrapper img {
+    width: 4rem;
+  }
+  .landing-text {
+    width: 14rem;
+  }
 }
 
 /* *  ------------------------294px------------------------ */
