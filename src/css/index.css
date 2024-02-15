@@ -167,7 +167,7 @@
 /* ^================== */
 /*^ Landing Section */
 /* ^==================*/
-.landing__wrapper{
+.landing__wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -194,15 +194,14 @@
   text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
 }
 
-.landing-text{
+.landing-text {
   text-align: center;
-  color:#797979 ;
+  color: #797979;
   font-family: "inter-medium", Courier, monospace;
   margin-top: 2rem;
-
 }
 
-.landing-btn{
+.landing-btn {
   width: 10rem;
   margin: 0 auto;
   margin-top: 2rem;
@@ -215,37 +214,37 @@
   cursor: pointer;
 }
 
-.landing-btn:hover{
+.landing-btn:hover {
   background-color: var(--brightSkyBlue);
   color: var(--white);
 }
 
-.landing__wrapper img{
+.landing__wrapper img {
   width: 8rem;
 }
 
-.landing__wrapper{
+.landing__wrapper {
   position: relative;
 }
-.landing-shape1{
+.landing-shape1 {
   position: absolute;
   top: 24rem;
   left: 30rem;
 }
 
-.landing-shape2{
+.landing-shape2 {
   position: absolute;
   right: 10rem;
   top: 10rem;
 }
 
-.landing-shape3{
+.landing-shape3 {
   position: absolute;
   right: 20rem;
   top: 25rem;
 }
 
-.landing-shape4{
+.landing-shape4 {
   position: absolute;
   left: 10rem;
   top: 10rem;
@@ -254,95 +253,244 @@
 /* ^================== */
 /*^ Statistics Section */
 /* ^==================*/
-.statistics{
+.statistics {
   margin-top: 24rem;
   margin-bottom: 10rem;
 }
-.statistics__wrapper{
+.statistics__wrapper {
   display: flex;
   justify-content: space-evenly;
 }
 
-.statistics__left{
+.statistics__left {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width:50%;
+  width: 50%;
 }
 
-.statistics__left-box{
+.statistics__left-box {
   display: flex;
   align-items: center;
   /* background-color: red; */
   width: 20rem;
 }
 
-.statistics__left-box__left{
+.statistics__left-box__left {
   font-size: 2.5rem;
   font-family: "inter-bold", Courier, monospace;
   font-weight: bolder;
 }
 
-.statistics__left-box__left-operator{
-  color: #FF82BE;
-  font-size:3.2rem;
+.statistics__left-box__left-operator {
+  color: #ff82be;
+  font-size: 3.2rem;
 }
 
-.statistics__left-box__right{
+.statistics__left-box__right {
   color: var(--boulder);
   font-family: "inter-medium", Courier, monospace;
   font-size: 1.2rem;
   margin-left: 1rem;
-
 }
 
-.statistics__left-box:nth-child(2) .statistics__left-box__left-operator{
+.statistics__left-box:nth-child(2) .statistics__left-box__left-operator {
   color: var(--brightSkyBlue);
 }
-.statistics__left-box:nth-child(3) .statistics__left-box__left-operator{
+.statistics__left-box:nth-child(3) .statistics__left-box__left-operator {
   color: var(--brightSkyBlue);
 }
 
-
-
-
-
-.statistics__right{
+.statistics__right {
   width: 50%;
 }
 
-.statistics__right__wrapper{
+.statistics__right__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
   border-radius: 1rem;
   width: 30rem;
   margin-left: 8rem;
-
 }
 
-.statistics__right__wrapper{
+.statistics__right__wrapper {
   background-color: #212326;
 }
 
-.statistics__right--right{
+.statistics__right--right {
   background-color: #333539;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
 }
 
-
-.statistics__right--left{
+.statistics__right--left {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.statistics__right--left-bottom{
+.statistics__right--left-bottom {
   color: var(--white);
   margin-top: 1rem;
   font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
+}
+
+/* ^================== */
+/*^ Explore Section */
+/* ^==================*/
+.explore {
+  margin-bottom: 8rem;
+  background-color: #eaeef1;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+.explore__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.explore__left {
+  width: 50%;
+}
+
+.explore__left-title {
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.explore__left-title-word {
+  color: #ff82be;
+}
+
+.explore__left-text {
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--boulder);
+  margin-top: 1rem;
+  line-height: 1.4rem;
+}
+
+.explore__left__btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  /* background-color: red;
+  width: 30rem; */
+}
+
+.explore__left-support {
+  display: flex;
+  align-items: center;
+  background-color: #ffe1ed;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: "inter-medium", Courier, monospace;
+  color: #c5819c;
+}
+
+.explore__left-support svg {
+  margin-right: 1rem;
+}
+
+.explore__left-secure {
+  display: flex;
+  align-items: center;
+  background-color: #aaf1ff;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: "inter-medium", Courier, monospace;
+  color: #289ab0;
+  margin-left: 1rem;
+}
+
+.explore__left-secure svg {
+  margin-right: 1rem;
+}
+
+.explore__left-btn-start {
+  display: flex;
+  align-items: center;
+  width: 8rem;
+  background-color: var(--white);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  font-family: "inter-medium", Courier, monospace;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.explore__right {
+  width: 50%;
+}
+
+.explore__right {
+  background-image: url("../../assets/images/explore.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.explore__right__wrapper {
+  position: relative;
+}
+.explore__right-list {
+  left: 0;
+  right: 0;
+  top: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  background-color: var(--white);
+  width: 22rem;
+  height: 22rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.explore__right-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid var(--boulder);
+}
+
+.explore__right-list-box:nth-child(4){
+  border: none;
+}
+
+.explore__right-list-box-logo img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.explore__right-list-box-name {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 0.2rem; */
+  font-family: "inter-medium", Courier, monospace;
+  font-size: 0.8rem;
+}
+
+.explore__right-list-box-name-title {
+  margin-bottom: 0.5rem;
+}
+
+.explore__right-list-box-price {
+  font-family: "inter-medium", Courier, monospace;
+}
+
+.explore__right-list-box-name-profits {
+  display: flex;
+  flex-direction: column;
+  font-family: "inter-medium", Courier, monospace;
+}
+
+.explore__right-list-box-name-profit {
+  margin-bottom: 0.5rem;
+  color: #3EBA59;
 }
