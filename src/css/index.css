@@ -498,7 +498,7 @@
 /* ^================== */
 /*^ Brands Section */
 /* ^==================*/
-.brands{
+.brands {
   padding-bottom: 2rem;
   margin-bottom: 4rem;
 }
@@ -529,4 +529,86 @@
 
 .brands-row2 svg:hover {
   transform: scale(1.2);
+}
+
+/* ^================== */
+/*^ Invest Section */
+/* ^==================*/
+.invest{
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+
+.invest__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.invest-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.invest-title-word {
+  color: #33e2ff;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #33e2ff 3%,
+    #6a93ff 43%,
+    #fd5fb2 81%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
+}
+
+.invest-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.invest-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #F3F3F3;
+}
+
+.invest-box__top-title ,.invest-box__bottom-title{
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.invest-box__top-text,.invest-box__bottom-text{
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--boulder);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.invest-box__top-link,.invest-box__bottom-link{
+  color: var(--cornFlower);
+  font-family: "inter-medium", Courier, monospace;
+
+}
+
+.invest-box:nth-child(1) .invest-box__botom{
+  margin-top: 4rem;
+}
+.invest-box:nth-child(2) .invest-box__top{
+  margin-bottom: 4rem;
+}
+.invest-box:nth-child(3) .invest-box__bottom{
+  margin-top: 4rem;
 }
