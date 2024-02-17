@@ -459,7 +459,7 @@
   border-bottom: 1px solid var(--boulder);
 }
 
-.explore__right-list-box:nth-child(4){
+.explore__right-list-box:nth-child(4) {
   border: none;
 }
 
@@ -492,5 +492,41 @@
 
 .explore__right-list-box-name-profit {
   margin-bottom: 0.5rem;
-  color: #3EBA59;
+  color: #3eba59;
+}
+
+/* ^================== */
+/*^ Brands Section */
+/* ^==================*/
+.brands{
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+.brands__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.brands-row1,
+.brands-row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.brands-row1 {
+  margin-bottom: 2rem;
+}
+
+.brands-row1 svg,
+.brands-row2 svg {
+  transition: all 140ms ease-in;
+}
+
+.brands-row1 svg:hover {
+  transform: scale(1.2);
+}
+
+.brands-row2 svg:hover {
+  transform: scale(1.2);
 }
