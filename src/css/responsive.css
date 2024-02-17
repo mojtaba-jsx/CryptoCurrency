@@ -145,6 +145,16 @@
 }
 /* *  ------------------------880px------------------------ */
 @media screen and (max-width: 880px) {
+  /*! ====Brands Section==== */
+  .brands-row1,
+  .brands-row2 {
+    flex-wrap: wrap;
+  }
+  .brands-row1 svg,
+  .brands-row2 svg {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* *  ------------------------840px------------------------ */
@@ -426,6 +436,13 @@
   /*! ====Explore Section==== */
   .explore__left__btns {
     width: 12rem;
+  }
+
+  /*! ====Brands Section==== */
+  .brands-row1 svg,
+  .brands-row2 svg {
+    width: 6rem;
+    height: 6rem;
   }
 }
 
