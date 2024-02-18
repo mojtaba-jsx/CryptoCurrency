@@ -15,10 +15,10 @@
     margin-right: 0.5rem;
   }
   /*! ====Invest Section==== */
-  .invest-boxes{
+  .invest-boxes {
     flex-wrap: wrap;
   }
-  .invest-box{
+  .invest-box {
     margin-bottom: 2rem;
   }
 }
@@ -84,6 +84,10 @@
 
 /* *  ------------------------1140px------------------------ */
 @media screen and (max-width: 1140px) {
+  /*! ====Choice Section==== */
+  .choice__window {
+    width: 60rem;
+  }
 }
 
 /* *  ------------------------980px------------------------ */
@@ -118,6 +122,14 @@
   }
   .explore__right {
     margin: 0 auto;
+  }
+
+  /*! ====Choice Section==== */
+  .choice__window__bottom-left-img {
+    width: 20rem;
+  }
+  .choice__window {
+    width: 50rem;
   }
 }
 
@@ -166,6 +178,23 @@
 
 /* *  ------------------------840px------------------------ */
 @media screen and (max-width: 840px) {
+  /*! ====Choice Section==== */
+  .choice__window__bottom {
+    flex-direction: column;
+  }
+  .choice__window__bottom-right-tag {
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .choice__window__bottom-right-rate {
+    text-align: center;
+  }
+  .choice__window__bottom-right-text {
+    text-align: center;
+  }
+  .choice__window {
+    width: 40rem;
+  }
 }
 
 /* *  ------------------------805px------------------------ */
@@ -225,6 +254,11 @@
   }
   .statistics__left-box {
     justify-content: space-between;
+  }
+
+  /*! ====Choice Section==== */
+  .choice__window {
+    width: 30rem;
   }
 }
 
@@ -362,6 +396,20 @@
   .explore__right-list-box div {
     margin-bottom: 1rem;
   }
+
+  /*! ====Choice Section==== */
+  .choice__window__bottom-left-img{
+    width: 14rem;
+  }
+  .choice__window{
+    width: 25rem;
+  }
+  .choice__window__bottom-right-rate{
+    font-size: 2rem;
+  }
+  .choice__window__bottom-right-text{
+    width: 14rem;
+  }
 }
 
 /* *  ------------------------450px------------------------ */
@@ -381,17 +429,23 @@
 /* *  ------------------------435px------------------------ */
 @media screen and (max-width: 435px) {
   /*! ====Invest Section==== */
-  .invest-title{
+  .invest-title {
     font-size: 1.5rem;
   }
-  .invest-boxes{
+  .invest-boxes {
     width: 100%;
   }
-  .invest-box{
+  .invest-box {
     width: 18rem;
   }
-  .invest-box__bottom svg ,.invest-box__top svg {
+  .invest-box__bottom svg,
+  .invest-box__top svg {
     width: 100%;
+  }
+
+  /*! ====Choice Section==== */
+  .choice__window{
+    width: 20rem;
   }
 }
 
