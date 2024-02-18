@@ -398,16 +398,16 @@
   }
 
   /*! ====Choice Section==== */
-  .choice__window__bottom-left-img{
+  .choice__window__bottom-left-img {
     width: 14rem;
   }
-  .choice__window{
+  .choice__window {
     width: 25rem;
   }
-  .choice__window__bottom-right-rate{
+  .choice__window__bottom-right-rate {
     font-size: 2rem;
   }
-  .choice__window__bottom-right-text{
+  .choice__window__bottom-right-text {
     width: 14rem;
   }
 }
@@ -444,7 +444,7 @@
   }
 
   /*! ====Choice Section==== */
-  .choice__window{
+  .choice__window {
     width: 20rem;
   }
 }
