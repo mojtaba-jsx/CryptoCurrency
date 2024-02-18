@@ -6,6 +6,11 @@
   .explore__left {
     margin-left: 2rem;
   }
+
+  /*! ====Featured Section==== */
+  .featured-title {
+    margin-left: 2rem;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -141,6 +146,19 @@
 @media screen and (max-width: 940px) {
 }
 
+/* *  ------------------------914px------------------------ */
+@media screen and (max-width: 914px) {
+  /*! ====Featured Section==== */
+  .featured__box {
+    width: 40rem;
+  }
+  .featured__box {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+}
+
 /* *  ------------------------910px------------------------ */
 @media screen and (max-width: 910px) {
 }
@@ -222,6 +240,10 @@
   .landing-title {
     font-size: 3rem;
   }
+  /*! ====Featured Section==== */
+  .featured__box {
+    width: 35rem;
+  }
 }
 
 /* *  ------------------------688px------------------------ */
@@ -260,6 +282,11 @@
   .choice__window {
     width: 30rem;
   }
+
+  /*! ====Featured Section==== */
+  .featured__box {
+    width: 30rem;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -280,6 +307,10 @@
 
 /* *  ------------------------572px------------------------ */
 @media screen and (max-width: 572px) {
+  /*! ====Featured Section==== */
+  .featured__box {
+    width: 25rem;
+  }
 }
 
 /* *  ------------------------564px------------------------ */
@@ -320,6 +351,10 @@
 
 /* *  ------------------------540px------------------------ */
 @media screen and (max-width: 540px) {
+  /*! ====Featured Section==== */
+  .featured-title {
+    font-size: 1.8rem;
+  }
 }
 
 /* *  ------------------------530px------------------------ */
@@ -410,6 +445,15 @@
   .choice__window__bottom-right-text {
     width: 14rem;
   }
+
+  /*! ====Featured Section==== */
+  .featured__box {
+    width: 20rem;
+  }
+
+  .featured-title {
+    font-size: 1.4rem;
+  }
 }
 
 /* *  ------------------------450px------------------------ */
@@ -465,6 +509,10 @@
   .landing-title {
     font-size: 1rem;
   }
+  /*! ====Featured Section==== */
+  .featured__box {
+    width: 15rem;
+  }
 }
 
 /* *  ------------------------380px------------------------ */
@@ -478,6 +526,11 @@
   }
   .statistics__left-box {
     margin-right: 0.5rem;
+  }
+
+  /*! ====Featured Section==== */
+  .featured-title {
+    font-size: 1.2rem;
   }
 }
 
