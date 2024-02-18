@@ -808,3 +808,137 @@
   font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
 }
+
+
+/* ^================== */
+/*^ Trader Section */
+/* ^==================*/
+
+.trader-title{
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: "inter-bold", Courier, monospace;
+
+}
+
+.trader-title-word{
+  color: #33e2ff;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #33e2ff 3%,
+    #6a93ff 43%,
+    #fd5fb2 81%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
+}
+
+.trader__wrapper{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.trader__right{
+  width: 45%;
+}
+
+.trader__left{
+  width: 45%;
+  background: rgb(98, 214, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(98, 214, 237, 1) 11%,
+    rgba(255, 178, 209, 1) 68%,
+    rgba(255, 215, 165, 1) 95%
+  );
+  height: 30rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.trader__left-list{
+  display: flex;
+  flex-direction:column;
+  background-color: var(--white);
+  width: 34rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 2rem;
+  padding: 1rem;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.trader__left-list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  width: 100%;
+  /* background-color: red; */
+  padding: 0.5rem 0.2rem;
+  border-radius: 1rem;
+  font-family: "inter-medium", Courier, monospace;
+  transition: all 140ms ease-in;
+  cursor: pointer;
+
+}
+
+.trader__left-list-item:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  font-size: 1.2rem;
+}
+
+.trader__left-list-item .trader__left-list-item-profit svg {
+  fill: #3eba59;
+}
+.trader__left-list-item:nth-child(3) .trader__left-list-item-profit svg {
+  fill: red;
+}
+
+.trader__left-list-item-profit svg{
+  margin-left: 1rem;
+}
+
+.trader__left-list-item-profit{
+  display: flex;
+  align-items: center;
+
+}
+.trader__left-list-item-profit svg{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.trader__right{
+  display: flex;
+  flex-direction: column;
+}
+
+.trader__right-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--boulder);
+  margin-bottom: 2rem;
+}
+
+.trader__right-box-right-title{
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+
+
+}
+
+.trader__right-box-right-text{
+  font-family: "inter-medium", Courier, monospace;
+  line-height: 1.4rem;
+  color: var(--boulder);
+  margin-top: 1rem;
+
+}
