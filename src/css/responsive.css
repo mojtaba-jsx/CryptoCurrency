@@ -26,6 +26,20 @@
   .invest-box {
     margin-bottom: 2rem;
   }
+
+  /*! ====Trader Section==== */
+  .trader__wrapper {
+    flex-direction: column;
+  }
+  .trader__left {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .trader__right {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
 }
 
 /* *  ------------------------1255px------------------------ */
@@ -244,6 +258,22 @@
   .featured__box {
     width: 35rem;
   }
+
+  /*! ====Trader Section==== */
+  .trader__left-list {
+    width: 25rem;
+  }
+  .trader__right-box{
+    flex-direction: column;
+  }
+  .trader__right-box-right-title{
+    display: block;
+    text-align: center;
+  }
+  .trader__right-box-right-text{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------688px------------------------ */
@@ -346,6 +376,11 @@
   }
   .explore__left-title {
     width: 28rem;
+  }
+
+  /*! ====Trader Section==== */
+  .trader__left-list{
+    width: 20rem;
   }
 }
 
@@ -468,6 +503,24 @@
   .statistics__right--left-bottom {
     padding-bottom: 2rem;
   }
+
+    /*! ====Trader Section==== */
+    .trader__left-list{
+      width: 14rem;
+    }
+    .trader__left-list-item-name{
+      font-size: 0.9rem;
+    }
+    .trader__left-list-item{
+      flex-direction: column;
+      align-items: center;
+    }
+    .trader__left-list{
+      height: 30rem;
+    }
+    .trader__left{
+      height: 40rem;
+    }
 }
 
 /* *  ------------------------435px------------------------ */

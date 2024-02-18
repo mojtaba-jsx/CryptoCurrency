@@ -809,19 +809,17 @@
   line-height: 1.4rem;
 }
 
-
 /* ^================== */
 /*^ Trader Section */
 /* ^==================*/
 
-.trader-title{
+.trader-title {
   font-size: 2.4rem;
   text-align: center;
   font-family: "inter-bold", Courier, monospace;
-
 }
 
-.trader-title-word{
+.trader-title-word {
   color: #33e2ff;
   background-image: -webkit-linear-gradient(
     45deg,
@@ -836,16 +834,16 @@
   text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
 }
 
-.trader__wrapper{
+.trader__wrapper {
   display: flex;
   justify-content: space-around;
   margin-top: 4rem;
 }
-.trader__right{
+.trader__right {
   width: 45%;
 }
 
-.trader__left{
+.trader__left {
   width: 45%;
   background: rgb(98, 214, 237);
   background: linear-gradient(
@@ -859,9 +857,9 @@
   padding: 1rem;
 }
 
-.trader__left-list{
+.trader__left-list {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   background-color: var(--white);
   width: 34rem;
   height: 20rem;
@@ -873,7 +871,7 @@
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.trader__left-list-item{
+.trader__left-list-item {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -885,11 +883,11 @@
   font-family: "inter-medium", Courier, monospace;
   transition: all 140ms ease-in;
   cursor: pointer;
-
 }
 
-.trader__left-list-item:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+.trader__left-list-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   font-size: 1.2rem;
 }
 
@@ -900,27 +898,25 @@
   fill: red;
 }
 
-.trader__left-list-item-profit svg{
+.trader__left-list-item-profit svg {
   margin-left: 1rem;
 }
 
-.trader__left-list-item-profit{
+.trader__left-list-item-profit {
   display: flex;
   align-items: center;
-
 }
-.trader__left-list-item-profit svg{
+.trader__left-list-item-profit svg {
   width: 2rem;
   height: 2rem;
 }
 
-
-.trader__right{
+.trader__right {
   display: flex;
   flex-direction: column;
 }
 
-.trader__right-box{
+.trader__right-box {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -928,17 +924,14 @@
   margin-bottom: 2rem;
 }
 
-.trader__right-box-right-title{
+.trader__right-box-right-title {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
-
-
 }
 
-.trader__right-box-right-text{
+.trader__right-box-right-text {
   font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
   color: var(--boulder);
   margin-top: 1rem;
-
 }
