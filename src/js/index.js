@@ -11,4 +11,20 @@ mobileMenuBtn.addEventListener('click',()=>{
         mobileMenu.style.display = 'none'
         flag =false;
     }
-})
+});
+
+
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        items:2.2,
+        loop:true,
+        center:true,
+        autoWidth:true,
+        nav:true,
+        // slideBy:1,
+        autoplay:true,
+        mergeFit:true,
+    });
+  });
+
