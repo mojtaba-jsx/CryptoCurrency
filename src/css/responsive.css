@@ -107,6 +107,20 @@
   .choice__window {
     width: 60rem;
   }
+  /*! ====Clients Section==== */
+  .clients__wrapper {
+    flex-direction: column;
+  }
+  .clients__left-title,
+  .clients__left-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .clients__right-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------980px------------------------ */
@@ -263,14 +277,14 @@
   .trader__left-list {
     width: 25rem;
   }
-  .trader__right-box{
+  .trader__right-box {
     flex-direction: column;
   }
-  .trader__right-box-right-title{
+  .trader__right-box-right-title {
     display: block;
     text-align: center;
   }
-  .trader__right-box-right-text{
+  .trader__right-box-right-text {
     text-align: center;
     margin-bottom: 2rem;
   }
@@ -379,7 +393,7 @@
   }
 
   /*! ====Trader Section==== */
-  .trader__left-list{
+  .trader__left-list {
     width: 20rem;
   }
 }
@@ -389,6 +403,12 @@
   /*! ====Featured Section==== */
   .featured-title {
     font-size: 1.8rem;
+  }
+  /*! ====Clients Section==== */
+  .clients__left-text {
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
   }
 }
 
@@ -489,6 +509,18 @@
   .featured-title {
     font-size: 1.4rem;
   }
+
+  /*! ====Clients Section==== */
+  .clients__right-box-top{
+    flex-direction: column;
+  }
+  .clients__right-box-top--right{
+    margin-top: 1rem;
+  }
+}
+
+/* *  ------------------------460px------------------------ */
+@media screen and (max-width: 460px) {
 }
 
 /* *  ------------------------450px------------------------ */
@@ -504,23 +536,23 @@
     padding-bottom: 2rem;
   }
 
-    /*! ====Trader Section==== */
-    .trader__left-list{
-      width: 14rem;
-    }
-    .trader__left-list-item-name{
-      font-size: 0.9rem;
-    }
-    .trader__left-list-item{
-      flex-direction: column;
-      align-items: center;
-    }
-    .trader__left-list{
-      height: 30rem;
-    }
-    .trader__left{
-      height: 40rem;
-    }
+  /*! ====Trader Section==== */
+  .trader__left-list {
+    width: 14rem;
+  }
+  .trader__left-list-item-name {
+    font-size: 0.9rem;
+  }
+  .trader__left-list-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .trader__left-list {
+    height: 30rem;
+  }
+  .trader__left {
+    height: 40rem;
+  }
 }
 
 /* *  ------------------------435px------------------------ */
