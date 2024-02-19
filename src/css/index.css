@@ -940,19 +940,18 @@
 /*^ Clients Section */
 /* ^==================*/
 
-.clients{
+.clients {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
 
-.clients__left-title{
+.clients__left-title {
   font-size: 2rem;
   font-family: "inter-bold", Courier, monospace;
   text-transform: capitalize;
 }
 
-
-.clients__left-title-word{
+.clients__left-title-word {
   color: #33e2ff;
   background-image: -webkit-linear-gradient(
     45deg,
@@ -967,69 +966,66 @@
   text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
 }
 
-.clients__left-text{
+.clients__left-text {
   font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
   margin-top: 1rem;
-  
 }
 
-.clients__wrapper{
+.clients__wrapper {
   display: flex;
   justify-content: space-around;
 }
 
-.clients__right-wrapper{
+.clients__right-wrapper {
   display: flex;
   flex-direction: column;
-
 }
-.clients__right-box{
+.clients__right-box {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  background-color: #FFFBF6;
+  background-color: #fffbf6;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   margin-bottom: 2rem;
   transition: all 140ms ease-in;
 }
 
-.clients__right-box:hover{
+.clients__right-box:hover {
   transform: scale(1.1);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.clients__right-box-top{
+.clients__right-box-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.clients__right-box-top--left{
+.clients__right-box-top--left {
   display: flex;
   align-items: center;
-  
 }
 
-.clients__right-box-top--left-texts{
+.clients__right-box-top--left-texts {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
 }
 
-.clients__right-box-top--left-texts-name{
+.clients__right-box-top--left-texts-name {
   font-family: "inter-medium", Courier, monospace;
-
 }
 
-.clients__right-box-top--left-texts-job{
+.clients__right-box-top--left-texts-job {
   font-family: "inter-medium", Courier, monospace;
   color: var(--boulder);
   margin-top: 0.5rem;
 }
 
-.clients__right-box-bottom-text{
+.clients__right-box-bottom-text {
   font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
   margin-top: 2rem;

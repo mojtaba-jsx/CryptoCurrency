@@ -511,10 +511,10 @@
   }
 
   /*! ====Clients Section==== */
-  .clients__right-box-top{
+  .clients__right-box-top {
     flex-direction: column;
   }
-  .clients__right-box-top--right{
+  .clients__right-box-top--right {
     margin-top: 1rem;
   }
 }
