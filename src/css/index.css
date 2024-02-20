@@ -1118,3 +1118,29 @@
  color: var(--white);
  margin-top: 1rem;
 }
+
+
+
+
+.owl-next span,.owl-prev span{
+  font-size: 6rem;
+  color: var(--cornFlower);
+  border-radius: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-nav{
+  display: flex;
+}
+
+.owl-prev,.owl-next{
+  margin: 0 auto;
+}
+
+.owl-nav button{
+  background-color: red;
+}
+
+
