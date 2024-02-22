@@ -549,6 +549,10 @@
 
 /* *  ------------------------530px------------------------ */
 @media screen and (max-width: 530px) {
+    /*! ====Footer Bottom Section==== */
+  .footer-bottom-text{
+    line-height: 1.4rem;
+  }
 }
 
 /* *  ------------------------520px------------------------ */
