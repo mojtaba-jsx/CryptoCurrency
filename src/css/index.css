@@ -1460,3 +1460,30 @@
   color: var(--darkJungleGreen);
   font-family: "inter-bold", Courier, monospace;
 }
+
+
+/* ^================== */
+/*^ Footer Bottom Section */
+/* ^==================*/
+
+.footer-bottom{
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--darkJungleGreen);
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.footer-bottom-link{
+  color: var(--cornFlower);
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+  transition: all 140ms ease-in;
+}
+
+.footer-bottom-link:hover{
+  color: var(--white);
+  background-color: var(--cornFlower);
+}
