@@ -253,6 +253,26 @@
     margin-right: 1rem;
     margin-bottom: 1rem;
   }
+
+  /*! ====Footer Top Section==== */
+  .footer-top__wrapper{
+    flex-direction: column;
+  }
+  .footer-top__left{
+    margin: 0 auto;
+  }
+  .footer-top__left-logo{
+    width: 10rem;
+    margin: 0 auto;
+  }
+  .footer-top__left-text{
+    text-align: center;
+  }
+  .footer-top__right{
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
 }
 
 /* *  ------------------------840px------------------------ */
@@ -503,6 +523,10 @@
 
 /* *  ------------------------520px------------------------ */
 @media screen and (max-width: 520px) {
+  /*! ====Footer Top Section==== */
+  .footer-top__left-text{
+    width: 25rem;
+  }
 }
 
 /* *  ------------------------500px------------------------ */
@@ -688,6 +712,20 @@
   /*! ====Choice Section==== */
   .choice__window {
     width: 20rem;
+  }
+  /*! ====Footer Top Section==== */
+
+  .footer-top__right-icons{
+    flex-wrap: wrap;
+  }
+  .footer-top__left-text{
+    width: 18rem;
+  }
+  .footer-top__right{
+    flex-direction: column;
+  }
+  .footer-top__right-icons{
+    margin-top: 1rem;
   }
 }
 

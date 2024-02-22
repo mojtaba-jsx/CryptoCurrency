@@ -1281,9 +1281,11 @@
 }
 
 .trusted-icon5 {
+  /* height: 33rem; */
   position: absolute;
   right: 0;
   top: 0;
+  opacity: 0.5;
   /* z-index: -1; */
 }
 
@@ -1299,7 +1301,6 @@
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-
 
 .footer-top__wrapper {
   display: flex;
