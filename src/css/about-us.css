@@ -5,7 +5,6 @@
 @import "./footer.css";
 @import "./mobile-menu.css";
 
-
 /** ========Css Variables======== */
 :root {
   --cornFlower: #7781ff;
@@ -42,4 +41,52 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+/* *=================================================== */
+/**=====Main Section===== */
+/* *=================================================== */
+
+/* ^================== */
+/*^ Story Section */
+/* ^==================*/
+.story {
+  margin-top: 2rem;
+}
+
+.story__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.story__left-title {
+  font-size: 4rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.story__left-title-word {
+  color: #6571ff;
+  background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 6rem;
+}
+
+.story__left-text {
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--boulder);
+  margin-top: 2rem;
+}
+
+.story__left-button {
+  padding: 1.2rem 2rem;
+  border-radius: 2rem;
+  font-family: "inter-medium", Courier, monospace;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  color: var(--white);
+  background-color: var(--darkJungleGreen);
 }
