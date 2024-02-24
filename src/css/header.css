@@ -1,0 +1,112 @@
+/** ========Import Css Modules======== */
+@import "./reset.css";
+@import "./fonts.css";
+
+
+/** ========Css Variables======== */
+:root {
+  --cornFlower: #7781ff;
+  --brightSkyBlue: #27caea;
+  --darkJungleGreen: #212326;
+  --boulder: #797979;
+  --white: #ffff;
+}
+
+/** ========Button Colors ======== */
+.btn-gradient {
+  background: rgb(255, 81, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 81, 150, 1) 0%,
+    rgba(119, 130, 255, 1) 32%,
+    rgba(37, 246, 255, 1) 69%
+  );
+}
+
+.btn-gunMetal {
+  background-color: #263238;
+}
+
+.btn-aquaHaze {
+  background-color: #f3f3f3;
+}
+
+.btn-white {
+  background-color: #ffffff;
+}
+
+/** ========Container Size ======== */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* *=================================================== */
+/**=====Header Section===== */
+/* *=================================================== */
+
+/* ^================== */
+/*^ NavBar Section */
+/* ^==================*/
+.navbar {
+    /* background-color: red; */
+    padding-top: 2rem;
+  }
+  .navbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--boulder);
+    padding-bottom: 1.4rem;
+  }
+  
+  .navbar__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__right-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar__right-list__item {
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 180ms ease-in;
+  }
+  
+  .navbar__right-list__item:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: var(--cornFlower);
+  }
+  .navbar__right-list__item:hover .navbar__right-list__item-link {
+    color: var(--white);
+  }
+  
+  .navbar__left-logo {
+    margin-right: 1rem;
+    transition: all 140ms ease-in;
+  }
+  
+  .navbar__left-logo:hover {
+    transform: scale(1.2);
+  }
+  
+  .navbar__left-text {
+    font-size: 1.4rem;
+    font-family: "inter-bold", Courier, monospace;
+  }
+  
+  .navbar__right-list__item-link {
+    font-family: "inter-medium", Courier, monospace;
+    color: var(--darkJungleGreen);
+  }
+  
