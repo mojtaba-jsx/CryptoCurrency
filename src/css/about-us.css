@@ -103,9 +103,9 @@
   display: flex;
   justify-content: space-around;
   background-color: #263238;
-  height: 10rem;
+  /* height: 10rem; */
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .benefit__box {

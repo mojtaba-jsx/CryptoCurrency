@@ -21,6 +21,18 @@
   .story__left {
     margin-left: 2rem;
   }
+
+  /*! ====Benefit Section==== */
+  .benefit__wrapper{
+    flex-wrap: wrap;
+  }
+  .benefit__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .benefit__box{
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -835,6 +847,11 @@
   }
   .footer-main__column3-text {
     width: 14rem;
+  }
+
+  /*! ====Benefit Section==== */
+  .benefit__box-title{
+    font-size: 2rem;
   }
 }
 
