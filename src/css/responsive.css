@@ -23,14 +23,30 @@
   }
 
   /*! ====Benefit Section==== */
-  .benefit__wrapper{
+  .benefit__wrapper {
     flex-wrap: wrap;
   }
   .benefit__wrapper {
     margin-right: 2rem;
     margin-left: 2rem;
   }
-  .benefit__box{
+  .benefit__box {
+    margin-bottom: 2rem;
+  }
+  /*! ====Believe Section==== */
+  .believe__top {
+    flex-direction: column;
+  }
+  .believe__top-left,
+  .believe__top-right {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .believe__bottom {
+    flex-wrap: wrap;
+  }
+  .believe__bottom-box {
     margin-bottom: 2rem;
   }
 }
@@ -332,6 +348,17 @@
   .footer-main__wrapper {
     flex-wrap: wrap;
   }
+  /*! ====Story Section==== */
+  .story__right-image {
+    width: 30rem;
+  }
+  .story__left-title {
+    font-size: 3.5rem;
+  }
+  .story__left-text {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 /* *  ------------------------740px------------------------ */
@@ -390,18 +417,11 @@
   }
 }
 
-/* *  ------------------------805px------------------------ */
-@media screen and (max-width: 805px) {
-  /*! ====Story Section==== */
-  .story__right-image{
-    width: 30rem;
-  }
-  .story__left-title{
-    font-size: 3.5rem;
-  }
-  .story__left-text{
-    margin-right: 1rem;
-    margin-left: 1rem;
+/* *  ------------------------700px------------------------ */
+@media screen and (max-width: 700px) {
+  /*! ====Believe Section==== */
+  .believe__top-right-text {
+    width: 34rem;
   }
 }
 
@@ -496,6 +516,10 @@
   .featured__box {
     width: 25rem;
   }
+  /*! ====Believe Section==== */
+  .believe__top-right-text {
+    width: 28rem;
+  }
 }
 
 /* *  ------------------------564px------------------------ */
@@ -506,10 +530,10 @@
   }
 
   /*! ====Story Section==== */
-  .story__left-title{
+  .story__left-title {
     font-size: 3rem;
   }
-  .story__right-image{
+  .story__right-image {
     width: 25rem;
   }
 }
@@ -731,11 +755,20 @@
   }
 
   /*! ====Story Section==== */
-  .story__left-title{
+  .story__left-title {
     font-size: 2.5rem;
   }
-  .story__right-image{
+  .story__right-image {
     width: 20rem;
+  }
+
+  /*! ====Believe Section==== */
+  .believe__top-right-text {
+    width: 25rem;
+  }
+  .believe__bottom-box {
+    width: 20rem;
+    height: 18rem;
   }
 }
 
@@ -850,8 +883,22 @@
   }
 
   /*! ====Benefit Section==== */
-  .benefit__box-title{
+  .benefit__box-title {
     font-size: 2rem;
+  }
+  /*! ====Believe Section==== */
+  .believe__top-right-text {
+    width: 20rem;
+  }
+  .believe__bottom-box{
+    width: 16rem;
+    height: 20rem;
+  }
+  .believe__bottom-box--top-number{
+    font-size: 5em;
+  }
+  .believe__top-left--title{
+    font-size: 1.4rem;
   }
 }
 
@@ -882,10 +929,10 @@
   }
 
   /*! ====Story Section==== */
-  .story__left-title{
+  .story__left-title {
     font-size: 2rem;
   }
-  .story__right-image{
+  .story__right-image {
     width: 14rem;
   }
 }
