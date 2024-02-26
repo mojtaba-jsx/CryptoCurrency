@@ -246,3 +246,47 @@
   line-height: 1.4rem;
   margin-top: 1rem;
 }
+
+
+/* ^================== */
+/*^ Story Section */
+/* ^==================*/
+.story{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.story__wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.story__top-title{
+  font-size: 2rem;
+  font-family: 'inter-bold', Courier, monospace;
+}
+
+.story__top-title-word{
+  color: #6571ff;
+  background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.story__top-subtitle{
+  font-size: 1.4rem;
+  font-family: 'inter-bold', Courier, monospace;
+  margin-top: 1rem;
+}
+
+.story__top-text{
+  font-family: 'inter-medium', Courier, monospace;
+  margin-top: 1rem;
+  line-height: 1.4rem;
+}
+
+.story__bottom-image{
+  display: block;
+  width: 70rem;
+  margin: 0 auto;
+}
