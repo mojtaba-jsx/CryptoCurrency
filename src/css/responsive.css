@@ -49,6 +49,11 @@
   .believe__bottom-box {
     margin-bottom: 2rem;
   }
+  /*! ====Team Section==== */
+  .team__boxes{
+    flex-wrap: wrap;
+  }
+
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -962,6 +967,15 @@
   }
   .believe__top-left--title {
     font-size: 1.4rem;
+  }
+
+  /*! ====Team Section==== */
+  .team-title{
+    font-size: 1.6rem;
+  }
+  .team__box{
+    margin: 0 auto;
+    margin-top: 1rem;
   }
 }
 
