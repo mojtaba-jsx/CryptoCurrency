@@ -48,24 +48,24 @@
 /* *=================================================== */
 
 /* ^================== */
-/*^ Story Section */
+/*^ Landing Section */
 /* ^==================*/
-.story {
+.landing {
   margin-top: 2rem;
 }
 
-.story__wrapper {
+.landing__wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.story__left-title {
+.landing__left-title {
   font-size: 4rem;
   font-family: "inter-bold", Courier, monospace;
 }
 
-.story__left-title-word {
+.landing__left-title-word {
   color: #6571ff;
   background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
   background-clip: text;
@@ -74,13 +74,13 @@
   line-height: 6rem;
 }
 
-.story__left-text {
+.landing__left-text {
   font-family: "inter-medium", Courier, monospace;
   color: var(--boulder);
   margin-top: 2rem;
 }
 
-.story__left-button {
+.landing__left-button {
   padding: 1.2rem 2rem;
   border-radius: 2rem;
   font-family: "inter-medium", Courier, monospace;
