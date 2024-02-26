@@ -290,3 +290,64 @@
   width: 70rem;
   margin: 0 auto;
 }
+
+/* ^================== */
+/*^ Team Section */
+/* ^==================*/
+
+.team{
+  margin-bottom: 4rem;
+}
+
+.team-title{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'inter-bold', Courier, monospace;
+
+}
+
+.team-title-word{
+  color: #6571ff;
+  background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.team__boxes{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.team__box{
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 140ms ease-in;
+}
+
+.team__box:hover{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.team__box-image{
+  width: 14rem;
+  border-radius: 1rem;
+}
+
+.team__box-name{
+  font-size: 1.4rem;
+  font-family: 'inter-bold', Courier, monospace;
+  margin-top: 1rem;
+}
+
+.team__box-job{
+  color: var(--boulder);
+  font-family: 'inter-medium', Courier, monospace;
+  margin-top: 0.5rem;
+
+}
