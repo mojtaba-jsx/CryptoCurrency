@@ -175,6 +175,20 @@
   .story__bottom-image {
     width: 60rem;
   }
+
+  /*! ====Cards Section==== */
+  .cards__bottom{
+    flex-wrap: wrap;
+  }
+  .card{
+    margin-bottom: 2rem;
+  }
+  .cards__top{
+    flex-wrap: wrap;
+  }
+  .cards__top-box{
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------1140px------------------------ */
@@ -1072,6 +1086,10 @@
   /*! ====Featured Section==== */
   .featured-title {
     font-size: 1.2rem;
+  }
+  /*! ====Cards Section==== */
+  .cards__top-box-text{
+    font-size: 0.8rem;
   }
 }
 
