@@ -46,3 +46,28 @@
 /* *=================================================== */
 /**=====Main Section===== */
 /* *=================================================== */
+
+/* ^================== */
+/*^ Pricing Section */
+/* ^==================*/
+
+.pricing__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.pricing-title{
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'inter-bold', Courier, monospace;
+}
+
+.pricing-text{
+  text-align: center;
+  font-family: 'inter-medium', Courier, monospace;
+  line-height: 1.4rem;
+  color: var(--boulder);
+  margin-top: 1rem;
+}
