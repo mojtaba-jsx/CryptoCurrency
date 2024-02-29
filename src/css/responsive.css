@@ -53,6 +53,12 @@
   .team__boxes {
     flex-wrap: wrap;
   }
+
+  /*! ====FAQS Section==== */
+  .faqs-title1,
+  .faqs-title2 {
+    padding-left: 2rem;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -177,16 +183,16 @@
   }
 
   /*! ====Cards Section==== */
-  .cards__bottom{
+  .cards__bottom {
     flex-wrap: wrap;
   }
-  .card{
+  .card {
     margin-bottom: 2rem;
   }
-  .cards__top{
+  .cards__top {
     flex-wrap: wrap;
   }
-  .cards__top-box{
+  .cards__top-box {
     margin-bottom: 2rem;
   }
 }
@@ -428,6 +434,11 @@
   .pricing-image2 {
     width: 12rem;
   }
+
+  /*! ====FAQS Section==== */
+  .accordion {
+    font-size: 1.1rem;
+  }
 }
 
 /* *  ------------------------740px------------------------ */
@@ -575,22 +586,21 @@
   }
 
   /*! ====Pricing Section==== */
-  .pricing__wrapper{
+  .pricing__wrapper {
     flex-direction: column;
   }
-  .pricing-texts{
+  .pricing-texts {
     order: 1;
   }
-  .pricing-image1{
+  .pricing-image1 {
     order: 2;
   }
-  .pricing-image2{
+  .pricing-image2 {
     order: 3;
   }
-  .pricing-text{
+  .pricing-text {
     width: 25rem;
   }
-
 }
 
 /* *  ------------------------635px------------------------ */
@@ -1027,10 +1037,10 @@
     margin-top: 1rem;
   }
   /*! ====Pricing Section==== */
-  .pricing-text{
+  .pricing-text {
     width: 14rem;
   }
-  .pricing-title{
+  .pricing-title {
     font-size: 2.5rem;
   }
 }
@@ -1088,7 +1098,7 @@
     font-size: 1.2rem;
   }
   /*! ====Cards Section==== */
-  .cards__top-box-text{
+  .cards__top-box-text {
     font-size: 0.8rem;
   }
 }
