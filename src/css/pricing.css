@@ -51,7 +51,7 @@
 /*^ Pricing Section */
 /* ^==================*/
 
-.pricing__wrapper{
+.pricing__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -59,15 +59,15 @@
   border-bottom: 1px solid var(--boulder);
 }
 
-.pricing-title{
+.pricing-title {
   text-align: center;
   font-size: 4rem;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
 }
 
-.pricing-text{
+.pricing-text {
   text-align: center;
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
   color: var(--boulder);
   margin-top: 1rem;
@@ -76,51 +76,51 @@
 /* ^================== */
 /*^ Cards Section */
 /* ^==================*/
-.cards{
+.cards {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
-.card__wrapper{
+.card__wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.cards__top{
+.cards__top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 2rem;
 }
 
-.cards__top-box{
-  background-color: #F4F4F4;
+.cards__top-box {
+  background-color: #f4f4f4;
   padding: 1rem;
   border-radius: 2rem;
 }
 
-.cards__top-box-icon{
+.cards__top-box-icon {
   background-color: var(--cornFlower);
   padding: 0.5rem;
   border-radius: 50%;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
   font-size: 1.2rem;
 }
 
-.cards__top-box-text{
-  font-family: 'inter-bold', Courier, monospace;
+.cards__top-box-text {
+  font-family: "inter-bold", Courier, monospace;
   margin-left: 2rem;
 }
 
-.cards__bottom{
+.cards__bottom {
   display: flex;
   justify-content: space-around;
   margin-top: 4rem;
 }
-.card{
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   height: 38rem;
   width: 20rem;
   border-radius: 1rem;
@@ -128,12 +128,11 @@
   cursor: pointer;
 }
 
-
-.card:hover{
+.card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-.card-title{
+.card-title {
   background-color: var(--darkJungleGreen);
   width: 100%;
   color: var(--white);
@@ -142,19 +141,19 @@
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   padding-top: 2rem;
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
   font-size: 1.2rem;
 }
 
-.card-price{
+.card-price {
   font-size: 3.4rem;
   color: var(--cornFlower);
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
   margin-top: 2rem;
 }
 
-.card-status{
-  font-family: 'inter-bold', Courier, monospace;
+.card-status {
+  font-family: "inter-bold", Courier, monospace;
   margin-top: 0.5rem;
   border-bottom: 1px solid var(--boulder);
   padding-bottom: 1rem;
@@ -162,14 +161,14 @@
   text-align: center;
 }
 
-.card-volume{
-  font-family: 'inter-medium', Courier, monospace;
+.card-volume {
+  font-family: "inter-medium", Courier, monospace;
   margin-top: 1rem;
   color: var(--boulder);
 }
 
-.card-volume-text{
-  font-family: 'inter-medium', Courier, monospace;
+.card-volume-text {
+  font-family: "inter-medium", Courier, monospace;
   margin-top: 0.5rem;
   border-bottom: 1px solid var(--boulder);
   padding-bottom: 1rem;
@@ -177,14 +176,14 @@
   text-align: center;
 }
 
-.card-balance{
+.card-balance {
   color: var(--boulder);
   margin-top: 1rem;
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
 }
 
-.card-balance-text{
-  font-family: 'inter-medium', Courier, monospace;
+.card-balance-text {
+  font-family: "inter-medium", Courier, monospace;
   margin-top: 0.5rem;
   border-bottom: 1px solid var(--boulder);
   padding-bottom: 1rem;
@@ -192,23 +191,23 @@
   text-align: center;
 }
 
-.card-taker{
+.card-taker {
   color: var(--boulder);
   margin-top: 0.5rem;
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
 }
 
-.card-taker-word{
-  color: #FF418C;
-  font-family: 'inter-medium', Courier, monospace;
+.card-taker-word {
+  color: #ff418c;
+  font-family: "inter-medium", Courier, monospace;
 }
 
-.card-taker-text{
-  font-family: 'inter-medium', Courier, monospace;
+.card-taker-text {
+  font-family: "inter-medium", Courier, monospace;
   margin-top: 0.5rem;
 }
 
-.card-btn{
+.card-btn {
   margin-top: 5rem;
   padding: 1rem;
   border-radius: 2rem;
@@ -216,7 +215,97 @@
   outline: none;
   background-color: var(--cornFlower);
   color: var(--white);
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+/* ^================== */
+/*^ FAQS Section */
+/* ^==================*/
+
+.faqs {
+  margin-top: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  background-color: #f5f0f2;
+  height: 70rem;
+}
+
+.faqs__title{
+  text-align: center;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 3.4rem;
+  margin-bottom: 4rem;
+}
+.faqs-title1 {
+  display: block;
+  margin: 0 auto;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 2rem;
+}
+.faqs-title2 {
+  display: block;
+  margin: 0 auto;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 2rem;
+}
+
+.accordion {
+  /* background-color: #eee; */
+  /* color: #444; */
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.4rem;
+  transition: 0.4s;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  font-family: "inter-medium", Courier, monospace;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.active,
+.accordion:hover {
+  background-color: var(--cornFlower);
+  color: var(--white);
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #f5f0f2;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  font-family: "inter-medium", Courier, monospace;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.order{
+  text-align: start;
 }
