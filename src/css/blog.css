@@ -119,3 +119,114 @@
   bottom: 1rem;
   cursor: pointer;
 }
+
+
+
+/* ^================== */
+/*^ Ltest Section */
+/* ^==================*/
+.latest-articles {
+  margin-bottom: 8rem;
+  margin-top: 18rem;
+}
+
+.latest-articles-title {
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+.latest-articles-title-word {
+  color: #33e2ff;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #33e2ff 3%,
+    #6a93ff 43%,
+    #fd5fb2 81%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
+}
+.latest-articles__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.latest-articles__box {
+  padding: 2rem;
+  background-color: #f3f3f3;
+  width: 28rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding-bottom: 2.5rem;
+  margin-right: 2.7rem;
+  margin-left: 2.7rem;
+}
+.latest-articles__box-img {
+  width: 100%;
+}
+
+.latest-articles__box-data {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  color: var(--boulder);
+}
+
+.latest-articles__box-author {
+  margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 2px solid var(--boulder);
+}
+
+.latest-articles__box-title {
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  line-height: 1.4rem;
+}
+
+.latest-articles__box-text {
+  font-family: "inter-medium", Courier, monospace;
+  margin-top: 1rem;
+  line-height: 1.4rem;
+}
+
+.latest-articles__box-btn {
+  background-color: red;
+  width: 10rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--cornFlower);
+  color: var(--white);
+  margin-top: 1rem;
+}
+
+.owl-next span,
+.owl-prev span {
+  font-size: 6rem;
+  color: var(--cornFlower);
+  border-radius: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-nav {
+  display: flex;
+}
+
+.owl-prev,
+.owl-next {
+  margin: 0 auto;
+}
+
+.owl-nav button {
+  background-color: red;
+}

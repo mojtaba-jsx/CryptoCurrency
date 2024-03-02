@@ -1,5 +1,4 @@
-
-
+//! owl Slider Logic
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     items: 2.2,
