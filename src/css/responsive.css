@@ -163,6 +163,19 @@
   .pricing-image1 {
     padding-right: 2rem;
   }
+
+  /*! ====Latest News Section==== */
+  .latest-news__wrapper {
+    flex-direction: column;
+  }
+  .latest-news__shape3 {
+    right: 24rem;
+    bottom: -4rem;
+  }
+  .latest-news__texts {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 /* *  ------------------------1085px------------------------ */
 @media screen and (max-width: 1085px) {
@@ -297,6 +310,12 @@
   .story__bottom-image {
     width: 55rem;
   }
+
+  /*! ====Latest News Section==== */
+  .latest-news__shape3 {
+    right: 18rem;
+    bottom: -4rem;
+  }
 }
 
 /* *  ------------------------945px------------------------ */
@@ -330,6 +349,11 @@
   /*! ====Story Section==== */
   .story__bottom-image {
     width: 55rem;
+  }
+  /*! ====Latest News Section==== */
+  .latest-news__shape3 {
+    right: 14rem;
+    bottom: -4rem;
   }
 }
 
@@ -499,6 +523,11 @@
   .story__bottom-image {
     width: 40rem;
   }
+  /*! ====Latest News Section==== */
+  .latest-news__shape3 {
+    right: 10rem;
+    bottom: -4rem;
+  }
 }
 
 /* *  ------------------------700px------------------------ */
@@ -639,6 +668,14 @@
   }
   .story__top-subtitle {
     font-size: 1rem;
+  }
+  /*! ====Latest News Section==== */
+  .latest-news__shape3 {
+    right: 8rem;
+    bottom: -4rem;
+  }
+  .latest-news__texts-text {
+    width: 24rem;
   }
 }
 
@@ -897,6 +934,17 @@
   .story__top-text {
     font-size: 0.9rem;
   }
+
+  /*! ====Latest News Section==== */
+  .latest-news__shape3 {
+    right: 4rem;
+  }
+  .latest-news__texts-inputbox {
+    width: 20rem;
+  }
+  .latest-news__texts-title {
+    font-size: 3.4rem;
+  }
 }
 
 /* *  ------------------------460px------------------------ */
@@ -1042,6 +1090,25 @@
   }
   .pricing-title {
     font-size: 2.5rem;
+  }
+  /*! ====Latest News Section==== */
+  .latest-news__shape3 {
+    right: 4rem;
+  }
+  .latest-news__shape2-image,
+  .latest-news__shape1-image {
+    width: 10rem;
+    height: 10rem;
+  }
+  .latest-news__shape3-image {
+    width: 14rem;
+    height: 14rem;
+  }
+  .latest-news__texts-title {
+    font-size: 2.8rem;
+  }
+  .latest-news__texts-text {
+    width: 20rem;
   }
 }
 
