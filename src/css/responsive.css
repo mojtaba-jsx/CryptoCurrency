@@ -681,6 +681,11 @@
   .latest-news__texts-text {
     width: 24rem;
   }
+
+  /*! ====Recent News Section==== */
+  .recent-news__box {
+    width: 25rem;
+  }
 }
 
 /* *  ------------------------564px------------------------ */
@@ -961,6 +966,14 @@
   .latest-news__texts-title {
     font-size: 3.4rem;
   }
+
+  /*! ====Recent News Section==== */
+  .recent-news__box {
+    width: 20rem;
+  }
+  .recent-news__box-title {
+    font-size: 1.4rem;
+  }
 }
 
 /* *  ------------------------460px------------------------ */
@@ -1169,6 +1182,11 @@
   }
   .landing__right-image {
     width: 14rem;
+  }
+
+  /*! ====Recent News Section==== */
+  .recent-news__box {
+    width: 16rem;
   }
 }
 
