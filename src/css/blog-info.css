@@ -131,15 +131,6 @@
 }
 
 .blog-info__imagebox {
-  /* background: rgb(98, 214, 237);
-    background: linear-gradient(
-      90deg,
-      rgba(98, 214, 237, 1) 11%,
-      rgba(255, 178, 209, 1) 68%,
-      rgba(255, 215, 165, 1) 95%
-    );
-    border-radius: 1rem;
-    height: 40rem; */
   background-image: url("../../assets/images/blog-info-4.png");
   background-repeat: no-repeat;
 }
@@ -220,4 +211,108 @@
   font-family: "inter-medium", Courier, monospace;
   font-size: 2rem;
   line-height: 2.2rem;
+}
+
+
+/* ^======================== */
+/*^ Writer Section */
+/* ^========================*/
+.writer{
+    height: 25rem;
+    margin-bottom: 8rem;
+}
+.writer__wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: #263238;
+    height: 25rem;
+    padding-top: 5rem;
+    border-radius: 2rem;
+}
+
+
+.writer__left-image{
+    border-radius: 8rem;
+}
+
+.writer__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.writer__right__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.writer__right__top-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.writer__right__top-info-name{
+    color: var(--white);
+    font-family: 'inter-bold', Courier, monospace;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.writer__right__top-info-job{
+    color: var(--white);
+    font-family: 'inter-medium', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.writer__right__top-socials{
+    display: flex;
+    justify-content: space-around;
+    margin-left:10rem;
+}
+
+.writer__right__top-socials span{
+    margin-right: 2rem;
+}
+
+.writer__right__bottom{
+    margin-top: 2rem;
+}
+
+.writer__right__bottom-text{
+    color: var(--boulder);
+    font-family: 'inter-medium', Courier, monospace;
+    width: 34rem;
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+}
+
+.writer__right__top-socials span svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--white);
+}
+
+
+.writer__right__top-socials-instagram svg ,.writer__right__top-socials-facebook svg ,.writer__right__top-socials-x svg ,.writer__right__top-socials-pinterest svg{
+    transition: all 140ms ease-in;
+}
+
+.writer__right__top-socials-instagram svg:hover{
+    fill: red;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.writer__right__top-socials-facebook svg:hover{
+    fill: blue;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.writer__right__top-socials-x svg:hover{
+    fill: rgb(27, 166, 231);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.writer__right__top-socials-pinterest svg:hover{
+    fill: red;
+    cursor: pointer;
+    transform: scale(1.2);
 }
