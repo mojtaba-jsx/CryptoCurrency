@@ -180,6 +180,16 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1 {
+    right: 1rem;
+  }
+  .blog-title__icon1,
+  .blog-title__icon2 {
+    width: 10rem;
+    height: 10rem;
+  }
 }
 /* *  ------------------------1085px------------------------ */
 @media screen and (max-width: 1085px) {
@@ -241,6 +251,15 @@
     height: 14rem;
     right: 4rem;
     top: 18rem;
+  }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1 {
+    right: 2rem;
+    top: 20rem;
+  }
+  .blog-title__icon2 {
+    bottom: -10rem;
   }
 }
 
@@ -467,6 +486,19 @@
   .accordion {
     font-size: 1.1rem;
   }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1 {
+    right: 2rem;
+    top: 20rem;
+  }
+  .blog-title__icon2 {
+    bottom: -10rem;
+  }
+  .blog-title__title {
+    font-size: 3.2rem;
+    width: 40rem;
+  }
 }
 
 /* *  ------------------------740px------------------------ */
@@ -634,6 +666,28 @@
   .pricing-text {
     width: 25rem;
   }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1 {
+    right: 2rem;
+    top: 20rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .blog-title__icon2 {
+    bottom: -10rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .blog-title__title {
+    font-size: 2.8rem;
+    width: 35rem;
+  }
+  .blog-title__text {
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -684,6 +738,21 @@
 
   /*! ====Recent News Section==== */
   .recent-news__box {
+    width: 25rem;
+  }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1 {
+    right: 4rem;
+  }
+  .blog-title__icon2 {
+    left: 4rem;
+  }
+  .blog-title__title {
+    font-size: 2rem;
+    width: 25rem;
+  }
+  .blog-title__text {
     width: 25rem;
   }
 }
@@ -1141,6 +1210,19 @@
     font-size: 2.8rem;
   }
   .latest-news__texts-text {
+    width: 20rem;
+  }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1,
+  .blog-title__icon2 {
+    width: 5rem;
+    height: 5rem;
+  }
+  .blog-title__title{
+    font-size: 1.5rem;
+  }
+  .blog-title__text,.blog-title__title{
     width: 20rem;
   }
 }
