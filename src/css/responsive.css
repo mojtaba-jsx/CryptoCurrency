@@ -1219,10 +1219,11 @@
     width: 5rem;
     height: 5rem;
   }
-  .blog-title__title{
+  .blog-title__title {
     font-size: 1.5rem;
   }
-  .blog-title__text,.blog-title__title{
+  .blog-title__text,
+  .blog-title__title {
     width: 20rem;
   }
 }

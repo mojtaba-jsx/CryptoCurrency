@@ -99,25 +99,22 @@
   margin-top: 2rem;
 }
 
-
-.blog-title__wrapper{
-    position: relative;
+.blog-title__wrapper {
+  position: relative;
 }
 
-.blog-title__icon1{
-    position: absolute;
-    width: 12rem;
-    height: 12rem;
-    right: 4rem;
-    top: 0;
+.blog-title__icon1 {
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  right: 4rem;
+  top: 0;
 }
 
-.blog-title__icon2{
-    position: absolute;
-    width: 12rem;
-    height: 12rem;
-    left: 2rem;
-    bottom: 0;
-
+.blog-title__icon2 {
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  left: 2rem;
+  bottom: 0;
 }
-
