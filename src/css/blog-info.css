@@ -48,5 +48,76 @@
 /* *=================================================== */
 
 /* ^======================== */
-/*^ Latest News Section */
+/*^ Blog Title Section */
 /* ^========================*/
+
+.blog-title {
+  margin-top: 4rem;
+}
+
+.blog-title__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title__date {
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  background-color: #d3f4e4;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.blog-title__date-name {
+  color: #42b57e;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.blog-title__date-release {
+  color: #42b57e;
+  margin-left: 1rem;
+  border-left: 2px solid #42b57e;
+  padding-left: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.blog-title__title {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "inter-bold", Courier, monospace;
+  width: 50rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.blog-title__text {
+  color: var(--boulder);
+  font-family: "inter-medium", Courier, monospace;
+  line-height: 1.4rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.blog-title__wrapper{
+    position: relative;
+}
+
+.blog-title__icon1{
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    right: 4rem;
+    top: 0;
+}
+
+.blog-title__icon2{
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    left: 2rem;
+    bottom: 0;
+
+}
+
