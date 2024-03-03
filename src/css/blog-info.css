@@ -118,3 +118,106 @@
   left: 2rem;
   bottom: 0;
 }
+
+/* ^======================== */
+/*^ Blog Info Section */
+/* ^========================*/
+.blog-info {
+  margin-top: 8rem;
+}
+.blog-info__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-info__imagebox {
+  /* background: rgb(98, 214, 237);
+    background: linear-gradient(
+      90deg,
+      rgba(98, 214, 237, 1) 11%,
+      rgba(255, 178, 209, 1) 68%,
+      rgba(255, 215, 165, 1) 95%
+    );
+    border-radius: 1rem;
+    height: 40rem; */
+  background-image: url("../../assets/images/blog-info-4.png");
+  background-repeat: no-repeat;
+}
+
+.blog-info__image {
+  width: 55rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8rem;
+  border-radius: 2rem;
+  box-shadow: rgba(184, 184, 215, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.blog-info__texts {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-info__texts-text {
+  width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  line-height: 1.4rem;
+  color: var(--boulder);
+  font-family: "inter-medium", Courier, monospace;
+}
+.blog-info__texts-title {
+  color: var(--darkJungleGreen);
+  font-family: "inter-bold", Courier, monospace;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.blog-info__texts-list1,
+.blog-info__texts-list2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  font-family: "inter-medium", Courier, monospace;
+}
+
+.blog-info__texts-list1-item {
+  margin-bottom: 1rem;
+  list-style-type: disc;
+  color: var(--boulder);
+}
+
+.blog-info__texts-list2-item {
+  margin-bottom: 1rem;
+  list-style-type: decimal;
+  color: var(--boulder);
+}
+
+.blog-info__texts-qoute {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin: 0 auto;
+  background-color: #ae7cd3;
+  height: 24rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blog-info__texts-qoute-comma {
+  padding-left: 2rem;
+  font-size: 7rem;
+  color: var(--white);
+}
+
+.blog-info__texts-qoute-text {
+  padding-left: 2rem;
+  color: var(--white);
+  font-family: "inter-medium", Courier, monospace;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
