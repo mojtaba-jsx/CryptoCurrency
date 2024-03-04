@@ -123,7 +123,7 @@
 /*^ Blog Info Section */
 /* ^========================*/
 .blog-info {
-  margin-top: 8rem;
+  margin-top: 14rem;
 }
 .blog-info__wrapper {
   display: flex;
@@ -133,6 +133,12 @@
 .blog-info__imagebox {
   background-image: url("../../assets/images/blog-info-4.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  background-size: 100% 100%;
+
+  /* background-color: red; */
 }
 
 .blog-info__image {

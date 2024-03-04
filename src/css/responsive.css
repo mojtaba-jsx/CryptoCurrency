@@ -63,6 +63,12 @@
   .faqs-title2 {
     padding-left: 2rem;
   }
+  /*! ====Blog Info Section==== */
+
+  .blog-info__imagebox {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -261,6 +267,11 @@
   .blog-title__icon2 {
     bottom: -10rem;
   }
+
+  /*! ====Blog Info Section==== */
+  .blog-info__image {
+    width: 40rem;
+  }
 }
 
 /* *  ------------------------980px------------------------ */
@@ -457,6 +468,31 @@
   .story__bottom-image {
     width: 45rem;
   }
+  /*! ====Blog Info Section==== */
+  .blog-info__image {
+    width: 30rem;
+  }
+  .blog-info__texts-text {
+    width: 40rem;
+    text-align: center;
+  }
+  .blog-info__texts-title {
+    width: 25rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .blog-info__texts-list1,
+  .blog-info__texts-list2 {
+    width: 30rem;
+    margin: 0 auto;
+  }
+  .blog-info__texts-qoute {
+    width: 40rem;
+  }
+  .blog-info__texts-qoute-text {
+    font-size: 1.4rem;
+  }
 }
 
 /* *  ------------------------805px------------------------ */
@@ -610,6 +646,10 @@
   .story__top {
     text-align: center;
   }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-text {
+    width: 30rem;
+  }
 }
 
 /* *  ------------------------660px------------------------ */
@@ -688,6 +728,15 @@
     margin: 0 auto;
     margin-top: 1rem;
   }
+
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-qoute {
+    width: 30rem;
+    padding: 1rem;
+  }
+  .blog-info__texts-qoute-text {
+    font-size: 1.2rem;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -707,6 +756,10 @@
   /*! ====Story Section==== */
   .story__bottom-image {
     width: 30rem;
+  }
+  /*! ====Blog Info Section==== */
+  .blog-info__image {
+    width: 24rem;
   }
 }
 
@@ -827,6 +880,12 @@
   .trader__left-list {
     width: 20rem;
   }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-list1,
+  .blog-info__texts-list2,
+  .blog-info__texts-text {
+    width: 25rem;
+  }
 }
 
 /* *  ------------------------540px------------------------ */
@@ -869,6 +928,14 @@
   .trusted-icon5 {
     width: 14rem;
   }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-qoute {
+    width: 25rem;
+    padding: 1rem;
+  }
+  .blog-info__texts-qoute-text {
+    font-size: 1rem;
+  }
 }
 
 /* *  ------------------------530px------------------------ */
@@ -900,6 +967,10 @@
   }
   .footer-main__column3-text {
     margin-top: 2rem;
+  }
+  /*! ====Blog Info Section==== */
+  .blog-info__image {
+    width: 20rem;
   }
 }
 
@@ -1111,6 +1182,24 @@
   .trader__left {
     height: 40rem;
   }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-list1,
+  .blog-info__texts-list2,
+  .blog-info__texts-text,
+  .blog-info__texts-title {
+    width: 20rem;
+  }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-qoute {
+    width: 20rem;
+    padding: 1rem;
+  }
+  .blog-info__texts-qoute-text {
+    font-size: 1rem;
+  }
+  .blog-info__texts-qoute-comma {
+    font-size: 1.5rem;
+  }
 }
 
 /* *  ------------------------435px------------------------ */
@@ -1226,6 +1315,10 @@
   .blog-title__title {
     width: 20rem;
   }
+  /*! ====Blog Info Section==== */
+  .blog-info__image {
+    width: 16rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -1293,6 +1386,24 @@
   /*! ====Cards Section==== */
   .cards__top-box-text {
     font-size: 0.8rem;
+  }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-list1,
+  .blog-info__texts-list2,
+  .blog-info__texts-text,
+  .blog-info__texts-title {
+    width: 16rem;
+  }
+  /*! ====Blog Info Section==== */
+  .blog-info__texts-qoute {
+    width: 16rem;
+    padding: 1rem;
+  }
+  .blog-info__texts-qoute-text {
+    font-size: 0.9rem;
+  }
+  .blog-info__texts-qoute-comma {
+    font-size: 1.2rem;
   }
 }
 
