@@ -224,15 +224,19 @@
 /*^ Writer Section */
 /* ^========================*/
 .writer{
-    height: 25rem;
-    margin-bottom: 8rem;
+    /* height: 25rem; */
+    margin-bottom: 14rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
 }
 .writer__wrapper{
     display: flex;
     justify-content: space-around;
     background-color: #263238;
-    height: 25rem;
+    /* height: 25rem; */
     padding-top: 5rem;
+    padding-bottom: 5rem;
     border-radius: 2rem;
 }
 
