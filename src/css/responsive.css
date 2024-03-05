@@ -203,6 +203,40 @@
     width: 10rem;
     height: 10rem;
   }
+
+  /*! ====Security Section==== */
+  .security__wrapper{
+    flex-direction: column;
+  }
+  .security__left{
+    width: 100%;
+  }
+  .security__left-title{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .security__left-subtitle{
+    display: block;
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .security__left-text{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .security__left-storage,.security__left-point{
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .security__right{
+    width: 80%;
+    margin-top: 2rem;
+  }
+
 }
 /* *  ------------------------1085px------------------------ */
 @media screen and (max-width: 1085px) {
@@ -783,6 +817,10 @@
 
 /* *  ------------------------635px------------------------ */
 @media screen and (max-width: 635px) {
+  /*! ====Security Section==== */
+  .security__right-image{
+    width: 24rem;
+  }
 }
 
 /* *  ------------------------620px------------------------ */
@@ -1181,6 +1219,21 @@
   .recent-news__box-title {
     font-size: 1.4rem;
   }
+  /*! ====Security Section==== */
+  .security__right-image{
+    width: 20rem;
+    height: 22rem;
+  }
+  .security__right{
+    height: 28rem;
+  }
+  .security__left-text{
+    width: 22rem;
+  }
+  .security__left-subtitle{
+    width: 22rem;
+    font-size: 1rem;
+  }
 }
 
 /* *  ------------------------460px------------------------ */
@@ -1404,6 +1457,11 @@
   .features__image1,.features__image2{
     top: 10rem;
   }
+  /*! ====Security Section==== */
+  .security__right-image{
+    width: 18rem;
+    height: 20rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -1449,6 +1507,21 @@
   .recent-news__box {
     width: 16rem;
   }
+    /*! ====Security Section==== */
+    .security__right-image{
+      width: 16rem;
+      height: 18rem;
+    }
+    .security__left-subtitle{
+      width: 18rem;
+      line-height: 1.4rem;
+    }
+    .security__left-text{
+      width: 18rem;
+    }
+    .security__left-storage,.security__left-point{
+      width: 18rem;
+    }
 }
 
 /* *  ------------------------380px------------------------ */
