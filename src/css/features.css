@@ -225,6 +225,9 @@
   height: 30rem;
   border-radius: 2rem;
   background-image: url("../../assets/images/advanced-2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .advanced__left-image {
