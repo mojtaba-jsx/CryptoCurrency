@@ -289,6 +289,30 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+  /*! ====Chart Section==== */
+  .chart__wrapper{
+    flex-direction: column-reverse;
+  }
+  .chart {
+    margin-top: 20rem;
+  }
+  .chart__left,.chart__right{
+    width: 80%;
+  }
+  .chart__right__title{
+    text-align: center;
+    margin:  0 auto;
+  }
+  .chart__right-text{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .chart__right-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------1085px------------------------ */
@@ -874,6 +898,17 @@
   .trading__right {
     height: 25rem;
   }
+  /*! ====Chart Section==== */
+  .chart__left-image{
+    width: 25rem;
+    height: 25rem;
+  }
+  .chart__left{
+    height: 25rem;
+  }
+  .chart__right-text{
+    width: 25rem;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -1120,6 +1155,17 @@
   /*! ====Footer Bottom Section==== */
   .footer-bottom-text {
     line-height: 1.4rem;
+  }
+  /*! ====Chart Section==== */
+  .chart__left-image{
+    width: 20rem;
+    height: 20rem;
+  }
+  .chart__left{
+    height: 20rem;
+  }
+  .chart__right-text{
+    width: 20rem;
   }
 }
 
@@ -1579,6 +1625,17 @@
   .advanced__right-text {
     width: 16rem;
   }
+  /*! ====Chart Section==== */
+  .chart__left-image{
+    width: 16rem;
+    height: 16rem;
+  }
+  .chart__left{
+    width: 18rem;
+  }
+  .chart__right__title{
+    width: 16rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -1688,6 +1745,13 @@
   .trading__left__title{
     width: 18rem;
   }
+    /*! ====Chart Section==== */
+    .chart__right-text{
+      width: 16rem;
+    }
+    .chart__right__title{
+      font-size: 1.8rem;
+    }
 }
 
 /* *  ------------------------365px------------------------ */
@@ -1701,6 +1765,7 @@
 
 /* *  ------------------------357px------------------------ */
 @media screen and (max-width: 357px) {
+
 }
 
 /* *  ------------------------350px------------------------ */

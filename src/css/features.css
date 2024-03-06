@@ -370,6 +370,7 @@
   background-size: 100% 100%;
   background-position: center;
   height: 30rem;
+  border-radius: 2rem;
 }
 
 .chart__left-image{
