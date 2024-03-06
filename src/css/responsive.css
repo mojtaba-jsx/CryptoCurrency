@@ -266,6 +266,29 @@
   .advanced__right {
     width: 80%;
   }
+  /*! ====Trading Section==== */
+  .trading__wrapper {
+    flex-direction: column;
+  }
+  .trading__left,
+  .trading__right {
+    width: 80%;
+  }
+  .trading__left__title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .trading__left-text {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .trading__left-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------1085px------------------------ */
@@ -843,6 +866,14 @@
   .writer__right__bottom-text {
     width: 30rem;
   }
+  /*! ====Trading Section==== */
+  .trading__right-image {
+    width: 25rem;
+    height: 25rem;
+  }
+  .trading__right {
+    height: 25rem;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -852,12 +883,12 @@
     width: 24rem;
   }
   /*! ====Advanced Section==== */
-  .advanced__left-image{
+  .advanced__left-image {
     width: 25rem;
     height: 28rem;
     margin-top: 8rem;
   }
-  .advanced__right-text{
+  .advanced__right-text {
     width: 25rem;
   }
 }
@@ -985,6 +1016,17 @@
   }
   .latest-articles__box-text {
     font-size: 0.9rem;
+  }
+  /*! ====Trading Section==== */
+  .trading__left-text {
+    width: 25rem;
+  }
+  .trading__right-image {
+    width: 22rem;
+    height: 22rem;
+  }
+  .trading__right {
+    height: 22rem;
   }
 }
 
@@ -1274,13 +1316,27 @@
     font-size: 1rem;
   }
   /*! ====Advanced Section==== */
-  .advanced__left-image{
+  .advanced__left-image {
     width: 20rem;
     height: 25rem;
     margin-left: 2rem;
   }
-  .advanced__right-text{
+  .advanced__right-text {
     width: 22rem;
+  }
+  /*! ====Trading Section==== */
+  .trading__right-image {
+    width: 16rem;
+    height: 16rem;
+  }
+  .trading__right{
+    height: 18rem;
+  }
+  .trading__left-text{
+    width: 20rem;
+  }
+  .trading__left__title{
+    width: 20rem;
   }
 }
 
@@ -1512,15 +1568,15 @@
     height: 20rem;
   }
   /*! ====Advanced Section==== */
-  .advanced__left-image{
+  .advanced__left-image {
     width: 16rem;
     height: 20rem;
     margin-top: 8rem;
   }
-  .advanced__left{
+  .advanced__left {
     height: 25rem;
   }
-  .advanced__right-text{
+  .advanced__right-text {
     width: 16rem;
   }
 }
@@ -1624,6 +1680,13 @@
   }
   .blog-info__texts-qoute-comma {
     font-size: 1.2rem;
+  }
+  /*! ====Trading Section==== */
+  .trading__left-text{
+    width: 16rem;
+  }
+  .trading__left__title{
+    width: 18rem;
   }
 }
 
