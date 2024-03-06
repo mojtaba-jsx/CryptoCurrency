@@ -242,12 +242,12 @@
   width: 45%;
 }
 
-.advanced__right__title{
+.advanced__right__title {
   font-size: 2rem;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
 }
 
-.advanced__right__title-word{
+.advanced__right__title-word {
   color: #6571ff;
   background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
   background-clip: text;
@@ -255,21 +255,92 @@
   -webkit-text-fill-color: transparent;
 }
 
-.advanced__right-text{
+.advanced__right-text {
   width: 34rem;
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
   color: var(--boulder);
   margin-top: 1rem;
 }
 
-.advanced__right-btn{
+.advanced__right-btn {
   margin-top: 2rem;
   padding: 1rem 2rem;
   border: none;
   outline: none;
   border-radius: 2rem;
-  background-color:var(--darkJungleGreen);
+  background-color: var(--darkJungleGreen);
   color: var(--white);
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
 }
+
+/* ^======================== */
+/*^ Trading Section */
+/* ^========================*/
+
+.trading {
+  margin-top: 14rem;
+  margin-bottom: 8rem;
+}
+
+.trading__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trading__left__title {
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+  width: 22rem;
+}
+
+.trading__left__title-word {
+  color: #6571ff;
+  background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.trading__left-text {
+  margin-top: 1rem;
+  width: 30rem;
+  line-height: 1.4rem;
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--boulder);
+}
+.trading__left,
+.trading__right {
+  width: 45%;
+}
+
+.trading__left-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  background-color: var(--brightSkyBlue);
+  color: var(--white);
+  font-family: "inter-medium", Courier, monospace;
+}
+
+.trading__right {
+  background-image: url("../../assets/images/trading-2.png");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 30rem;
+  border-radius: 2rem;
+}
+
+.trading__right-image {
+  width: 30rem;
+  height: 30rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
