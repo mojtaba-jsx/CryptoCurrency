@@ -48,5 +48,92 @@
 /* *=================================================== */
 
 /* ^======================== */
-/*^ Latest News Section */
+/*^ Touch Section */
 /* ^========================*/
+
+.touch {
+  margin-top: 8rem;
+}
+
+.touch__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.touch__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.touch__left__top {
+  display: flex;
+  align-items: center;
+}
+
+.touch__left__top-title {
+  font-size: 4rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.touch__left__top-image {
+  margin-left: 1rem;
+}
+
+.touch__left__botttom-text {
+  width: 30rem;
+  font-family: "inter-medium", Courier, monospace;
+  line-height: 1.2rem;
+  color: var(--boulder);
+}
+
+.touch__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.touch__right__phone,
+.touch__right__email {
+  padding: 1rem;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.touch__right__phone,
+.touch__right__email {
+  border: 1px solid #dadada;
+  border-radius: 4rem;
+}
+.touch__right__phone {
+  margin-bottom: 2rem;
+}
+
+.touch__right__phone-data,
+.touch__right__email-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.touch__right__phone-image,
+.touch__right__email-image {
+  width: 4rem;
+  height: 4rem;
+}
+
+.touch__right__phone-data-title,
+.touch__right__email-data-title {
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 1rem;
+}
+
+.touch__right__phone-data-number,
+.touch__right__email-data-email {
+  font-family: "inter-medium", Courier, monospace;
+  font-size: 1.2rem;
+}
