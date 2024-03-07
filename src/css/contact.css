@@ -138,3 +138,105 @@
   font-family: "inter-medium", Courier, monospace;
   font-size: 1.2rem;
 }
+
+/* ^======================== */
+/*^ Form Section */
+/* ^========================*/
+
+.form {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+}
+.form__wrapper {
+  background-image: url("../../assets/images/Form.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height:34rem; */
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input__row1,
+.form-input__row2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.form-input__row1__name,
+.form-input__row1__email,
+.form-input__row2__company,
+.form-input__row2__subject {
+  display: flex;
+  flex-direction: column;
+}
+.form-input__row1__name-label,
+.form-input__row1__email-label,
+.form-input__row2__company-label,
+.form-input__row2__subject-label,
+.form-input__row3-label {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-family: "inter-medium", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.form-input__row1__name-input,
+.form-input__row1__email-input,
+.form-input__row2__company-input,
+.form-input__row2__subject-input {
+  padding: 1rem 8rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.form-input__row1__name-input::placeholder,
+.form-input__row1__email-input::placeholder,
+.form-input__row2__company-input::placeholder,
+.form-input__row2__subject-input::placeholder {
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--darkJungleGreen);
+}
+
+.form-input__row3-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  resize: none;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.form-input__row3-input::placeholder {
+  font-family: "inter-medium", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.form-input-btn {
+  width: 14rem;
+  height: 3.4rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: var(--darkJungleGreen);
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--white);
+}
