@@ -290,24 +290,25 @@
     margin-bottom: 2rem;
   }
   /*! ====Chart Section==== */
-  .chart__wrapper{
+  .chart__wrapper {
     flex-direction: column-reverse;
   }
   .chart {
     margin-top: 20rem;
   }
-  .chart__left,.chart__right{
+  .chart__left,
+  .chart__right {
     width: 80%;
   }
-  .chart__right__title{
-    text-align: center;
-    margin:  0 auto;
-  }
-  .chart__right-text{
+  .chart__right__title {
     text-align: center;
     margin: 0 auto;
   }
-  .chart__right-btn{
+  .chart__right-text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .chart__right-btn {
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
@@ -491,6 +492,19 @@
   .writer__right__bottom-text {
     text-align: center;
     margin: 0 auto;
+  }
+  /*! ====Touch Section==== */
+  .touch__wrapper {
+    flex-direction: column;
+  }
+  .touch__left {
+    margin-bottom: 2rem;
+  }
+  .touch__left__botttom-text {
+    text-align: center;
+  }
+  .touch__left__top {
+    margin-bottom: 1rem;
   }
 }
 
@@ -899,14 +913,14 @@
     height: 25rem;
   }
   /*! ====Chart Section==== */
-  .chart__left-image{
+  .chart__left-image {
     width: 25rem;
     height: 25rem;
   }
-  .chart__left{
+  .chart__left {
     height: 25rem;
   }
-  .chart__right-text{
+  .chart__right-text {
     width: 25rem;
   }
 }
@@ -1157,15 +1171,27 @@
     line-height: 1.4rem;
   }
   /*! ====Chart Section==== */
-  .chart__left-image{
+  .chart__left-image {
     width: 20rem;
     height: 20rem;
   }
-  .chart__left{
+  .chart__left {
     height: 20rem;
   }
-  .chart__right-text{
+  .chart__right-text {
     width: 20rem;
+  }
+  /*! ====Touch Section==== */
+  .touch__left__top-title {
+    font-size: 2.8rem;
+    margin: 0 auto;
+  }
+  .touch__left__top-image {
+    width: 5rem;
+    height: 5rem;
+  }
+  .touch__left__botttom-text {
+    width: 25rem;
   }
 }
 
@@ -1375,13 +1401,13 @@
     width: 16rem;
     height: 16rem;
   }
-  .trading__right{
+  .trading__right {
     height: 18rem;
   }
-  .trading__left-text{
+  .trading__left-text {
     width: 20rem;
   }
-  .trading__left__title{
+  .trading__left__title {
     width: 20rem;
   }
 }
@@ -1469,6 +1495,16 @@
   }
   .blog-info__texts-qoute-comma {
     font-size: 1.5rem;
+  }
+  /*! ====Touch Section==== */
+  .touch__right__phone,
+  .touch__right__email {
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .touch__right__email-data {
+    margin-left: 2rem;
   }
 }
 
@@ -1626,15 +1662,39 @@
     width: 16rem;
   }
   /*! ====Chart Section==== */
-  .chart__left-image{
+  .chart__left-image {
     width: 16rem;
     height: 16rem;
   }
-  .chart__left{
+  .chart__left {
     width: 18rem;
   }
-  .chart__right__title{
+  .chart__right__title {
     width: 16rem;
+  }
+  /*! ====Touch Section==== */
+  .touch__left__botttom-text {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .touch__left__top-title {
+    font-size: 2rem;
+  }
+  .touch__left__top-image {
+    width: 4rem;
+    height: 4rem;
+  }
+  .touch__right__phone-data-title,
+  .touch__right__email-data-title {
+    font-size: 1.2rem;
+  }
+  .touch__right__phone-data-number,
+  .touch__right__email-data-email {
+    font-size: 1rem;
+  }
+  .touch__right__phone,
+  .touch__right__email {
+    padding: 0.5rem;
   }
 }
 
@@ -1739,19 +1799,19 @@
     font-size: 1.2rem;
   }
   /*! ====Trading Section==== */
-  .trading__left-text{
+  .trading__left-text {
     width: 16rem;
   }
-  .trading__left__title{
+  .trading__left__title {
     width: 18rem;
   }
-    /*! ====Chart Section==== */
-    .chart__right-text{
-      width: 16rem;
-    }
-    .chart__right__title{
-      font-size: 1.8rem;
-    }
+  /*! ====Chart Section==== */
+  .chart__right-text {
+    width: 16rem;
+  }
+  .chart__right__title {
+    font-size: 1.8rem;
+  }
 }
 
 /* *  ------------------------365px------------------------ */
@@ -1765,7 +1825,6 @@
 
 /* *  ------------------------357px------------------------ */
 @media screen and (max-width: 357px) {
-
 }
 
 /* *  ------------------------350px------------------------ */
