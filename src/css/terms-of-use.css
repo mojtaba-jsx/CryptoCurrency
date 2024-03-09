@@ -1,0 +1,52 @@
+/** ========Import Css Modules======== */
+@import "./reset.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./mobile-menu.css";
+
+/** ========Css Variables======== */
+:root {
+  --cornFlower: #7781ff;
+  --brightSkyBlue: #27caea;
+  --darkJungleGreen: #212326;
+  --boulder: #797979;
+  --white: #ffff;
+}
+
+/** ========Button Colors ======== */
+.btn-gradient {
+  background: rgb(255, 81, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 81, 150, 1) 0%,
+    rgba(119, 130, 255, 1) 32%,
+    rgba(37, 246, 255, 1) 69%
+  );
+}
+
+.btn-gunMetal {
+  background-color: #263238;
+}
+
+.btn-aquaHaze {
+  background-color: #f3f3f3;
+}
+
+.btn-white {
+  background-color: #ffffff;
+}
+
+/** ========Container Size ======== */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* *=================================================== */
+/**=====Main Section===== */
+/* *=================================================== */
+
+/* ^======================== */
+/*^ Touch Section */
+/* ^========================*/
