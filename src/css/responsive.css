@@ -322,6 +322,70 @@
   }
 }
 
+/* *  ------------------------1140px------------------------ */
+@media screen and (max-width: 1140px) {
+  /*! ====Choice Section==== */
+  .choice__window {
+    width: 60rem;
+  }
+  /*! ====Clients Section==== */
+  .clients__wrapper {
+    flex-direction: column;
+  }
+  .clients__left-title,
+  .clients__left-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .clients__right-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  /*! ====Trusted Section==== */
+  .trusted-icon1 {
+    width: 14rem;
+    height: 14rem;
+    right: 4rem;
+    top: 18rem;
+  }
+
+  /*! ====Blog Title Section==== */
+  .blog-title__icon1 {
+    right: 2rem;
+    top: 20rem;
+  }
+  .blog-title__icon2 {
+    bottom: -10rem;
+  }
+
+  /*! ====Blog Info Section==== */
+  .blog-info__image {
+    width: 40rem;
+  }
+  /*! ====Terms Section==== */
+  .terms__wrapper {
+    flex-direction: column;
+    position: relative;
+  }
+  .terms__texts {
+    order: 1;
+  }
+  .terms__image1 {
+    position: absolute;
+    order: 2;
+    top: 16rem;
+    left: 4rem;
+  }
+  .terms__image2 {
+    position: absolute;
+    order: 3;
+    top: 16rem;
+    right: 4rem;
+  }
+}
+
 /* *  ------------------------1085px------------------------ */
 @media screen and (max-width: 1085px) {
   /*! ====Navbar Menu==== */
@@ -371,50 +435,6 @@
   .form-input__row2__company-input,
   .form-input__row2__subject-input {
     margin-bottom: 2rem;
-  }
-}
-
-/* *  ------------------------1140px------------------------ */
-@media screen and (max-width: 1140px) {
-  /*! ====Choice Section==== */
-  .choice__window {
-    width: 60rem;
-  }
-  /*! ====Clients Section==== */
-  .clients__wrapper {
-    flex-direction: column;
-  }
-  .clients__left-title,
-  .clients__left-text {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  .clients__right-box {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-  }
-
-  /*! ====Trusted Section==== */
-  .trusted-icon1 {
-    width: 14rem;
-    height: 14rem;
-    right: 4rem;
-    top: 18rem;
-  }
-
-  /*! ====Blog Title Section==== */
-  .blog-title__icon1 {
-    right: 2rem;
-    top: 20rem;
-  }
-  .blog-title__icon2 {
-    bottom: -10rem;
-  }
-
-  /*! ====Blog Info Section==== */
-  .blog-info__image {
-    width: 40rem;
   }
 }
 
@@ -1102,6 +1122,15 @@
   .trading__right {
     height: 22rem;
   }
+  /*! ====Terms Section==== */
+  .terms__texts-text {
+    width: 25rem;
+  }
+  .terms__image1,
+  .terms__image2 {
+    width: 8rem;
+    height: 10rem;
+  }
 }
 
 /* *  ------------------------545px------------------------ */
@@ -1260,15 +1289,15 @@
   .form-input__row1__email-input,
   .form-input__row2__company-input,
   .form-input__row2__subject-input {
-   width: 20rem;
-   padding: 1rem 1rem;
+    width: 20rem;
+    padding: 1rem 1rem;
   }
   .form-input__row1__name-input::placeholder,
-.form-input__row1__email-input::placeholder,
-.form-input__row2__company-input::placeholder,
-.form-input__row2__subject-input::placeholder {
-  text-align: center;
-}
+  .form-input__row1__email-input::placeholder,
+  .form-input__row2__company-input::placeholder,
+  .form-input__row2__subject-input::placeholder {
+    text-align: center;
+  }
 }
 
 /* *  ------------------------500px------------------------ */
@@ -1735,6 +1764,18 @@
   .touch__right__email {
     padding: 0.5rem;
   }
+  /*! ====Terms Section==== */
+  .terms__texts-title {
+    font-size: 3.4rem;
+  }
+  .terms__image1,
+  .terms__image2 {
+    width: 6rem;
+    height: 8rem;
+  }
+  .terms__texts-text {
+    width: 20rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -1796,13 +1837,13 @@
   .security__left-point {
     width: 18rem;
   }
-    /*! ====Form Section==== */
-    .form-input__row1__name-input,
-    .form-input__row1__email-input,
-    .form-input__row2__company-input,
-    .form-input__row2__subject-input {
-     width: 16rem;
-    }
+  /*! ====Form Section==== */
+  .form-input__row1__name-input,
+  .form-input__row1__email-input,
+  .form-input__row2__company-input,
+  .form-input__row2__subject-input {
+    width: 16rem;
+  }
 }
 
 /* *  ------------------------380px------------------------ */
@@ -1896,6 +1937,18 @@
   .brands-row2 svg {
     width: 6rem;
     height: 6rem;
+  }
+  /*! ====Terms Section==== */
+  .terms__texts-title {
+    font-size: 2.8rem;
+  }
+  .terms__image1,
+  .terms__image2 {
+    width: 4rem;
+    height: 6rem;
+  }
+  .terms__texts-text {
+    width: 18rem;
   }
 }
 
