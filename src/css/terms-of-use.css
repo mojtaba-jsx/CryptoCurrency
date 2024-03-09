@@ -48,5 +48,54 @@
 /* *=================================================== */
 
 /* ^======================== */
-/*^ Touch Section */
+/*^ Terms Section */
 /* ^========================*/
+.terms {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.terms__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.terms__image1 {
+  width: 10rem;
+  height: 12rem;
+}
+.terms__image2 {
+  width: 10rem;
+  height: 12rem;
+}
+
+.terms__texts-date {
+  background-color: #d3f4e4;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  display: block;
+  width: 14rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #42b57e;
+  font-family: "inter-bold", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.terms__texts-title{
+  font-size:4rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.terms__texts-text{
+  text-align: center;
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--boulder);
+  width: 34rem;
+  font-size: 1,2rem;
+  margin-top: 2rem;
+  line-height: 1.4rem;
+}
