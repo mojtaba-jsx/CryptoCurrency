@@ -384,6 +384,10 @@
     top: 16rem;
     right: 4rem;
   }
+  /*! ====Texts Section==== */
+  .texts {
+    margin-top: 20rem;
+  }
 }
 
 /* *  ------------------------1085px------------------------ */
@@ -743,6 +747,10 @@
     font-size: 3.2rem;
     width: 40rem;
   }
+  /*! ====Texts Section==== */
+  .texts__box {
+    width: 30rem;
+  }
 }
 
 /* *  ------------------------740px------------------------ */
@@ -1016,6 +1024,11 @@
   }
   .features__texts-text {
     width: 24rem;
+  }
+  /*! ====Texts Section==== */
+  .texts__box {
+    width: 20rem;
+    height: auto;
   }
 }
 
@@ -1776,6 +1789,11 @@
   .terms__texts-text {
     width: 20rem;
   }
+    /*! ====Texts Section==== */
+    .texts__box {
+      width: 14rem;
+      height: auto;
+    }
 }
 
 /* *  ------------------------400px------------------------ */
