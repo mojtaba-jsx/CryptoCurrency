@@ -555,6 +555,26 @@
   .touch__left__top {
     margin-bottom: 1rem;
   }
+  /*! ====Privacy Section==== */
+  .privacy__wrapper {
+    flex-direction: column;
+    position: relative;
+  }
+  .privacy__texts {
+    order: 1;
+  }
+  .privacy__image1 {
+    order: 2;
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+  }
+  .privacy__image2 {
+    order: 3;
+    position: absolute;
+    top: 18rem;
+    right: 2rem;
+  }
 }
 
 /* *  ------------------------945px------------------------ */
@@ -1081,6 +1101,29 @@
   .writer__right__bottom-text {
     width: 20rem;
   }
+  /*! ====Privacy Section==== */
+
+  .privacy__image1 {
+    order: 2;
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+    width: 8rem;
+    height: 9rem;
+  }
+  .privacy__image2 {
+    order: 3;
+    position: absolute;
+    top: 18rem;
+    right: 2rem;
+    width: 8rem;
+    height: 9rem;
+  }
+  .privacy__texts-text {
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
 }
 
 /* *  ------------------------564px------------------------ */
@@ -1491,6 +1534,34 @@
   .trading__left__title {
     width: 20rem;
   }
+  /*! ====Privacy Section==== */
+  .privacy__image1 {
+    order: 2;
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+    width: 6rem;
+    height: 7rem;
+  }
+  .privacy__image2 {
+    order: 3;
+    position: absolute;
+    top: 18rem;
+    right: 2rem;
+    width: 6rem;
+    height: 7rem;
+  }
+  .privacy__texts-text {
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .privacy__texts-title {
+    font-size: 3.2rem;
+  }
+  .privacy__texts-text {
+    width: 25rem;
+  }
 }
 
 /* *  ------------------------460px------------------------ */
@@ -1789,11 +1860,29 @@
   .terms__texts-text {
     width: 20rem;
   }
-    /*! ====Texts Section==== */
-    .texts__box {
-      width: 14rem;
-      height: auto;
-    }
+  /*! ====Privacy Section==== */
+  .privacy__image1 {
+    order: 2;
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+    width: 5rem;
+    height: 6rem;
+  }
+  .privacy__image2 {
+    order: 3;
+    position: absolute;
+    top: 18rem;
+    right: 2rem;
+    width: 5rem;
+    height: 6rem;
+  }
+  .privacy__texts-title {
+    font-size: 2.4rem;
+  }
+  .privacy__texts-text {
+    width: 16rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
