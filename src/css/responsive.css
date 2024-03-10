@@ -575,6 +575,11 @@
     top: 18rem;
     right: 2rem;
   }
+  /*! ====Privacy Texts Section==== */
+  .privacy-texts{
+    margin-top: 30rem;
+  }
+
 }
 
 /* *  ------------------------945px------------------------ */
@@ -885,6 +890,10 @@
   /*! ====Blog Info Section==== */
   .blog-info__texts-text {
     width: 30rem;
+  }
+  /*! ====Privacy Texts Section==== */
+  .privacy-texts__title{
+    font-size: 1.4rem;
   }
 }
 
