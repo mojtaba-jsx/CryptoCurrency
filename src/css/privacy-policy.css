@@ -5,7 +5,6 @@
 @import "./footer.css";
 @import "./mobile-menu.css";
 
-
 /** ========Css Variables======== */
 :root {
   --cornFlower: #7781ff;
@@ -44,11 +43,51 @@
   margin: 0 auto;
 }
 
-
 /* *=================================================== */
 /**=====Main Section===== */
 /* *=================================================== */
 
 /* ^================== */
-/*^ Landing Section */
+/*^ Privacy Section */
 /* ^==================*/
+
+.privacy {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.privacy__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.privacy__texts-date {
+  background-color: #d3f4e4;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  display: block;
+  width: 14rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #42b57e;
+  font-family: "inter-bold", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.privacy__texts-title {
+  font-size: 4rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.privacy__texts-text {
+  text-align: center;
+  font-family: "inter-medium", Courier, monospace;
+  color: var(--boulder);
+  width: 34rem;
+  font-size: 1, 2rem;
+  margin-top: 2rem;
+  line-height: 1.4rem;
+}
