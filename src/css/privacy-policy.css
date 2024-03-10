@@ -91,3 +91,42 @@
   margin-top: 2rem;
   line-height: 1.4rem;
 }
+
+
+/* ^====================== */
+/*^ Privacy texts Section */
+/* ^======================*/
+
+
+.privacy-texts__wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid var(--boulder);
+  padding-top: 4rem;
+}
+
+.privacy-texts__title{
+  font-size: 2rem;
+  font-family: 'inter-bold', Courier, monospace;
+  margin-bottom: 1rem;
+}
+
+.privacy-texts__text{
+  font-family: 'inter-medium', Courier, monospace;
+  text-align: justify;
+  line-height: 1.4rem;
+  color: var(--boulder);
+  margin-bottom: 1rem;
+}
+
+.privacy-texts__text-highlight-black{
+  font-family: 'inter-bold', Courier, monospace;
+  color: var(--darkJungleGreen);
+}
+
+.privacy-texts__text-highlight-blue{
+  font-family: 'inter-bold', Courier, monospace;
+  color: var(--cornFlower);
+}
