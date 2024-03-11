@@ -388,6 +388,13 @@
   .texts {
     margin-top: 20rem;
   }
+  /*! ====Not Found Section==== */
+  .not-found__image1 {
+    left: 8rem;
+  }
+  .not-found__image3 {
+    right: 8rem;
+  }
 }
 
 /* *  ------------------------1085px------------------------ */
@@ -576,14 +583,23 @@
     right: 2rem;
   }
   /*! ====Privacy Texts Section==== */
-  .privacy-texts{
+  .privacy-texts {
     margin-top: 30rem;
   }
-
 }
 
 /* *  ------------------------945px------------------------ */
 @media screen and (max-width: 945px) {
+  /*! ====Not Found Section==== */
+  .not-found__image1 {
+    left: 4rem;
+  }
+  .not-found__image3 {
+    right: 4rem;
+  }
+  .not-found__image2 {
+    left: 4rem;
+  }
 }
 
 /* *  ------------------------940px------------------------ */
@@ -729,6 +745,29 @@
   }
   .blog-info__texts-qoute-text {
     font-size: 1.4rem;
+  }
+  /*! ====Not Found Section==== */
+  .not-found__image1,
+  .not-found__image2,
+  .not-found__image3,
+  .not-found__image4 {
+    width: 6rem;
+    height: 7rem;
+  }
+  .not-found__texts {
+    padding-top: 2rem;
+  }
+  .not-found__image1 {
+    top: 40rem;
+  }
+  .not-found__image4 {
+    top: 40rem;
+  }
+  .not-found__image3 {
+    top: 30rem;
+  }
+  .not-found__image2 {
+    top: 30rem;
   }
 }
 
@@ -892,7 +931,7 @@
     width: 30rem;
   }
   /*! ====Privacy Texts Section==== */
-  .privacy-texts__title{
+  .privacy-texts__title {
     font-size: 1.4rem;
   }
 }
@@ -1362,6 +1401,14 @@
   .form-input__row2__company-input::placeholder,
   .form-input__row2__subject-input::placeholder {
     text-align: center;
+  }
+  /*! ====Not Found Section==== */
+  .not-found__texts-text {
+    width: 25rem;
+  }
+  .not-found__texts-subtitle {
+    width: 25rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -1891,6 +1938,26 @@
   }
   .privacy__texts-text {
     width: 16rem;
+  }
+  /*! ====Not Found Section==== */
+  .not-found__texts-text {
+    width: 18rem;
+  }
+  .not-found__texts-title {
+    font-size: 5rem;
+  }
+  .not-found__btn {
+    font-size: 1rem;
+  }
+  .not-found__texts-subtitle {
+    width: 20rem;
+  }
+  .not-found__image1,
+  .not-found__image2,
+  .not-found__image3,
+  .not-found__image4 {
+    width: 4rem;
+    height: 5rem;
   }
 }
 
