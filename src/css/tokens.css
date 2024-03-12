@@ -48,5 +48,33 @@
 /* *=================================================== */
 
 /* ^================== */
-/*^ Privacy Section */
+/*^ Tokens Section */
 /* ^==================*/
+
+.tokens{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.tokens__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tokens__texts-title{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'inter-bold', Courier, monospace;
+}
+
+.tokens__texts-text{
+    text-align: center;
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    line-height: 1.4rem;
+    color: var(--boulder);
+    font-family: 'inter-medium', Courier, monospace;
+
+}
