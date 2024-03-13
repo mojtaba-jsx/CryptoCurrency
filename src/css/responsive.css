@@ -75,6 +75,11 @@
     margin-right: 2rem;
     margin-left: 2rem;
   }
+  /*! ====Table Section==== */
+  .table {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -600,6 +605,10 @@
     right: 0;
     top: 10rem;
   }
+  /*! ====Table Section==== */
+  .table {
+    margin-top: 20rem;
+  }
 }
 
 /* *  ------------------------945px------------------------ */
@@ -828,6 +837,10 @@
   /*! ====Texts Section==== */
   .texts__box {
     width: 30rem;
+  }
+  /*! ====Table Section==== */
+  .table {
+    overflow-x: scroll;
   }
 }
 

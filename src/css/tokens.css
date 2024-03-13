@@ -148,12 +148,12 @@ td:nth-child(6) {
   color: var(--cornFlower);
 }
 
-.table__header:nth-child(6) {
+/* .table__header:nth-child(6) {
   border-top-right-radius: 1rem;
 }
 .table__header:nth-child(1) {
   border-top-left-radius: 1rem;
-}
+} */
 
 tr {
   transition: all 140ms ease-in;
