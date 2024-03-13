@@ -1,0 +1,216 @@
+    <section class="table">
+      <div class="container">
+        <div class="table__wrapper">
+          <table id="table-chart">
+            <tr>
+              <th class="table__header">Name</th>
+              <th class="table__header">Price</th>
+              <th class="table__header">24h Change</th>
+              <th class="table__header">Volume</th>
+              <th class="table__header">Market Cap</th>
+              <th class="table__header">Info</th>
+            </tr>
+            <tr class="table__row">
+              <td class="table__data">
+                <div class="table__data__box">
+                  <img
+                    src="../../assets/images/bitcoin.png"
+                    alt="image"
+                    class="table__data__box-image"
+                  />
+                  BTC
+                  <span class="table__data__box-name">BitCoin</span>
+                </div>
+              </td>
+              <td class="table__data">$31,743.11000</td>
+              <td class="table__data">+3.35%</td>
+              <td class="table__data">$31,743.11000</td>
+              <td class="table__data">$5,653.11000</td>
+              <td class="table__data">
+                <a href="#" class="table__data-link">Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="table__data">
+                <div class="table__data__box">
+                  <img
+                    src="../../assets/images/bitcoin.png"
+                    alt="image"
+                    class="table__data__box-image"
+                  />
+                  BTC
+                  <span class="table__data__box-name">BitCoin</span>
+                </div>
+              </td>
+              <td>$31,743.11000</td>
+              <td>+3.35%</td>
+              <td>$31,743.11000</td>
+              <td>$5,653.11000</td>
+              <td>
+                <a href="#" class="table__data-link">Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="table__data">
+                <div class="table__data__box">
+                  <img
+                    src="../../assets/images/bitcoin.png"
+                    alt="image"
+                    class="table__data__box-image"
+                  />
+                  BTC
+                  <span class="table__data__box-name">BitCoin</span>
+                </div>
+              </td>
+              <td>$31,743.11000</td>
+              <td>+3.35%</td>
+              <td>$31,743.11000</td>
+              <td>$5,653.11000</td>
+              <td>
+                <a href="#" class="table__data-link">Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="table__data">
+                <div class="table__data__box">
+                  <img
+                    src="../../assets/images/bitcoin.png"
+                    alt="image"
+                    class="table__data__box-image"
+                  />
+                  BTC
+                  <span class="table__data__box-name">BitCoin</span>
+                </div>
+              </td>
+              <td>$31,743.11000</td>
+              <td>+3.35%</td>
+              <td>$31,743.11000</td>
+              <td>$5,653.11000</td>
+              <td>
+                <a href="#" class="table__data-link">Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="table__data">
+                <div class="table__data__box">
+                  <img
+                    src="../../assets/images/bitcoin.png"
+                    alt="image"
+                    class="table__data__box-image"
+                  />
+                  BTC
+                  <span class="table__data__box-name">BitCoin</span>
+                </div>
+              </td>
+              <td>$31,743.11000</td>
+              <td>+3.35%</td>
+              <td>$31,743.11000</td>
+              <td>$5,653.11000</td>
+              <td>
+                <a href="#" class="table__data-link">Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="table__data">
+                <div class="table__data__box">
+                  <img
+                    src="../../assets/images/bitcoin.png"
+                    alt="image"
+                    class="table__data__box-image"
+                  />
+                  BTC
+                  <span class="table__data__box-name">BitCoin</span>
+                </div>
+              </td>
+              <td>$31,743.11000</td>
+              <td>+3.35%</td>
+              <td>$31,743.11000</td>
+              <td>$5,653.11000</td>
+              <td>
+                <a href="#" class="table__data-link">Detail</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    
+.table {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+#table-chart {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  transition: all 140ms ease-in;
+}
+
+#table-chart td,
+#table-chart th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: "inter-medium", Courier, monospace;
+
+}
+#table-chart th {
+  height: 4rem;
+  line-height: 2rem;
+}
+
+#table-chart tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table-chart tr:hover {
+  background-color: var(--cornFlower);
+  color: var(--white);
+  cursor: pointer;
+}
+
+#table-chart th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #263238;
+  color: white;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.table__data {
+  align-items: center;
+}
+
+.table__data__box {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.table__data__box-name {
+  margin-left: 1rem;
+}
+.table__data__box-image {
+  margin-right: 1rem;
+}
+
+.table__data__box-name {
+  color: var(--boulder);
+}
+td:nth-child(3) {
+  color: #3eba59;
+}
+td:nth-child(6) {
+  color: var(--cornFlower);
+}
