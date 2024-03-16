@@ -80,6 +80,13 @@
     margin-right: 2rem;
     margin-left: 2rem;
   }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 70rem;
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -172,6 +179,13 @@
 /* *  ------------------------1230px------------------------ */
 
 @media screen and (max-width: 1230px) {
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 60rem;
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------1200px------------------------ */
@@ -452,6 +466,13 @@
   .form-input__row2__subject-input {
     margin-bottom: 2rem;
   }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 50rem;
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------980px------------------------ */
@@ -665,6 +686,13 @@
     right: 14rem;
     bottom: -4rem;
   }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 44rem;
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------900px------------------------ */
@@ -842,6 +870,13 @@
   .table {
     overflow-x: scroll;
   }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 38rem;
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------740px------------------------ */
@@ -914,6 +949,13 @@
   /*! ====Believe Section==== */
   .believe__top-right-text {
     width: 34rem;
+  }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 34rem;
+    margin: 0 auto;
   }
 }
 
@@ -1070,6 +1112,17 @@
   }
   .chart__right-text {
     width: 25rem;
+  }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 28rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  canvas {
+    height: 20rem;
   }
 }
 
@@ -1263,10 +1316,9 @@
     height: 10rem;
   }
   /*! ====Coin Section==== */
-  .coin__text{
+  .coin__text {
     width: 25rem;
   }
-
 }
 
 /* *  ------------------------545px------------------------ */
@@ -1301,6 +1353,23 @@
   .blog-info__texts-list2,
   .blog-info__texts-text {
     width: 25rem;
+  }
+  /*! ====Chart Section==== */
+  .chart__wrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .chart__title__left-text {
+    font-size: 1rem;
+  }
+  .chart__title__right-box1,
+  .chart__title__right-box2,
+  .chart__title__right-box3 {
+    width: 1.4rem;
+    height: 1.4rem;
   }
 }
 
@@ -2030,19 +2099,27 @@
   .tokens__texts-title {
     font-size: 3.4rem;
   }
-    /*! ====Coin Section==== */
-    .coin__text{
-      width: 22rem;
-    }
-    .coin__title-name{
-      font-size: 2.8rem;
-    }
-    .coin__title-logo{
-      width: 2.2rem;
-      height: 2.2rem;
-    }
-    .coin__price-value{
-      font-size: 1.4rem;
+  /*! ====Coin Section==== */
+  .coin__text {
+    width: 22rem;
+  }
+  .coin__title-name {
+    font-size: 2.8rem;
+  }
+  .coin__title-logo {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  .coin__price-value {
+    font-size: 1.4rem;
+  }
+    /*! ====Chart Section==== */
+    .chart__wrapper {
+      margin-right: 2rem;
+      margin-left: 2rem;
+      width: 18rem;
+      margin: 0 auto;
+      margin-bottom: 4rem;
     }
 }
 
@@ -2176,10 +2253,10 @@
     width: 14rem;
     margin: 0 auto;
   }
-    /*! ====Coin Section==== */
-.coin__text{
-  width: 18rem;
-}
+  /*! ====Coin Section==== */
+  .coin__text {
+    width: 18rem;
+  }
 }
 
 /* *  ------------------------357px------------------------ */
