@@ -48,5 +48,65 @@
 /* *=================================================== */
 
 /* ^================== */
-/*^ Tokens Section */
+/*^ Coin Section */
 /* ^==================*/
+.coin{
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.coin__wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coin__title{
+  display: flex;
+  align-items: center;
+
+}
+.coin__title-name{
+  font-size: 4rem;
+  font-family: 'inter-bold', Courier, monospace;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.coin__title-logo{
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.coin__title-Abbreviation{
+  font-family: 'inter-medium', Courier, monospace;
+  color: var(--boulder);
+
+}
+
+.coin__text{
+  color: var(--boulder);
+  font-family: 'inter-medium', Courier, monospace;
+  width: 34rem;
+  text-align: center;
+  line-height: 1.2rem;
+  margin-top: 1rem;
+}
+
+.coin__price{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.coin__price-value{
+  font-family: 'inter-bold', Courier, monospace;
+  font-size: 2rem;
+}
+
+.coin__price-cahnges{
+  font-family: 'inter-medium', Courier, monospace;
+  color: #3EBA59;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
