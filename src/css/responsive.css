@@ -1262,6 +1262,11 @@
     width: 8rem;
     height: 10rem;
   }
+  /*! ====Coin Section==== */
+  .coin__text{
+    width: 25rem;
+  }
+
 }
 
 /* *  ------------------------545px------------------------ */
@@ -2025,6 +2030,20 @@
   .tokens__texts-title {
     font-size: 3.4rem;
   }
+    /*! ====Coin Section==== */
+    .coin__text{
+      width: 22rem;
+    }
+    .coin__title-name{
+      font-size: 2.8rem;
+    }
+    .coin__title-logo{
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+    .coin__price-value{
+      font-size: 1.4rem;
+    }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -2157,6 +2176,10 @@
     width: 14rem;
     margin: 0 auto;
   }
+    /*! ====Coin Section==== */
+.coin__text{
+  width: 18rem;
+}
 }
 
 /* *  ------------------------357px------------------------ */
