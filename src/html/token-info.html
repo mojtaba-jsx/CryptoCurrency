@@ -144,31 +144,60 @@
     </header>
 
     <!-- !=======================Main Section======================= -->
-    <section class="coin">
-      <div class="container">
-        <div class="coin__wrapper">
-          <div class="coin__title">
-            <img
-              src="../../assets/images/bitcoin.png"
-              alt="image"
-              class="coin__title-logo"
-            />
-            <h1 class="coin__title-name">BitCoin</h1>
-            <span class="coin__title-Abbreviation">(BTC)</span>
-          </div>
-          <p class="coin__text">
-            Free equity investments and flat ₹20 intraday and F&O trades even
-            higher earning rates and our lowest borrowing rates.
-          </p>
-          <div class="coin__price">
-            <span class="coin__price-value">$ 30,484.71</span>
-            <span class="coin__price-cahnges">+2.26%</span>
+    <main class="main">
+      <!-- *========Coin Section======== -->
+      <section class="coin">
+        <div class="container">
+          <div class="coin__wrapper">
+            <div class="coin__title">
+              <img
+                src="../../assets/images/bitcoin.png"
+                alt="image"
+                class="coin__title-logo"
+              />
+              <h1 class="coin__title-name">BitCoin</h1>
+              <span class="coin__title-Abbreviation">(BTC)</span>
+            </div>
+            <p class="coin__text">
+              Free equity investments and flat ₹20 intraday and F&O trades even
+              higher earning rates and our lowest borrowing rates.
+            </p>
+            <div class="coin__price">
+              <span class="coin__price-value">$ 30,484.71</span>
+              <span class="coin__price-cahnges">+2.26%</span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <!-- *========Chart Section======== -->
+      <section class="chart">
+        <div class="container">
+          <div class="chart__wrapper">
+            <div class="chart__title">
+              <div class="chart__title__left">
+                <span class="chart__title__left-text">
+                  Token Chart
+                </span>
+              </div>
+              <div class="chart__title__right">
+                <span class="chart__title__right-box1"></span>
+                <span class="chart__title__right-box2"></span>
+                <span class="chart__title__right-box3"></span>
+              </div>
+            </div>
+            <canvas id="myChart" width=""></canvas>
+          </div>
+        </div>
+      </section>
+
+    </main>
 
     <!-- !=======================Js Scripts======================= -->
+    <script src="../../vendor/chart js/chart.min.js"></script>
+    <script src="../../vendor/chart js/chart.umd.js"></script>
+    <script src="../../vendor/chart js/helpers.js"></script>
+    <script src="../js/token-info.js"></script>
     <script src="../js/shared.js"></script>
   </body>
 </html>

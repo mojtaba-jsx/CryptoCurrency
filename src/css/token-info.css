@@ -50,63 +50,113 @@
 /* ^================== */
 /*^ Coin Section */
 /* ^==================*/
-.coin{
+.coin {
   margin-top: 4rem;
   margin-bottom: 8rem;
 }
 
-.coin__wrapper{
+.coin__wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.coin__title{
+.coin__title {
   display: flex;
   align-items: center;
-
 }
-.coin__title-name{
+.coin__title-name {
   font-size: 4rem;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.coin__title-logo{
+.coin__title-logo {
   width: 3.4rem;
   height: 3.4rem;
 }
 
-.coin__title-Abbreviation{
-  font-family: 'inter-medium', Courier, monospace;
+.coin__title-Abbreviation {
+  font-family: "inter-medium", Courier, monospace;
   color: var(--boulder);
-
 }
 
-.coin__text{
+.coin__text {
   color: var(--boulder);
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
   width: 34rem;
   text-align: center;
   line-height: 1.2rem;
   margin-top: 1rem;
 }
 
-.coin__price{
+.coin__price {
   margin-top: 2rem;
   display: flex;
   align-items: center;
 }
 
-.coin__price-value{
-  font-family: 'inter-bold', Courier, monospace;
+.coin__price-value {
+  font-family: "inter-bold", Courier, monospace;
   font-size: 2rem;
 }
 
-.coin__price-cahnges{
-  font-family: 'inter-medium', Courier, monospace;
-  color: #3EBA59;
+.coin__price-cahnges {
+  font-family: "inter-medium", Courier, monospace;
+  color: #3eba59;
   font-size: 1.4rem;
   margin-left: 1rem;
+}
+
+/* ^================== */
+/*^ Chart Section */
+/* ^==================*/
+.chart__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  border: 1px solid var(--darkJungleGreen);
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.chart__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--darkJungleGreen);
+  padding-bottom: 1rem;
+}
+
+.chart__title__left-text {
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.chart__title__right {
+  display: flex;
+  align-items: center;
+}
+
+.chart__title__right-box1,
+.chart__title__right-box2,
+.chart__title__right-box3 {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.chart__title__right-box1 {
+  background-color: #5cd29a;
+  border-radius: 50%;
+}
+.chart__title__right-box2 {
+  background-color: #ffb039;
+  border-radius: 50%;
+}
+.chart__title__right-box3 {
+  background-color: #ff6868;
+  border-radius: 50%;
 }
