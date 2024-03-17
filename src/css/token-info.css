@@ -112,15 +112,18 @@
 /* ^================== */
 /*^ Chart Section */
 /* ^==================*/
-.chart__wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 4rem;
+.chart {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-bottom: 4rem;
   border: 1px solid var(--darkJungleGreen);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2rem;
-  margin-bottom: 2rem;
 }
+.main{
+  height:100rem;
+}
+
 
 .chart__title {
   display: flex;
@@ -160,4 +163,3 @@
   background-color: #ff6868;
   border-radius: 50%;
 }
-

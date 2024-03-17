@@ -25,6 +25,10 @@ new Chart(ctx, {
         beginAtZero: true,
       },
     },
-    // responsive: true
+    responsive: true,
+    aspectRatio:1,
+   
   },
 });
+
+
