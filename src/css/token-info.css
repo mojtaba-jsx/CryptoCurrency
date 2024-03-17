@@ -120,10 +120,9 @@
   padding: 1rem;
   border-radius: 2rem;
 }
-.main{
-  height:100rem;
+.main {
+  height: 100rem;
 }
-
 
 .chart__title {
   display: flex;
@@ -162,4 +161,30 @@
 .chart__title__right-box3 {
   background-color: #ff6868;
   border-radius: 50%;
+}
+
+/* ^================== */
+/*^ About Section */
+/* ^==================*/
+
+.about-token__title {
+  font-size: 2.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-align: center;
+}
+
+.about-token__title-word {
+  color: var(--cornFlower);
+}
+
+.about-token__text {
+  font-family: "inter-medium", Courier, monospace;
+  line-height: 1.4rem;
+  color: var(--boulder);
+  /* width: 50rem; */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
