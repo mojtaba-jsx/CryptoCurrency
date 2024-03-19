@@ -420,6 +420,16 @@
   .navbar__left {
     margin: 0 auto;
   }
+  .navbar__middle{
+    display: none;
+  }
+  .navbar__left{
+    margin-left: 2rem;
+  }
+  .navbar__right-dropdown{
+    right: 1rem;
+  }
+
   /*! ====Story Section==== */
   .story__bottom-image {
     width: 60rem;
@@ -1467,6 +1477,9 @@
   /*! ====Navbar Menu==== */
   .mobile-menu {
     width: 20rem;
+  }
+  .navbar__left-search{
+    width: 12rem;
   }
 
   /*! ====Landing Section==== */
