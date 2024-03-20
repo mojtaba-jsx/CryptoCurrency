@@ -136,6 +136,8 @@
 }
 .table__data__box-image {
   margin-right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .table__data__box-name {
@@ -143,9 +145,6 @@
 }
 td:nth-child(3) {
   color: #3eba59;
-}
-td:nth-child(6) {
-  color: var(--cornFlower);
 }
 
 /* .table__header:nth-child(6) {
@@ -162,6 +161,24 @@ tr {
   transform: scale(1.01);
 }
 
-.table__row{
+.table__row {
   border-radius: 1rem;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: #3eba59;
+}
+
+.table__header__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.up-token,
+.down-token {
+  width: 1.2rem;
+  height: 1.2rem;
 }
