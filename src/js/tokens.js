@@ -2,6 +2,10 @@ let tableChart = document.querySelector("#table-chart");
 
 window.addEventListener("load", getCoinInfo);
 
+
+
+
+
 function getCoinInfo() {
   //   tableChart.innerHTML = "";
   fetch(
@@ -46,11 +50,16 @@ function getCoinInfo() {
          </td>
         <td class="table__data">${coin.market_cap}</td>
         <td class="table__data">
-          <a href="#" class="table__data-link">Detail</a>
+        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${coin.id}</a>
         </td>
       </tr>
         `
         );
       });
     });
+}
+function clickHandler(event){
+  let CoinID =(event.target.innerHTML).split(" ").slice(2).join(" ");
+  sessionStorage.setItem("CoinID", CoinID);
+  location.href = 'token-info.html'
 }
