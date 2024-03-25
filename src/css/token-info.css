@@ -113,23 +113,153 @@
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-
 .coin__top__left-info-price {
   font-size: 2.5rem;
   margin-top: 2rem;
   font-family: "inter-bold", Courier, monospace;
 }
 
-
-
-
-
-#chartdiv{
+#chartdiv {
   width: 100%;
   height: 500px;
   font-size: 1.2rem;
 }
 
-/* div{
-  background-color: #fff4558a;
-} */
+.coin__bottom__infos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.coin__bottom__infos div {
+  width: 14rem;
+  height: 6rem;
+  /* background-color: red; */
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 180ms ease-in;
+
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.coin__bottom__infos div:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(17, 113, 196, 0.4) 0px 2px 4px, rgba(23, 144, 215, 0.3) 0px 7px 13px -3px, rgba(18, 147, 222, 0.2) 0px -3px 0px inset;
+
+  cursor: pointer;
+  
+}
+
+.coin__bottom__infos a svg,
+.coin__bottom__infos svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.coin__bottom__infos-rank {
+  text-align: center;
+  line-height: 6rem;
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+.coin__bottom__infos-genesis-date {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "inter-bold", Courier, monospace;
+  line-height: 3.2rem;
+}
+
+.coin__bottom__infos-website-link,
+.coin__bottom__infos-forum-link,
+.coin__bottom__infos-hash,
+.coin__bottom__infos-github-link,
+.coin__bottom__infos-24hchange,
+.coin__bottom__infos-whitepaper-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  color: var(--darkJungleGreen);
+}
+
+.coin__bottom__infos-website-link svg{
+  color: var(--brightSkyBlue);
+  margin-bottom: 1rem;
+}
+.coin__bottom__infos-forum-link svg{
+  fill: var(--cornFlower);
+  margin-bottom: 1rem;
+
+}
+.coin__bottom__infos-hash svg{
+  color: red;
+  margin-bottom: 1rem;
+}
+.coin__bottom__infos-github-link svg{
+  fill: var(--cornFlower);
+  margin-bottom: 1rem;
+}
+
+.coin__bottom__infos-cap {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "inter-bold", Courier, monospace;
+  line-height: 2.4rem;
+}
+.coin__bottom__infos-votes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.coin__bottom__infos-votes-agree svg{
+  color: rgb(99, 237, 99);
+  margin-bottom: 1rem;
+}
+.coin__bottom__infos-votes-disagree svg{
+  color: rgb(235, 34, 34);
+  margin-bottom: 1rem;
+
+}
+
+.coin__bottom__infos-votes-agree,
+.coin__bottom__infos-votes-disagree {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 1.2rem;
+
+}
+
+.coin__bottom__description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin__bottom__description-title{
+  display: flex;
+  font-size: 4rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-top: 2rem;
+}
+.coin__bottom__description-title svg{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  fill: gold;
+}
+.coin__bottom__description-text{
+  width: 70rem;
+  text-align: center;
+  font-family: "inter-medium", Courier, monospace;
+  line-height: 1.4rem;
+  margin-top: 1rem;
+
+}
