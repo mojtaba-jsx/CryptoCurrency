@@ -55,7 +55,7 @@ let getChartinfo = () => {
               backgroundColor: "#fff4558a",
               showLine: false,
               // pointStyle: 'none',
-              pointRadius: 0
+              pointRadius: 0,
             },
           ],
         },
@@ -69,9 +69,14 @@ let getChartinfo = () => {
               },
             },
           },
+
           responsive: true,
         },
       });
+
+      
+
+
     });
 };
 
