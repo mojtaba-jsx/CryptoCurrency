@@ -80,6 +80,17 @@
     margin-right: 2rem;
     margin-left: 2rem;
   }
+  /*! ====Coin Section ==== */
+  .coin__top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .coin__top-right {
+    margin-top: 2rem;
+  }
+  .coin__bottom__infos {
+    flex-wrap: wrap;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -325,11 +336,6 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-  /*! ====Token Chart Section==== */
-  .chart {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
 }
 
 /* *  ------------------------1140px------------------------ */
@@ -405,6 +411,10 @@
   .not-found__image3 {
     right: 8rem;
   }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 60rem;
+  }
 }
 
 /* *  ------------------------1085px------------------------ */
@@ -420,13 +430,13 @@
   .navbar__left {
     margin: 0 auto;
   }
-  .navbar__middle{
+  .navbar__middle {
     display: none;
   }
-  .navbar__left{
+  .navbar__left {
     margin-left: 2rem;
   }
-  .navbar__right-dropdown{
+  .navbar__right-dropdown {
     right: 1rem;
   }
 
@@ -624,6 +634,10 @@
   .table {
     margin-top: 20rem;
   }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 50rem;
+  }
 }
 
 /* *  ------------------------945px------------------------ */
@@ -666,20 +680,6 @@
     margin: 0 auto;
     margin-bottom: 1rem;
     margin-top: 2rem;
-  }
-  /*! ====Token Chart Section==== */
-  .chart {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  .chart__title__left-text {
-    font-size: 1.4rem;
-  }
-  .chart__title__right-box1,
-  .chart__title__right-box2,
-  .chart__title__right-box3 {
-    width: 1.4rem;
-    height: 1.4rem;
   }
 }
 
@@ -821,6 +821,10 @@
   .not-found__image2 {
     top: 30rem;
   }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 45rem;
+  }
 }
 
 /* *  ------------------------805px------------------------ */
@@ -936,6 +940,10 @@
     right: 10rem;
     bottom: -4rem;
   }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 40rem;
+  }
 }
 
 /* *  ------------------------700px------------------------ */
@@ -989,6 +997,10 @@
   /*! ====Privacy Texts Section==== */
   .privacy-texts__title {
     font-size: 1.4rem;
+  }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 35rem;
   }
 }
 
@@ -1153,6 +1165,13 @@
   .texts__box {
     width: 20rem;
     height: auto;
+  }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 30rem;
+  }
+  .coin__bottom__description-title {
+    font-size: 3.4rem;
   }
 }
 
@@ -1478,7 +1497,7 @@
   .mobile-menu {
     width: 20rem;
   }
-  .navbar__left-search{
+  .navbar__left-search {
     width: 12rem;
   }
 
@@ -1698,6 +1717,13 @@
   }
   .tokens__texts-text {
     width: 25rem;
+  }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 25rem;
+  }
+  .coin__bottom__description-title {
+    font-size: 2.8rem;
   }
 }
 
@@ -2075,6 +2101,17 @@
   .coin__price-value {
     font-size: 1.4rem;
   }
+    /*! ====Coin Section Section==== */
+    .coin__bottom__description-text {
+      width: 22rem;
+    }
+    .coin__bottom__description-title {
+      font-size: 2.5rem;
+    }
+    .coin__bottom__description-title svg {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -2198,6 +2235,17 @@
   .chart__right__title {
     font-size: 1.8rem;
   }
+      /*! ====Coin Section Section==== */
+      .coin__bottom__description-text {
+        width: 18rem;
+      }
+      .coin__bottom__description-title {
+        font-size: 2.2rem;
+      }
+      .coin__bottom__description-title svg {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
 }
 
 /* *  ------------------------365px------------------------ */

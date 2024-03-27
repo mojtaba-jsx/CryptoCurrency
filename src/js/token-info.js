@@ -33,15 +33,18 @@ let getChartinfo = () => {
         firstIndexes.push(outerArray[i][0]);
         secondIndexes.push(outerArray[i][1]);
       }
+      const fiveDigitsNumbers = firstIndexes.map((firstIndexes) => {
+        return firstIndexes.toString().slice(0, 6);
+      });
 
-      //   console.log(firstIndexes);
-      //   console.log(secondIndexes);
+      // console.log(firstIndexes);
+      // console.log(secondIndexes);
 
       const ctx = document.getElementById("myChart");
       new Chart(ctx, {
         type: "line",
         data: {
-          labels: firstIndexes,
+          labels: fiveDigitsNumbers,
           datasets: [
             {
               label: coinId.toUpperCase(),
@@ -50,6 +53,9 @@ let getChartinfo = () => {
               fill: true,
               borderColor: "black",
               backgroundColor: "#fff4558a",
+              showLine: false,
+              // pointStyle: 'none',
+              pointRadius: 0
             },
           ],
         },
@@ -63,6 +69,7 @@ let getChartinfo = () => {
               },
             },
           },
+          responsive: true,
         },
       });
     });
@@ -78,7 +85,6 @@ function getCoinMainInfo() {
   fetch(`https://api.coingecko.com/api/v3/coins/${coinId}`, options)
     .then((response) => response.json())
     .then((response) => {
-
       coinWrapper.insertAdjacentHTML(
         "beforeend",
         `
@@ -89,7 +95,9 @@ function getCoinMainInfo() {
         } </div>
 
         <div class="coin__bottom__infos-genesis-date">
-          Genesis Date ${response.genesis_date ?response.genesis_date:'Once Time '}
+          Genesis Date ${
+            response.genesis_date ? response.genesis_date : "Once Time "
+          }
         </div>
 
         <div class="coin__bottom__infos-website">
@@ -290,9 +298,6 @@ function getCoinMainInfo() {
     });
 }
 
-
-
-
 let coinTopLeft = document.querySelector(".coin__top-left");
 function getCoinTopInfo() {
   const options = {
@@ -306,9 +311,11 @@ function getCoinTopInfo() {
   )
     .then((response) => response.json())
     .then((response) => {
-      console.log(response)
+      console.log(response);
 
-      coinTopLeft.insertAdjacentHTML('afterbegin',`
+      coinTopLeft.insertAdjacentHTML(
+        "afterbegin",
+        `
       <div class="coin__top__left-info">
       <img
         src="${response.image.large}"
@@ -326,10 +333,9 @@ function getCoinTopInfo() {
         </span>
       </div>
     </div>
-      `)
-
-    })
-    
+      `
+      );
+    });
 }
 
 window.addEventListener("load", getChartinfo);
