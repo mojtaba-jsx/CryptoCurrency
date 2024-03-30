@@ -182,3 +182,53 @@ tr {
   width: 1.2rem;
   height: 1.2rem;
 }
+
+
+/* ^====================== */
+/*^ pagination Section */
+/* ^======================*/
+
+.pagination__list-item svg{
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.pagination__list{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  width: 30rem;
+  /* background-color: red; */
+  margin: 0 auto;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.pagination__list-item{
+  margin: 0 auto;
+  font-family: "inter-bold", Courier, monospace;
+  cursor: pointer;
+  font-size: 2rem;
+
+
+
+}
+
+.pagination__list-item-link{
+  color: var(--darkJungleGreen);
+
+  padding: 0.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.active-page{
+  background-color: var(--cornFlower);
+  color: var(--white);
+}
+
+
+

@@ -1,18 +1,15 @@
 let tableChart = document.querySelector("#table-chart");
+let pageNumberFromSessionStorage = sessionStorage.getItem("pageNumber");
 
 window.addEventListener("load", getCoinInfo);
-
-
-
-
-
 function getCoinInfo() {
   //   tableChart.innerHTML = "";
   fetch(
-    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=20&x_cg_demo_api_key=CG-3bjv7fwArQ5Tw29Kii5swyL1"
+    `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=20&page=${pageNumberFromSessionStorage}&x_cg_demo_api_key=CG-3bjv7fwArQ5Tw29Kii5swyL1`
   )
     .then((res) => res.json())
     .then((coins) => {
+      console.log(coins);
       coins.forEach((coin) => {
         tableChart.insertAdjacentHTML(
           "beforeend",
@@ -50,7 +47,9 @@ function getCoinInfo() {
          </td>
         <td class="table__data">${coin.market_cap}</td>
         <td class="table__data">
-        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${coin.id}</a>
+        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${
+          coin.id
+        }</a>
         </td>
       </tr>
         `
@@ -58,8 +57,22 @@ function getCoinInfo() {
       });
     });
 }
-function clickHandler(event){
-  let CoinID =(event.target.innerHTML).split(" ").slice(2).join(" ");
+
+function clickHandler(event) {
+  let CoinID = event.target.innerHTML.split(" ").slice(2).join(" ");
   sessionStorage.setItem("CoinID", CoinID);
-  location.href = 'token-info.html'
+  location.href = "token-info.html";
 }
+
+let paginationListItem = document.querySelectorAll(".pagination__list-item");
+const paginationListItemLinks = document.querySelectorAll(
+  ".pagination__list-item a"
+);
+
+paginationListItem.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    sessionStorage.setItem("pageNumber", event.target.innerHTML);
+    location.reload();
+    window.scrollTo(0, 0);
+  });
+});

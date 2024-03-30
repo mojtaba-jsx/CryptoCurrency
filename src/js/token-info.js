@@ -293,7 +293,7 @@ function getCoinMainInfo() {
           </svg>
         </span>
         <p class="coin__bottom__description-text">
-        ${response.description.en}
+        ${response.description.en ?response.description.en :'There Is No Description'}
         </p>
       </div>
     </div>
