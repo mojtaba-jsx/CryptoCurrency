@@ -115,6 +115,9 @@
   background-color: var(--cornFlower);
   color: var(--white);
 }
+.not-found__btn-link{
+  color: var(--darkJungleGreen);
+}
 
 .not-found__wrapper {
   position: relative;

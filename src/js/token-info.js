@@ -1,14 +1,5 @@
-// window.addEventListener("load", getCoinInfo);
 
-// let coinWrapper = document.querySelector(".coin__wrapper");
-// function getCoinInfo() {
-//   const options = {
-//     method: "GET",
-//     headers: { "x-cg-demo-api-key": "CG-3bjv7fwArQ5Tw29Kii5swyL1" },
-//   };
-//   fetch("https://api.coingecko.com/api/v3/coins/bitcoin?localization=true&tickers=false&market_data=true&community_data=true&developer_data=false&sparkline=true", options)
-// }
-
+// ! ///////////
 let coinId = sessionStorage.getItem("CoinID");
 let getChartinfo = () => {
   const options = {
@@ -80,6 +71,7 @@ let getChartinfo = () => {
     });
 };
 
+// ! ///////////
 let coinWrapper = document.querySelector(".coin__wrapper");
 function getCoinMainInfo() {
   const options = {
@@ -303,6 +295,7 @@ function getCoinMainInfo() {
     });
 }
 
+// ! ///////////
 let coinTopLeft = document.querySelector(".coin__top-left");
 function getCoinTopInfo() {
   const options = {
@@ -343,6 +336,7 @@ function getCoinTopInfo() {
     });
 }
 
+// ! ///////////
 window.addEventListener("load", getChartinfo);
 window.addEventListener("load", getCoinMainInfo);
 window.addEventListener("load", getCoinTopInfo);

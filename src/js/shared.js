@@ -12,3 +12,30 @@ mobileMenuBtn.addEventListener("click", () => {
     flag = false;
   }
 });
+
+
+//* Logic For SerchBox
+let navbarSearchBox = document.querySelector('.navbar__left-search')
+let navbarSearchIcon = document.querySelector('.navbar__middle-search-icon')
+
+navbarSearchIcon.addEventListener('click',()=>{
+  let searchBoxValue =(navbarSearchBox.value).toLowerCase()
+
+  const options = {
+    method: "GET",
+    headers: { "x-cg-demo-api-key": "CG-3bjv7fwArQ5Tw29Kii5swyL1" },
+  };
+
+  fetch(`https://api.coingecko.com/api/v3/coins/${searchBoxValue}`, options)
+    .then((response) => {
+      if(response.status ===200){
+        sessionStorage.setItem('CoinID',searchBoxValue)
+        location.href='./token-info.html'
+      }else{
+        location.href='./404.html'
+
+      }
+    })
+
+  
+})
