@@ -77,6 +77,22 @@
   color: var(--boulder);
   font-family: "inter-medium", Courier, monospace;
 }
+.tokens__image2,
+.tokens__image1 {
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /* ^================== */
 /*^ Table Section */
@@ -183,18 +199,17 @@ tr {
   height: 1.2rem;
 }
 
-
 /* ^====================== */
 /*^ pagination Section */
 /* ^======================*/
 
-.pagination__list-item svg{
+.pagination__list-item svg {
   width: 2rem;
   height: 2rem;
   cursor: pointer;
 }
 
-.pagination__list{
+.pagination__list {
   display: flex;
   align-items: center;
   /* justify-content: space-around; */
@@ -202,22 +217,20 @@ tr {
   /* background-color: red; */
   margin: 0 auto;
   padding: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 1rem;
   padding: 2rem;
 }
 
-.pagination__list-item{
+.pagination__list-item {
   margin: 0 auto;
   font-family: "inter-bold", Courier, monospace;
   cursor: pointer;
   font-size: 2rem;
-
-
-
 }
 
-.pagination__list-item-link{
+.pagination__list-item-link {
   color: var(--darkJungleGreen);
 
   padding: 0.5rem;
@@ -225,10 +238,7 @@ tr {
   padding: 1rem;
 }
 
-.active-page{
+.active-page {
   background-color: var(--cornFlower);
   color: var(--white);
 }
-
-
-

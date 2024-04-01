@@ -64,10 +64,25 @@
 .terms__image1 {
   width: 10rem;
   height: 12rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
 }
 .terms__image2 {
   width: 10rem;
   height: 12rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .terms__texts-date {

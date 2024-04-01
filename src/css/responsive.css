@@ -2101,17 +2101,21 @@
   .coin__price-value {
     font-size: 1.4rem;
   }
-    /*! ====Coin Section Section==== */
-    .coin__bottom__description-text {
-      width: 22rem;
-    }
-    .coin__bottom__description-title {
-      font-size: 2.5rem;
-    }
-    .coin__bottom__description-title svg {
-      width: 2.5rem;
-      height: 2.5rem;
-    }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 22rem;
+  }
+  .coin__bottom__description-title {
+    font-size: 2.5rem;
+  }
+  .coin__bottom__description-title svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  /*! ====Texts Section==== */
+  .texts__box {
+    width: 16rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -2235,17 +2239,17 @@
   .chart__right__title {
     font-size: 1.8rem;
   }
-      /*! ====Coin Section Section==== */
-      .coin__bottom__description-text {
-        width: 18rem;
-      }
-      .coin__bottom__description-title {
-        font-size: 2.2rem;
-      }
-      .coin__bottom__description-title svg {
-        width: 2.5rem;
-        height: 2.5rem;
-      }
+  /*! ====Coin Section Section==== */
+  .coin__bottom__description-text {
+    width: 18rem;
+  }
+  .coin__bottom__description-title {
+    font-size: 2.2rem;
+  }
+  .coin__bottom__description-title svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 /* *  ------------------------365px------------------------ */

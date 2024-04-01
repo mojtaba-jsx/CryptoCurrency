@@ -72,6 +72,21 @@
   color: var(--boulder);
   margin-top: 1rem;
 }
+.pricing-image1,
+.pricing-image2 {
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /* ^================== */
 /*^ Cards Section */
@@ -233,7 +248,7 @@
   /* height: 70rem; */
 }
 
-.faqs__title{
+.faqs__title {
   text-align: center;
   font-family: "inter-bold", Courier, monospace;
   font-size: 3.4rem;
@@ -271,7 +286,8 @@
   margin-bottom: 2rem;
   font-family: "inter-medium", Courier, monospace;
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .active,
@@ -308,6 +324,6 @@
   margin-bottom: 1rem;
 }
 
-.order{
+.order {
   text-align: start;
 }

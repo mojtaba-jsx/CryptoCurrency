@@ -90,12 +90,26 @@
   position: absolute;
   left: 2rem;
   top: 4rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
 }
 
 .features__image2 {
   position: absolute;
   right: 2rem;
-  /* top: 0rem; */
+  animation: scaleAnimation 2s ease-in-out infinite;
+
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* ^======================== */

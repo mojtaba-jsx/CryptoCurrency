@@ -91,6 +91,21 @@
   margin-top: 2rem;
   line-height: 1.4rem;
 }
+.privacy__image1,
+.privacy__image2{
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /* ^====================== */
 /*^ Privacy texts Section */

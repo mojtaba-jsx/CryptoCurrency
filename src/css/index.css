@@ -115,24 +115,43 @@
   position: absolute;
   top: 24rem;
   left: 30rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
 }
 
 .landing-shape2 {
   position: absolute;
   right: 10rem;
   top: 10rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
 }
 
 .landing-shape3 {
   position: absolute;
   right: 20rem;
   top: 25rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
 }
 
 .landing-shape4 {
   position: absolute;
   left: 10rem;
   top: 10rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* ^================== */

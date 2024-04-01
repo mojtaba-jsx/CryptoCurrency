@@ -80,6 +80,8 @@
 
 .touch__left__top-image {
   margin-left: 1rem;
+  animation: scaleAnimation 2s ease-in-out infinite;
+
 }
 
 .touch__left__botttom-text {
@@ -137,6 +139,18 @@
 .touch__right__email-data-email {
   font-family: "inter-medium", Courier, monospace;
   font-size: 1.2rem;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* ^======================== */
