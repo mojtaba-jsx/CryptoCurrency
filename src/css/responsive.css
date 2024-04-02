@@ -638,6 +638,16 @@
   .coin__bottom__description-text {
     width: 50rem;
   }
+  /*! ====Explore Section Section==== */
+
+  .explore__right-image {
+    width: 14rem;
+    height: 14rem;
+  }
+  .explore__right {
+    height: 20rem;
+    margin-top: 2rem;
+  }
 }
 
 /* *  ------------------------945px------------------------ */
@@ -1788,7 +1798,10 @@
     align-items: center;
   }
   .trader__left-list {
-    height: 30rem;
+    height: 34.5rem;
+  }
+  .trader__left-list-item-price {
+    margin-top: 0.5rem;
   }
   .trader__left {
     height: 40rem;
@@ -1820,6 +1833,15 @@
   }
   .touch__right__email-data {
     margin-left: 2rem;
+  }
+  /*! ====Explore Section Section==== */
+  .explore__right-image {
+    width: 10rem;
+    height: 10rem;
+  }
+  .explore__right {
+    height: 18rem;
+    margin-top: 2rem;
   }
 }
 
@@ -2262,6 +2284,16 @@
   /*! ====Coin Section==== */
   .coin__text {
     width: 18rem;
+  }
+  /*! ====Explore Section Section==== */
+  .explore__right-image {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 4rem;
+  }
+  .explore__right {
+    height: 18rem;
+    margin-top: 2rem;
   }
 }
 

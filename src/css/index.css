@@ -398,6 +398,34 @@
   margin-bottom: 0.5rem;
   color: #3eba59;
 }
+.explore__right-image{
+  width: 16rem;
+  height: 16rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+
+  animation: fadeInOut 2s linear infinite;
+
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 50%;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1.1);
+
+  }
+}
 
 /* ^================== */
 /*^ Brands Section */
@@ -425,14 +453,19 @@
 .brands-row1 svg,
 .brands-row2 svg {
   transition: all 140ms ease-in;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .brands-row1 svg:hover {
   transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .brands-row2 svg:hover {
   transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
 }
 
 /* ^================== */
@@ -766,7 +799,7 @@
   flex-direction: column;
   background-color: var(--white);
   width: 34rem;
-  height: 20rem;
+  height: 24rem;
   margin: 0 auto;
   margin-top: 4rem;
   border-radius: 2rem;
@@ -795,24 +828,8 @@
   font-size: 1.2rem;
 }
 
-.trader__left-list-item .trader__left-list-item-profit svg {
-  fill: #3eba59;
-}
-.trader__left-list-item:nth-child(3) .trader__left-list-item-profit svg {
-  fill: red;
-}
-
-.trader__left-list-item-profit svg {
-  margin-left: 1rem;
-}
-
-.trader__left-list-item-profit {
-  display: flex;
-  align-items: center;
-}
-.trader__left-list-item-profit svg {
-  width: 2rem;
-  height: 2rem;
+.trader__left-list-item-price{
+  color: #3eba59;
 }
 
 .trader__right {
@@ -838,6 +855,14 @@
   line-height: 1.4rem;
   color: var(--boulder);
   margin-top: 1rem;
+}
+.trader__left-list-item-logo-image{
+  width: 2rem;
+  height: 2rem;
+}
+.trader__left-list-item-name-abbreviation{
+  color: var(--cornFlower);
+  margin-left: 1rem;
 }
 
 /* ^================== */

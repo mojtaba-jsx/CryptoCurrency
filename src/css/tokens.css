@@ -198,6 +198,9 @@ tr {
   width: 1.2rem;
   height: 1.2rem;
 }
+.table__data-link{
+  color: red;
+}
 
 /* ^====================== */
 /*^ pagination Section */

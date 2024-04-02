@@ -13,3 +13,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+AOS.init({
+  debounceDelay: 50, 
+  // throttleDelay:800, 
+  duration: 1000,
+});

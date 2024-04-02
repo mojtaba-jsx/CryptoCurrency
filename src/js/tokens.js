@@ -47,9 +47,7 @@ function getCoinInfo() {
          </td>
         <td class="table__data">${coin.market_cap}</td>
         <td class="table__data">
-        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${
-          coin.id
-        }</a>
+        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${coin.id}</a>
         </td>
       </tr>
         `
