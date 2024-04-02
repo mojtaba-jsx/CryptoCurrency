@@ -126,7 +126,7 @@
 #table-chart tr:hover {
   background-color: #9ddbaa;
   color: var(--white);
-  cursor: pointer;
+
   border-radius: 1rem;
 }
 
@@ -198,8 +198,31 @@ tr {
   width: 1.2rem;
   height: 1.2rem;
 }
-.table__data-link{
+.table__data-link {
   color: red;
+}
+.table__data-link-btn {
+  width: 10rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  outline: none;
+  background-color: #1973f1;
+  color: var(--white);
+  font-family: "inter-bold", Courier, monospace;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 140ms ease-in;
+}
+.table__data-link-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.table__data-link-btn svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 /* ^====================== */
