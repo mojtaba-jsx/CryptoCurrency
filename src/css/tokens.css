@@ -126,7 +126,6 @@
 #table-chart tr:hover {
   background-color: #9ddbaa;
   color: var(--white);
-
   border-radius: 1rem;
 }
 
@@ -223,6 +222,20 @@ tr {
 .table__data-link-btn svg {
   width: 2rem;
   height: 2rem;
+}
+.table__data-link{
+  padding: 1rem;
+  display: block;
+  width: 10rem;
+  text-align: center;
+  background-color: #1973f1;
+  border-radius: 1rem;
+  color: var(--white);
+  transition: all 140ms ease-in;
+}
+.table__data-link:hover{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: #3eba59;
 }
 
 /* ^====================== */
