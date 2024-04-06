@@ -190,6 +190,7 @@
     font-family: "inter-medium", Courier, monospace;
     margin-top: 1rem;
     line-height: 1.4rem;
+    text-transform: capitalize;
   }
   
   .footer-main__column3-text-link{

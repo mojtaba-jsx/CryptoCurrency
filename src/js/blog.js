@@ -28,3 +28,9 @@ $(document).ready(function () {
     });
   });
   
+
+
+
+fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
+.then(response=>response.json())
+.then(data=>console.log(data))
