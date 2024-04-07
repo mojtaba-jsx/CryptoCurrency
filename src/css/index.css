@@ -13,7 +13,9 @@
   --darkJungleGreen: #212326;
   --boulder: #797979;
   --white: #ffff;
+  --silver: #f3f3f3;
 }
+
 
 /** ========Button Colors ======== */
 .btn-gradient {
@@ -248,7 +250,7 @@
 /* ^==================*/
 .explore {
   margin-bottom: 8rem;
-  background-color: #eaeef1;
+  background-color: var(--white);
   padding-top: 4rem;
   padding-bottom: 8rem;
 }
@@ -519,7 +521,7 @@
   margin-left: 1rem;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #f3f3f3;
+  background-color: var(--silver);
 }
 
 .invest-box__top-title,
@@ -714,7 +716,7 @@
 
 .featured__box {
   width: 24rem;
-  background-color: #f3f3f3;
+  background-color: var(--silver);
   margin-top: 2rem;
   margin-right: 2rem;
   margin-bottom: 1rem;
@@ -914,7 +916,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  background-color: #fffbf6;
+  background-color: var(--silver);
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   margin-bottom: 2rem;
@@ -992,7 +994,7 @@
 }
 .articles__box {
   padding: 2rem;
-  background-color: #f3f3f3;
+  background-color: var(--silver);
   width: 28rem;
   height: 28rem;
   display: flex;

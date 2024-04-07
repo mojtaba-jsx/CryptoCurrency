@@ -52,7 +52,7 @@ function getCoinInFooter (){
 fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=5&page=1', options)
   .then(response => response.json())
   .then(response => {
-    console.log(response);
+    // console.log(response);
     response.forEach((coin)=>{
       footerMainColumn2List.insertAdjacentHTML('beforeend',`
       <li class="footer-main__column2-item">
@@ -68,3 +68,10 @@ function setIdToSessionStorage (event){
   sessionStorage.setItem('CoinID',(event.target.innerHTML).toLowerCase())
   location.href='./token-info.html'
 }
+
+
+
+
+
+
+
