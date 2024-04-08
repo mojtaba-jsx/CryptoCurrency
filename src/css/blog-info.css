@@ -164,6 +164,8 @@
   line-height: 1.4rem;
   color: var(--boulder);
   font-family: "inter-medium", Courier, monospace;
+  text-transform: capitalize;
+  text-align: justify;
 }
 .blog-info__texts-title {
   color: var(--darkJungleGreen);
@@ -243,6 +245,8 @@
 
 .writer__left-image{
     border-radius: 8rem;
+    width: 20rem;
+    height:20rem;
 }
 
 .writer__right{

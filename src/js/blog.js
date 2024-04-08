@@ -55,10 +55,16 @@ fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
     <p class="recent-news__box-text">
       ${(article.body).substring(0, 50) + '...'}
     </p>
-<button class="recent-news__box-btn">Read More</button>
+<button class="recent-news__box-btn" onclick='setArticleIdToSessionStorage(${article.id})'>Read More</button>
 
 
   </div>
     `)
   })
 })
+
+
+function setArticleIdToSessionStorage(id){
+  sessionStorage.setItem('articleID' ,id)
+  location.href='./blog-info.html'
+}
