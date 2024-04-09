@@ -12,6 +12,7 @@
   --darkJungleGreen: #212326;
   --boulder: #797979;
   --white: #ffff;
+  --silver: #f3f3f3;
 }
 
 /** ========Button Colors ======== */
@@ -329,4 +330,96 @@
     fill: red;
     cursor: pointer;
     transform: scale(1.2);
+}
+
+/* !Comment Box */
+.blog__comments-title{
+  font-size: 2rem;
+  font-family: 'inter-bold', Courier, monospace;
+  margin-left: 1rem;
+
+}
+.blog__comments-title svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--cornFlower);
+}
+.blog__comments__box{
+  display: flex;
+  flex-direction: column;
+  width:60rem;
+  margin: 0 auto;
+  background-color: var(--silver);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.blog__comments__box-top{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.blog__comments__box-top-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  font-family: 'inter-bold', Courier, monospace;
+  text-transform: capitalize;
+}
+.blog__comments__box-top-right-role{
+  margin-top: 0.5rem;
+  color: var(--boulder);
+}
+
+.blog__comments__box-bottom{
+  margin-top: 2rem;
+}
+.blog__comments__box-bottom-text{
+  font-family: 'inter-medium', Courier, monospace;
+  line-height: 1.4rem;
+
+}
+
+.blog__comments__input{
+  width: 100%;
+}
+
+.blog__comments__input-textarea{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--silver);
+  padding: 1rem;
+  font-size: 1.2rem;
+  resize: none
+
+}
+
+.blog__comments__input-btn{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: 'inter-bold', Courier, monospace;
+  background-color: var(--cornFlower);
+  color: var(--white);
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 140ms ease-in;
+  cursor: pointer;
+}
+.blog__comments__input-btn:hover{
+  transform: scale(1.02);
+  background-color: var(--brightSkyBlue);
 }
