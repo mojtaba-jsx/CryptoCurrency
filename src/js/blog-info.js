@@ -1,14 +1,13 @@
-let mainBlogInfo = document.querySelector(".main");
+let articleID = sessionStorage.getItem("articleID");
 
+let mainBlogInfo = document.querySelector(".main");
 window.addEventListener("load", () => {
   fetch("https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles")
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
+      // console.log(data);
 
       let slectedObject;
-      let articleID = sessionStorage.getItem("articleID");
-
       for (let i = 0; i < data.length; i++) {
         if (data[i].id === articleID) {
           slectedObject = data[i];
@@ -16,7 +15,7 @@ window.addEventListener("load", () => {
         }
       }
       mainBlogInfo.insertAdjacentHTML(
-        "beforeend",
+        "afterbegin",
         `
       <!-- *========Blog Title Section======== -->
       <section class="blog-title">
@@ -156,100 +155,49 @@ window.addEventListener("load", () => {
           </div>
         </div>
       </section>
-
-      <section class="blog__comments">
-      <div class="container">
-        <h1 class="blog__comments-title">
-          Comments
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
-          </svg>
-          
-        </h1>
-        <div class="blog__comments__wrapper">
-
-          <div class="blog__comments__box">
-            <div class="blog__comments__box-top">
-              <div class="blog__comments__box-top-left">
-                <img src="../../assets/images/client-1.png" alt="image" class="blog__comments__box-top-left-image">
-              </div>
-              <div class="blog__comments__box-top-right">
-                <span class="blog__comments__box-top-right-name">Michael Scott</span>
-                <span class="blog__comments__box-top-right-role">user</span>
-              </div>
-            </div>
-
-            <div class="blog__comments__box-bottom">
-              <p class="blog__comments__box-bottom-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente magni atque voluptatum fuga ad delectus odit tempore nihil? Vel, perspiciatis!
-              </p>
-            </div>
-          </div>
-
-          <div class="blog__comments__box">
-            <div class="blog__comments__box-top">
-              <div class="blog__comments__box-top-left">
-                <img src="../../assets/images/client-1.png" alt="image" class="blog__comments__box-top-left-image">
-              </div>
-              <div class="blog__comments__box-top-right">
-                <span class="blog__comments__box-top-right-name">Michael Scott</span>
-                <span class="blog__comments__box-top-right-role">user</span>
-              </div>
-            </div>
-
-            <div class="blog__comments__box-bottom">
-              <p class="blog__comments__box-bottom-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente magni atque voluptatum fuga ad delectus odit tempore nihil? Vel, perspiciatis!
-              </p>
-            </div>
-          </div>
-
-          <div class="blog__comments__box">
-            <div class="blog__comments__box-top">
-              <div class="blog__comments__box-top-left">
-                <img src="../../assets/images/client-1.png" alt="image" class="blog__comments__box-top-left-image">
-              </div>
-              <div class="blog__comments__box-top-right">
-                <span class="blog__comments__box-top-right-name">Michael Scott</span>
-                <span class="blog__comments__box-top-right-role">user</span>
-              </div>
-            </div>
-
-            <div class="blog__comments__box-bottom">
-              <p class="blog__comments__box-bottom-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente magni atque voluptatum fuga ad delectus odit tempore nihil? Vel, perspiciatis!
-              </p>
-            </div>
-          </div>
-
-          <div class="blog__comments__box">
-            <div class="blog__comments__box-top">
-              <div class="blog__comments__box-top-left">
-                <img src="../../assets/images/client-1.png" alt="image" class="blog__comments__box-top-left-image">
-              </div>
-              <div class="blog__comments__box-top-right">
-                <span class="blog__comments__box-top-right-name">Michael Scott</span>
-                <span class="blog__comments__box-top-right-role">user</span>
-              </div>
-            </div>
-
-            <div class="blog__comments__box-bottom">
-              <p class="blog__comments__box-bottom-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente magni atque voluptatum fuga ad delectus odit tempore nihil? Vel, perspiciatis!
-              </p>
-            </div>
-          </div>
-
-          <div class="blog__comments__input">
-            <textarea class="blog__comments__input-textarea" cols="30" rows="10" placeholder="Enter Your Comment ..."></textarea>
-            <button class="blog__comments__input-btn">Submit Your Comment</button>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
       `
       );
     });
 });
+
+
+
+
+
+// ! /////////////////////////////////////////////
+let blogComments = document.querySelector('.blog__comments__wrapper')
+fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
+.then(res=>res.json())
+.then(data=>{
+  let commentsArray = data[articleID - 1].comments
+  console.log(commentsArray);
+  commentsArray.forEach((comment)=>{
+    blogComments.insertAdjacentHTML('beforeend',`
+    
+    <div class="blog__comments__box">
+    <div class="blog__comments__box-top">
+      <div class="blog__comments__box-top-left">
+        <img
+          src="${comment.image}"
+          alt="image"
+          class="blog__comments__box-top-left-image"
+        />
+      </div>
+      <div class="blog__comments__box-top-right">
+        <span class="blog__comments__box-top-right-name"
+          >${comment.user}</span
+        >
+        <span class="blog__comments__box-top-right-role">${comment.role}</span>
+      </div>
+    </div>
+
+    <div class="blog__comments__box-bottom">
+      <p class="blog__comments__box-bottom-text">
+    ${comment.body}
+      </p>
+    </div>
+  </div>
+    `)
+  })
+
+})

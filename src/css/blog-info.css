@@ -423,3 +423,9 @@
   transform: scale(1.02);
   background-color: var(--brightSkyBlue);
 }
+
+.blog__comments__box-top-left-image{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
