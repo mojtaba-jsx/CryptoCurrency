@@ -50,18 +50,20 @@ function getCoinInfoFortable() {
           `
       <div class="trader__left-list-item">
       <span class="trader__left-list-item-logo">
-        <img src="${coin.image}" alt="image" class="trader__left-list-item-logo-image">
+        <img src="${
+          coin.image
+        }" alt="image" class="trader__left-list-item-logo-image">
       </span>
 
       <span class="trader__left-list-item-name">
         ${coin.name}
         <span class="trader__left-list-item-name-abbreviation">
-          ${(coin.symbol).toUpperCase()}
+          ${coin.symbol.toUpperCase()}
         </span>
       </span>
 
       <span class="trader__left-list-item-price">
-         $ ${(coin.current_price).toLocaleString()}
+         $ ${coin.current_price.toLocaleString()}
 
       </span>
     </div>
@@ -72,9 +74,54 @@ function getCoinInfoFortable() {
 }
 
 AOS.init({
-  debounceDelay: 50, 
-  // throttleDelay:800, 
+  debounceDelay: 50,
+  // throttleDelay:800,
   duration: 1000,
 });
+// ! ////////////////////////////////////////////////////////
 
+let articlesWrapper = document.querySelector(".articles__wrapper");
+window.addEventListener("load", () => {
+  fetch("https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles")
+    .then((response) => response.json())
+    .then((articles) => {
+      let owlCarousel = $(".owl-carousel");
+      console.log(articles);
+      articles.forEach((article) => {
+        owlCarousel
+          .owlCarousel(
+            "add",
+            `
+      <div class="articles__box">
+      <img
+        src="${article.image}"
+        alt="image"
+        class="articles__box-img"
+      />
+      <div class="articles__box-data">
+        <span class="articles__box-author"> ${article.author} </span>
 
+        <span class="articles__box-date"> ${article.createdAt} </span>
+      </div>
+      <span class="articles__box-title">
+            ${article.subject}
+      </span>
+      <p class="articles__box-text">
+            ${article.body.substring(0, 100) + "..."}
+      </p>
+      <a href="#" class="articles__box-btn" onclick='goToSelectedAtricle(${
+        article.id
+      })'> Read More ... </a>
+    </div>
+      `
+          )
+          .owlCarousel("update");
+      });
+    });
+});
+
+function goToSelectedAtricle(id) {
+  console.log(id);
+  sessionStorage.setItem("articleID", id);
+  location.href = "./blog-info.html";
+}
