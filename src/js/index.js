@@ -125,3 +125,6 @@ function goToSelectedAtricle(id) {
   sessionStorage.setItem("articleID", id);
   location.href = "./blog-info.html";
 }
+
+
+
