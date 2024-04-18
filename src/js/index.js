@@ -123,7 +123,7 @@ window.addEventListener("load", () => {
 function goToSelectedAtricle(id) {
   console.log(id);
   sessionStorage.setItem("articleID", id);
-  location.href = "./blog-info.html";
+  location.href = "./src/html/blog-info.html";
 }
 
 

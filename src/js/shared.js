@@ -31,9 +31,9 @@ navbarSearchIcon.addEventListener("click", () => {
   ).then((response) => {
     if (response.status === 200) {
       sessionStorage.setItem("CoinID", searchBoxValue);
-      location.href = "./token-info.html";
+      location.href = "./src/html/token-info.html";
     } else {
-      location.href = "./404.html";
+      location.href = "./src/html/404.html";
     }
   });
 });
