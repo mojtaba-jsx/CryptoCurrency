@@ -1,9 +1,9 @@
 let tableChart = document.querySelector("#table-chart");
 let pageNumberFromSessionStorage = sessionStorage.getItem("pageNumber");
 
+//! get Coin Info For Show In Table
 window.addEventListener("load", getCoinInfo);
 function getCoinInfo() {
-  //   tableChart.innerHTML = "";
   fetch(
     `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=20&page=${pageNumberFromSessionStorage}&x_cg_demo_api_key=CG-3bjv7fwArQ5Tw29Kii5swyL1`
   )
@@ -68,6 +68,7 @@ const paginationListItemLinks = document.querySelectorAll(
   ".pagination__list-item a"
 );
 
+//! Pagination Logic
 paginationListItem.forEach((item) => {
   item.addEventListener("click", (event) => {
     sessionStorage.setItem("pageNumber", event.target.innerHTML);

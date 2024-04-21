@@ -125,6 +125,8 @@ table {
   border-spacing: 0;
 }
 
-a,a::before,a::after{
+a,
+a::before,
+a::after {
   text-decoration: none;
 }

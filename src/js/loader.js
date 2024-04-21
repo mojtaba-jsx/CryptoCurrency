@@ -1,8 +1,7 @@
-//! Loader 
+//! Loader
 function hideLoader() {
-    document.querySelector('.loader').style.display = 'none';
-  }
-  
-  setTimeout(()=>{
-    hideLoader()
-  },200)
+  document.querySelector(".loader").style.display = "none";
+}
+setTimeout(() => {
+  hideLoader();
+}, 200);

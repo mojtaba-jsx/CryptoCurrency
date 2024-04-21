@@ -65,13 +65,11 @@
   width: 10rem;
   height: 12rem;
   animation: scaleAnimation 2s ease-in-out infinite;
-
 }
 .terms__image2 {
   width: 10rem;
   height: 12rem;
   animation: scaleAnimation 2s ease-in-out infinite;
-
 }
 @keyframes scaleAnimation {
   0% {

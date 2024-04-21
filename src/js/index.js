@@ -28,10 +28,9 @@ $(document).ready(function () {
   });
 });
 
+// ! Get Coin Info From Api
 let traderLeftList = document.querySelector(".trader__left-list");
-
 window.addEventListener("load", getCoinInfoFortable);
-
 function getCoinInfoFortable() {
   const options = {
     method: "GET",
@@ -73,13 +72,15 @@ function getCoinInfoFortable() {
     });
 }
 
+// ! Aos Library
 AOS.init({
   debounceDelay: 50,
   // throttleDelay:800,
   duration: 1000,
 });
-// ! ////////////////////////////////////////////////////////
 
+
+// ! get Article Info For Owl Slider From Api
 let articlesWrapper = document.querySelector(".articles__wrapper");
 window.addEventListener("load", () => {
   fetch("https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles")
@@ -120,6 +121,7 @@ window.addEventListener("load", () => {
     });
 });
 
+// ! Set Article id In SessionStorage
 function goToSelectedAtricle(id) {
   console.log(id);
   sessionStorage.setItem("articleID", id);

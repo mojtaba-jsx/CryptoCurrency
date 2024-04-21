@@ -138,8 +138,6 @@
   background-position: center;
   border-radius: 2rem;
   background-size: 100% 100%;
-
-  /* background-color: red; */
 }
 
 .blog-info__image {
@@ -237,7 +235,6 @@
     display: flex;
     justify-content: space-around;
     background-color: #263238;
-    /* height: 25rem; */
     padding-top: 5rem;
     padding-bottom: 5rem;
     border-radius: 2rem;
@@ -360,7 +357,6 @@
 .blog__comments__box-top{
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 .blog__comments__box-top-right{

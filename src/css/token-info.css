@@ -99,7 +99,6 @@
 }
 
 .coin__top__left-info-select {
-  /* padding: 1rem 8rem; */
   width: 20rem;
   height: 4rem;
   font-size: 1.2rem;
@@ -119,7 +118,7 @@
   margin-top: 2rem;
   font-family: "inter-bold", Courier, monospace;
 }
-.coin__top__left-info-price-word{
+.coin__top__left-info-price-word {
   color: rgb(42, 234, 42);
 }
 
@@ -141,7 +140,6 @@
 .coin__bottom__infos div {
   width: 14rem;
   height: 6rem;
-  /* background-color: red; */
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 1rem;
@@ -151,12 +149,13 @@
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
-.coin__bottom__infos div:hover{
+.coin__bottom__infos div:hover {
   transform: scale(1.1);
-  box-shadow: rgba(17, 113, 196, 0.4) 0px 2px 4px, rgba(23, 144, 215, 0.3) 0px 7px 13px -3px, rgba(18, 147, 222, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(17, 113, 196, 0.4) 0px 2px 4px,
+    rgba(23, 144, 215, 0.3) 0px 7px 13px -3px,
+    rgba(18, 147, 222, 0.2) 0px -3px 0px inset;
 
   cursor: pointer;
-  
 }
 
 .coin__bottom__infos a svg,
@@ -167,7 +166,7 @@
 
 .coin__bottom__infos-rank {
   text-align: center;
-  line-height:2.4rem;
+  line-height: 2.4rem;
   font-size: 2rem;
   font-family: "inter-bold", Courier, monospace;
 }
@@ -194,28 +193,26 @@
 .coin__bottom__infos-24hchange svg {
   color: greenyellow;
 }
-.coin__bottom__infos-whitepaper-link svg{
-  color:var(--brightSkyBlue);
+.coin__bottom__infos-whitepaper-link svg {
+  color: var(--brightSkyBlue);
 }
-.coin__bottom__infos-rank{
+.coin__bottom__infos-rank {
   color: gold;
 }
 
-
-.coin__bottom__infos-website-link svg{
+.coin__bottom__infos-website-link svg {
   color: var(--brightSkyBlue);
   margin-bottom: 1rem;
 }
-.coin__bottom__infos-forum-link svg{
+.coin__bottom__infos-forum-link svg {
   fill: var(--cornFlower);
   margin-bottom: 1rem;
-
 }
-.coin__bottom__infos-hash svg{
+.coin__bottom__infos-hash svg {
   color: red;
   margin-bottom: 1rem;
 }
-.coin__bottom__infos-github-link svg{
+.coin__bottom__infos-github-link svg {
   fill: var(--cornFlower);
   margin-bottom: 1rem;
 }
@@ -231,14 +228,13 @@
   align-items: center;
   justify-content: space-around;
 }
-.coin__bottom__infos-votes-agree svg{
+.coin__bottom__infos-votes-agree svg {
   color: rgb(99, 237, 99);
   margin-bottom: 1rem;
 }
-.coin__bottom__infos-votes-disagree svg{
+.coin__bottom__infos-votes-disagree svg {
   color: rgb(235, 34, 34);
   margin-bottom: 1rem;
-
 }
 
 .coin__bottom__infos-votes-agree,
@@ -248,34 +244,32 @@
   flex-direction: column;
   font-family: "inter-bold", Courier, monospace;
   font-size: 1.2rem;
-
 }
 
-.coin__bottom__description{
+.coin__bottom__description {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.coin__bottom__description-title{
+.coin__bottom__description-title {
   display: flex;
   font-size: 4rem;
   font-family: "inter-bold", Courier, monospace;
   margin-top: 2rem;
 }
-.coin__bottom__description-title-word{
+.coin__bottom__description-title-word {
   color: var(--cornFlower);
   margin-left: 1rem;
-  
 }
 
-.coin__bottom__description-title svg{
+.coin__bottom__description-title svg {
   width: 4rem;
   height: 4rem;
   margin-left: 1rem;
   fill: gold;
 }
-.coin__bottom__description-text{
+.coin__bottom__description-text {
   width: 70rem;
   text-align: center;
   font-family: "inter-medium", Courier, monospace;
@@ -285,10 +279,9 @@
   padding: 1rem;
   border-radius: 1rem;
   text-align: justify;
-
 }
 
-.myChart{
+.myChart {
   width: 5000px;
   height: 5000px;
 }

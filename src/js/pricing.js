@@ -1,4 +1,4 @@
-//! FAQS Accordion Menu
+//! FAQS Accordion Menu Logic
 let acc = document.getElementsByClassName("accordion");
 let i;
 
@@ -14,8 +14,9 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+// ! Aos Library
 AOS.init({
-  debounceDelay: 50, 
-  // throttleDelay:800, 
+  debounceDelay: 50,
+  // throttleDelay:800,
   duration: 1000,
 });

@@ -48,14 +48,12 @@
 /*^ NavBar Section */
 /* ^==================*/
 .navbar {
-  /* background-color: red; */
   padding-top: 2rem;
 }
 .navbar__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border-bottom: 1px solid var(--boulder); */
   padding-bottom: 1.4rem;
 }
 
@@ -105,7 +103,6 @@
 .navbar__left-search {
   border: none;
   outline: none;
-  /* background-color: var(--boulder); */
   padding: 1rem;
   margin-left: 1rem;
   border-radius: 2rem;
@@ -176,7 +173,6 @@
   right: 0;
   top: 2rem;
   background-color: var(--cornFlower);
-  /* border-radius: 1rem; */
   border-radius: 1rem;
   padding: 1rem;
   z-index: -100;
@@ -198,7 +194,6 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   transition: all 180ms ease-in;
-  /* width: 100%; */
 }
 .navbar__right-dropdown__item:hover {
   background-color: var(--white);

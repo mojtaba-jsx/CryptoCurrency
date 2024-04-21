@@ -142,7 +142,6 @@
   );
   background-clip: text;
   -webkit-background-clip: text;
-  /* text-fill-color: transparent; */
   -webkit-text-fill-color: transparent;
   text-shadow: 4px 3px 0px rgba(51, 226, 255, 0.44);
 }
@@ -281,7 +280,6 @@
 
 .recent-news__box-date {
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;

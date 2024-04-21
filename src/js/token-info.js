@@ -71,7 +71,7 @@ let getChartinfo = () => {
     });
 };
 
-// ! ///////////
+// ! Get Token Info From Api
 let coinWrapper = document.querySelector(".coin__wrapper");
 function getCoinMainInfo() {
   const options = {
@@ -295,7 +295,7 @@ function getCoinMainInfo() {
     });
 }
 
-// ! ///////////
+// ! Get Token Info From Api
 let coinTopLeft = document.querySelector(".coin__top-left");
 function getCoinTopInfo() {
   const options = {
@@ -336,7 +336,7 @@ function getCoinTopInfo() {
     });
 }
 
-// ! ///////////
+// ! set Events
 window.addEventListener("load", getChartinfo);
 window.addEventListener("load", getCoinMainInfo);
 window.addEventListener("load", getCoinTopInfo);

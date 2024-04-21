@@ -142,7 +142,6 @@
   /* ^==================*/
   
   .footer-main__wrapper{
-    /* width: 100%; */
     display: flex;
     justify-content: space-around;
     padding-top: 2rem;

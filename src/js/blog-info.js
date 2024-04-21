@@ -1,5 +1,5 @@
+// ! get Blog Info From Api
 let articleID = sessionStorage.getItem("articleID");
-
 let mainBlogInfo = document.querySelector(".main");
 window.addEventListener("load", () => {
   fetch("https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles")
@@ -164,7 +164,7 @@ window.addEventListener("load", () => {
 
 
 
-// ! /////////////////////////////////////////////
+// ! get Blog Comment From Api
 let blogComments = document.querySelector('.blog__comments__wrapper')
 fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
 .then(res=>res.json())

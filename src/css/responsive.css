@@ -1759,10 +1759,10 @@
   .coin__bottom__description-title {
     font-size: 2.8rem;
   }
-    /*! ====BlogComments Section==== */
-    .blog__comments__box {
-      width: 20rem;
-    }
+  /*! ====BlogComments Section==== */
+  .blog__comments__box {
+    width: 20rem;
+  }
 }
 
 /* *  ------------------------460px------------------------ */
@@ -2234,10 +2234,10 @@
   .form-input__row2__subject-input {
     width: 16rem;
   }
-      /*! ====BlogComments Section==== */
-      .blog__comments__box {
-        width: 16rem;
-      }
+  /*! ====BlogComments Section==== */
+  .blog__comments__box {
+    width: 16rem;
+  }
 }
 
 /* *  ------------------------380px------------------------ */

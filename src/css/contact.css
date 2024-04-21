@@ -103,7 +103,6 @@
   width: 24rem;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 .touch__right__phone,
 .touch__right__email {
@@ -165,7 +164,6 @@
   background-image: url("../../assets/images/Form.png");
   background-repeat: no-repeat;
   background-position: center;
-  /* height:34rem; */
   border-radius: 2rem;
   padding: 2rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
