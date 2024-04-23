@@ -47,7 +47,9 @@ function getCoinInfo() {
          </td>
         <td class="table__data">${coin.market_cap}</td>
         <td class="table__data">
-        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${(coin.id)}</a>
+        <a href="#" class="table__data-link" onclick='clickHandler(event)'>Info Of ${
+          coin.id
+        }</a>
         
         </td>
       </tr>
@@ -77,5 +79,24 @@ paginationListItem.forEach((item) => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  var activePage = sessionStorage.getItem("activePage");
+  if (activePage !== null) {
+    setActivePage(activePage);
+  }
+});
 
+function setActivePage(page) {
+  var listItems = document.querySelectorAll(
+    "#paginationList .pagination__list-item"
+  );
+  listItems.forEach((item) => {
+    item.classList.remove("active");
+  });
+  listItems[page].classList.add("active");
+  sessionStorage.setItem("activePage", page);
+}
 
+function changePage(page) {
+  setActivePage(page);
+}

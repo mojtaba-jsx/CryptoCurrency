@@ -280,3 +280,11 @@ tr {
   background-color: var(--cornFlower);
   color: var(--white);
 }
+
+
+.pagination__list-item.active {
+  background-color: #3eba59;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+}
