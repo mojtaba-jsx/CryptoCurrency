@@ -647,7 +647,6 @@
     width: 50rem;
   }
   /*! ====Explore Section Section==== */
-
   .explore__right-image {
     width: 14rem;
     height: 14rem;
@@ -655,6 +654,19 @@
   .explore__right {
     height: 20rem;
     margin-top: 2rem;
+  }
+  /*! ====Table Section Section==== */
+  .table{
+    overflow-x: scroll;
+  }
+  .tokens__image2{
+    right: 4rem;
+  }
+  .tokens__image1{
+    left: 4rem;
+  }
+  .table__row:hover{
+    transform: none;
   }
 }
 

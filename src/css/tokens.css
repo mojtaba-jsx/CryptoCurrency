@@ -87,7 +87,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.04);
   }
   100% {
     transform: scale(1);
@@ -101,6 +101,15 @@
 .table {
   margin-top: 4rem;
   margin-bottom: 10rem;
+}
+.table::-webkit-scrollbar{
+  background-color: #ffff;
+
+}
+
+.table::-webkit-scrollbar-thumb{
+  background-color: #3eba59;
+  border-radius: 1rem;
 }
 
 #table-chart {
