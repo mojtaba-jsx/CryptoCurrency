@@ -1203,6 +1203,12 @@
   .coin__bottom__description-title {
     font-size: 3.4rem;
   }
+  /*! ====Pagination Section==== */
+
+  .pagination__list {
+    width: 20rem;
+    flex-wrap: wrap;
+  }
 }
 
 /* *  ------------------------572px------------------------ */
@@ -2166,6 +2172,15 @@
   .texts__box {
     width: 16rem;
   }
+  /*! ====Pagination Section==== */
+
+  .pagination__list {
+    width: 14rem;
+    flex-wrap: wrap;
+  }
+  .pagination__list-item {
+    margin-bottom: 1rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -2368,6 +2383,15 @@
   }
   .terms__texts-text {
     width: 18rem;
+  }
+  /*! ====Pagination Section==== */
+
+  .pagination__list {
+    width: 10rem;
+    flex-wrap: wrap;
+  }
+  .pagination__list-item {
+    margin-bottom: 1rem;
   }
 }
 
