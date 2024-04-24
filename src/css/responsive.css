@@ -485,6 +485,11 @@
   .blog__comments__box {
     width: 50rem;
   }
+  /*! ====Blog Title Info Section==== */
+  .blog-title__icon1{
+    top: 14rem;
+  }
+  
 }
 
 /* *  ------------------------980px------------------------ */
@@ -892,7 +897,7 @@
   /*! ====Blog Title Section==== */
   .blog-title__icon1 {
     right: 2rem;
-    top: 20rem;
+    top: 14rem;
   }
   .blog-title__icon2 {
     bottom: -10rem;
@@ -1100,7 +1105,7 @@
   /*! ====Blog Title Section==== */
   .blog-title__icon1 {
     right: 2rem;
-    top: 20rem;
+    top: 14rem;
     width: 8rem;
     height: 8rem;
   }
