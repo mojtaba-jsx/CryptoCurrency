@@ -165,15 +165,53 @@ window.addEventListener("load", () => {
 
 
 // ! get Blog Comment From Api
-let blogComments = document.querySelector('.blog__comments__wrapper')
-fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
-.then(res=>res.json())
-.then(data=>{
-  let commentsArray = data[articleID - 1].comments
-  console.log(commentsArray);
-  commentsArray.forEach((comment)=>{
-    blogComments.insertAdjacentHTML('beforeend',`
+
+// fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
+// .then(res=>res.json())
+// .then(data=>{
+//   let commentsArray = data[articleID - 1].comments
+//   // console.log(commentsArray);
+//   commentsArray.forEach((comment)=>{
+//     blogComments.insertAdjacentHTML('beforeend',`
     
+//     <div class="blog__comments__box">
+//     <div class="blog__comments__box-top">
+//       <div class="blog__comments__box-top-left">
+//         <img
+//           src="${comment.image}"
+//           alt="image"
+//           class="blog__comments__box-top-left-image"
+//         />
+//       </div>
+//       <div class="blog__comments__box-top-right">
+//         <span class="blog__comments__box-top-right-name"
+//           >${comment.user}</span
+//         >
+//         <span class="blog__comments__box-top-right-role">${comment.role}</span>
+//       </div>
+//     </div>
+
+//     <div class="blog__comments__box-bottom">
+//       <p class="blog__comments__box-bottom-text">
+//     ${comment.body}
+//       </p>
+//     </div>
+//   </div>
+//     `)
+//   })
+
+// })
+
+
+
+
+let blogComments = document.querySelector('.blog__comments__wrapper')
+fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/comments')
+.then(res=>res.json())
+.then(comments=>{
+  comments[0].forEach((comment)=>{
+    console.log(comment);
+    blogComments.insertAdjacentHTML('beforeend',`
     <div class="blog__comments__box">
     <div class="blog__comments__box-top">
       <div class="blog__comments__box-top-left">
@@ -199,5 +237,5 @@ fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
   </div>
     `)
   })
-
 })
+

@@ -295,17 +295,18 @@
             </svg>
           </h1>
           <div class="blog__comments__wrapper">
+
             <div class="blog__comments__input">
-              <textarea
-                class="blog__comments__input-textarea"
-                cols="30"
-                rows="10"
-                placeholder="Enter Your Comment ..."
-              ></textarea>
-              <button class="blog__comments__input-btn">
-                Submit Your Comment
-              </button>
+              <div class="blog__comments__input__left">
+                <input type="text" placeholder="Enter Your Name " class="blog__comments__input__left-name">
+                <input placeholder="Enter Your Role" type="text" class="blog__comments__input__left-user">
+              </div>
+
+              <div class="blog__comments__input__right">
+                <textarea placeholder="Enter Your Comment"></textarea>
+              </div>
             </div>
+            <button class="blog__comments__input-btn">Submit Your Comment</button>   
           </div>
         </div>
       </section>
