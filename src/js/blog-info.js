@@ -160,10 +160,6 @@ window.addEventListener("load", () => {
     });
 });
 
-
-
-
-
 // ! get Blog Comment From Api
 
 // fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
@@ -173,7 +169,7 @@ window.addEventListener("load", () => {
 //   // console.log(commentsArray);
 //   commentsArray.forEach((comment)=>{
 //     blogComments.insertAdjacentHTML('beforeend',`
-    
+
 //     <div class="blog__comments__box">
 //     <div class="blog__comments__box-top">
 //       <div class="blog__comments__box-top-left">
@@ -202,16 +198,18 @@ window.addEventListener("load", () => {
 
 // })
 
+window.addEventListener("load", getCommentDatas);
 
-
-
-let blogComments = document.querySelector('.blog__comments__wrapper')
-fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/comments')
-.then(res=>res.json())
-.then(comments=>{
-  comments[0].forEach((comment)=>{
-    console.log(comment);
-    blogComments.insertAdjacentHTML('beforeend',`
+let blogComments = document.querySelector(".blog__comments__wrapper");
+function getCommentDatas() {
+  fetch("https://660e35436ddfa2943b36123b.mockapi.io/api/v1/comments")
+    .then((res) => res.json())
+    .then((comments) => {
+      comments.forEach((comment) => {
+        console.log(comment);
+        blogComments.insertAdjacentHTML(
+          "beforeend",
+          `
     <div class="blog__comments__box">
     <div class="blog__comments__box-top">
       <div class="blog__comments__box-top-left">
@@ -235,7 +233,58 @@ fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/comments')
       </p>
     </div>
   </div>
-    `)
-  })
-})
+    `
+        );
+      });
+    });
+}
 
+// ! //////////////////////////////////////////////////////
+
+let blogCommentsName = document.querySelector(
+  ".blog__comments__input__left-name"
+);
+let blogCommentsUser = document.querySelector(
+  ".blog__comments__input__left-user"
+);
+let blogCommentsiTeaxtArea = document.querySelector(
+  ".blog__comments__input__right-input"
+);
+
+let commentBtn = document.querySelector(".blog__comments__input-btn");
+
+commentBtn.addEventListener("click", () => {
+  const apiUrl = "https://660e35436ddfa2943b36123b.mockapi.io/api/v1/comments";
+
+  const newData = {
+    image: "https://imgurl.ir/uploads/n035275_user.jpg",
+    body: blogCommentsiTeaxtArea.value,
+    role: blogCommentsUser.value,
+    user: blogCommentsName.value,
+  };
+
+  fetch(apiUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      const lastItem = data[data.length - 1];
+      newData.id = lastItem.id + 1;
+      fetch(apiUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(newData),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log("Success:", data);
+          location.reload();
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+});
