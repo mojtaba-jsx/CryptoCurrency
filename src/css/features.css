@@ -91,14 +91,12 @@
   left: 2rem;
   top: 4rem;
   animation: scaleAnimation 2s ease-in-out infinite;
-
 }
 
 .features__image2 {
   position: absolute;
   right: 2rem;
   animation: scaleAnimation 2s ease-in-out infinite;
-
 }
 @keyframes scaleAnimation {
   0% {
@@ -377,8 +375,8 @@
   width: 45%;
 }
 
-.chart__left{
-  background-image: url('../../assets/images/chart-2.png');
+.chart__left {
+  background-image: url("../../assets/images/chart-2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -386,7 +384,7 @@
   border-radius: 2rem;
 }
 
-.chart__left-image{
+.chart__left-image {
   width: 30rem;
   height: 30rem;
   display: block;
@@ -396,13 +394,13 @@
   border-radius: 2rem;
 }
 
-.chart__right__title{
+.chart__right__title {
   font-size: 2rem;
   font-family: "inter-bold", Courier, monospace;
   width: 22rem;
 }
 
-.chart__right__title-word{
+.chart__right__title-word {
   color: #6571ff;
   background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
   background-clip: text;
@@ -410,7 +408,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.chart__right-text{
+.chart__right-text {
   margin-top: 1rem;
   width: 30rem;
   line-height: 1.4rem;
@@ -418,7 +416,7 @@
   color: var(--boulder);
 }
 
-.chart__right-btn{
+.chart__right-btn {
   margin-top: 2rem;
   padding: 1rem 2rem;
   border: none;

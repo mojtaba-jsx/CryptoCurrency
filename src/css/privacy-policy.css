@@ -92,7 +92,7 @@
   line-height: 1.4rem;
 }
 .privacy__image1,
-.privacy__image2{
+.privacy__image2 {
   animation: scaleAnimation 2s ease-in-out infinite;
 }
 @keyframes scaleAnimation {

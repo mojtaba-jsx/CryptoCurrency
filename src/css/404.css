@@ -55,7 +55,7 @@
   margin-bottom: 4rem;
 }
 
-.not-found__wrapper{
+.not-found__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -110,11 +110,11 @@
   transition: all 140ms ease-in;
   cursor: pointer;
 }
-.not-found__btn:hover{
+.not-found__btn:hover {
   background-color: var(--cornFlower);
   color: var(--white);
 }
-.not-found__btn-link{
+.not-found__btn-link {
   color: var(--darkJungleGreen);
 }
 

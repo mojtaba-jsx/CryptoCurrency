@@ -145,11 +145,10 @@
 /* ^================== */
 /*^ Believe Section */
 /* ^==================*/
-.believe{
+.believe {
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
-
 
 .believe__wrapper {
   display: flex;
@@ -193,13 +192,13 @@
   line-height: 1.4rem;
 }
 
-.believe__bottom{
+.believe__bottom {
   display: flex;
   justify-content: space-around;
   margin-top: 2rem;
 }
 
-.believe__bottom-box{
+.believe__bottom-box {
   display: flex;
   flex-direction: column;
   width: 25rem;
@@ -207,64 +206,63 @@
   padding: 1rem;
   transition: all 140ms ease-in;
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.believe__bottom-box:hover{
+.believe__bottom-box:hover {
   transform: scale(1.1);
 }
 
-.believe__bottom-box--top{
+.believe__bottom-box--top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.believe__bottom-box--top-number{
+.believe__bottom-box--top-number {
   font-size: 8rem;
   font-family: "inter-bold", Courier, monospace;
   opacity: 0.1;
   color: var(--boulder);
-
 }
 
-.believe__bottom-box--bottom{
+.believe__bottom-box--bottom {
   display: flex;
   flex-direction: column;
 }
 
-.believe__bottom-box--bottom-title{
+.believe__bottom-box--bottom-title {
   font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
   margin-top: 1rem;
-
 }
 
-.believe__bottom-box--bottom-text{
+.believe__bottom-box--bottom-text {
   font-family: "inter-medium", Courier, monospace;
   line-height: 1.4rem;
   margin-top: 1rem;
 }
 
-
 /* ^================== */
 /*^ Story Section */
 /* ^==================*/
-.story{
+.story {
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
-.story__wrapper{
+.story__wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.story__top-title{
+.story__top-title {
   font-size: 2rem;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
 }
 
-.story__top-title-word{
+.story__top-title-word {
   color: #6571ff;
   background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
   background-clip: text;
@@ -272,19 +270,19 @@
   -webkit-text-fill-color: transparent;
 }
 
-.story__top-subtitle{
+.story__top-subtitle {
   font-size: 1.4rem;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
   margin-top: 1rem;
 }
 
-.story__top-text{
-  font-family: 'inter-medium', Courier, monospace;
+.story__top-text {
+  font-family: "inter-medium", Courier, monospace;
   margin-top: 1rem;
   line-height: 1.4rem;
 }
 
-.story__bottom-image{
+.story__bottom-image {
   display: block;
   width: 70rem;
   margin: 0 auto;
@@ -294,18 +292,17 @@
 /*^ Team Section */
 /* ^==================*/
 
-.team{
+.team {
   margin-bottom: 4rem;
 }
 
-.team-title{
+.team-title {
   text-align: center;
   font-size: 2rem;
-  font-family: 'inter-bold', Courier, monospace;
-
+  font-family: "inter-bold", Courier, monospace;
 }
 
-.team-title-word{
+.team-title-word {
   color: #6571ff;
   background-image: -webkit-linear-gradient(315deg, #6571ff 6%, #25f6ff 54%);
   background-clip: text;
@@ -313,13 +310,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.team__boxes{
+.team__boxes {
   display: flex;
   justify-content: space-around;
   margin-top: 4rem;
 }
 
-.team__box{
+.team__box {
   margin-right: 2rem;
   display: flex;
   flex-direction: column;
@@ -329,26 +326,24 @@
   transition: all 140ms ease-in;
 }
 
-.team__box:hover{
+.team__box:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   transition: all 140ms ease-in;
-
 }
 
-.team__box-image{
+.team__box-image {
   width: 14rem;
   border-radius: 1rem;
 }
 
-.team__box-name{
+.team__box-name {
   font-size: 1.4rem;
-  font-family: 'inter-bold', Courier, monospace;
+  font-family: "inter-bold", Courier, monospace;
   margin-top: 1rem;
 }
 
-.team__box-job{
+.team__box-job {
   color: var(--boulder);
-  font-family: 'inter-medium', Courier, monospace;
+  font-family: "inter-medium", Courier, monospace;
   margin-top: 0.5rem;
-
 }

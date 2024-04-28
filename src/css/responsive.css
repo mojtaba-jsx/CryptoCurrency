@@ -1554,11 +1554,12 @@
     width: 25rem;
     font-size: 1.4rem;
   }
-    /*! ====Blog Comment Section ==== */
-  .blog__comments__input__right textarea{
+  /*! ====Blog Comment Section ==== */
+  .blog__comments__input__right textarea {
     width: 20rem;
   }
-  .blog__comments__input__left-name,.blog__comments__input__left-user{
+  .blog__comments__input__left-name,
+  .blog__comments__input__left-user {
     padding: none;
     text-align: center;
     width: 20rem;

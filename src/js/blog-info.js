@@ -160,46 +160,8 @@ window.addEventListener("load", () => {
     });
 });
 
-// ! get Blog Comment From Api
-
-// fetch('https://660e35436ddfa2943b36123b.mockapi.io/api/v1/articles')
-// .then(res=>res.json())
-// .then(data=>{
-//   let commentsArray = data[articleID - 1].comments
-//   // console.log(commentsArray);
-//   commentsArray.forEach((comment)=>{
-//     blogComments.insertAdjacentHTML('beforeend',`
-
-//     <div class="blog__comments__box">
-//     <div class="blog__comments__box-top">
-//       <div class="blog__comments__box-top-left">
-//         <img
-//           src="${comment.image}"
-//           alt="image"
-//           class="blog__comments__box-top-left-image"
-//         />
-//       </div>
-//       <div class="blog__comments__box-top-right">
-//         <span class="blog__comments__box-top-right-name"
-//           >${comment.user}</span
-//         >
-//         <span class="blog__comments__box-top-right-role">${comment.role}</span>
-//       </div>
-//     </div>
-
-//     <div class="blog__comments__box-bottom">
-//       <p class="blog__comments__box-bottom-text">
-//     ${comment.body}
-//       </p>
-//     </div>
-//   </div>
-//     `)
-//   })
-
-// })
-
+// ! get Blog Comments Data From Api
 window.addEventListener("load", getCommentDatas);
-
 let blogComments = document.querySelector(".blog__comments__wrapper");
 function getCommentDatas() {
   fetch("https://660e35436ddfa2943b36123b.mockapi.io/api/v1/comments")
@@ -208,7 +170,7 @@ function getCommentDatas() {
       comments.forEach((comment) => {
         console.log(comment);
         blogComments.insertAdjacentHTML(
-          "beforeend",
+          "afterend",
           `
     <div class="blog__comments__box">
     <div class="blog__comments__box-top">
@@ -239,8 +201,7 @@ function getCommentDatas() {
     });
 }
 
-// ! //////////////////////////////////////////////////////
-
+// ! Submit Comments And Seb To Api
 let blogCommentsName = document.querySelector(
   ".blog__comments__input__left-name"
 );

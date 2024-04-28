@@ -102,12 +102,11 @@
   margin-top: 4rem;
   margin-bottom: 10rem;
 }
-.table::-webkit-scrollbar{
+.table::-webkit-scrollbar {
   background-color: #ffff;
-
 }
 
-.table::-webkit-scrollbar-thumb{
+.table::-webkit-scrollbar-thumb {
   background-color: #3eba59;
   border-radius: 1rem;
 }
@@ -170,13 +169,6 @@
 td:nth-child(3) {
   color: #3eba59;
 }
-
-/* .table__header:nth-child(6) {
-  border-top-right-radius: 1rem;
-}
-.table__header:nth-child(1) {
-  border-top-left-radius: 1rem;
-} */
 
 tr {
   transition: all 140ms ease-in;
@@ -289,7 +281,6 @@ tr {
   background-color: var(--cornFlower);
   color: var(--white);
 }
-
 
 .pagination__list-item.active {
   background-color: #3eba59;
